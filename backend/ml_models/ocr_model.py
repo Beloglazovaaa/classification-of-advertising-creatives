@@ -8,40 +8,54 @@ from config import settings
 logger = logging.getLogger(__name__)
 
 _ocr_reader = None
+_ocr_unavailable = False
 
 
 class EasyOCRModelDirNotFoundError(FileNotFoundError):
     pass
 
 
-def get_ocr_reader() -> easyocr.Reader:
-    """Возвращает инициализированный EasyOCR reader (singleton)."""
-    global _ocr_reader
+def get_ocr_reader() -> easyocr.Reader | None:
+    """Возвращает инициализированный EasyOCR reader (singleton). None если недоступен."""
+    global _ocr_reader, _ocr_unavailable
+
+    if _ocr_unavailable:
+        return None
 
     if _ocr_reader is not None:
         return _ocr_reader
 
-    model_dir = Path(settings.MODEL_CACHE_DIR) / settings.EASYOCR_WEIGHTS_DIR
-    if not model_dir.exists():
-        raise EasyOCRModelDirNotFoundError(
-            f"Директория весов EasyOCR не найдена: {model_dir}",
+    try:
+        model_dir = Path(settings.MODEL_CACHE_DIR) / settings.EASYOCR_WEIGHTS_DIR
+        if not model_dir.exists():
+            raise EasyOCRModelDirNotFoundError(
+                f"Директория весов EasyOCR не найдена: {model_dir}",
+            )
+
+        gpu = settings.DEVICE != "cpu"
+        logger.info("Инициализация EasyOCR (GPU=%s, dir=%s)", gpu, model_dir)
+
+        _ocr_reader = easyocr.Reader(
+            ["en", "ru"],
+            gpu=gpu,
+            model_storage_directory=str(model_dir),
+            download_enabled=False,
         )
+    except (FileNotFoundError, OSError, RuntimeError) as e:
+        logger.warning("EasyOCR недоступен (%s). OCR пропускается.", e)
+        _ocr_unavailable = True
+        return None
 
-    gpu = settings.DEVICE != "cpu"
-    logger.info("Инициализация EasyOCR (GPU=%s, dir=%s)", gpu, model_dir)
-
-    _ocr_reader = easyocr.Reader(
-        ["en", "ru"],
-        gpu=gpu,
-        model_storage_directory=str(model_dir),
-        download_enabled=False,
-    )
     return _ocr_reader
 
 
 def extract_text_and_blocks(image_path: str, creative) -> tuple[str, list[dict]]:
     """Извлекает текст и блоки с координатами из изображения."""
     reader = get_ocr_reader()
+    if reader is None:
+        logger.info("OCR недоступен — возвращаю пустой результат.")
+        return "", []
+
     results = reader.readtext(image_path)
 
     if not results:

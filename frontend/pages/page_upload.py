@@ -135,11 +135,29 @@ def _process_status_data(data):
 
 def _display_status_table(statuses):
     df = pd.DataFrame(statuses)
-    if not df.empty:
-        return df.style.map(style_status, subset=[
-            "OCR", "Детекция", "Классиф.", "Цвет", "Статус",
-        ]).map(style_topic, subset=["Топик"])
-    return None
+    if df.empty:
+        return None
+
+    # Гарантируем наличие всех колонок (записи с ошибками дополняем "—"),
+    # иначе df.style.map упадёт с KeyError при первой же ошибке статуса.
+    required_cols = [
+        "ID", "Файл", "Размер", "Разрешение", "Время загрузки",
+        "OCR", "Детекция", "Классиф.", "Цвет", "Топик", "Confidence", "Статус",
+    ]
+    for col in required_cols:
+        if col not in df.columns:
+            df[col] = "—"
+    df = df[required_cols + [c for c in df.columns if c not in required_cols]]
+
+    style_cols = [c for c in ["OCR", "Детекция", "Классиф.", "Цвет", "Статус"] if c in df.columns]
+    topic_cols = [c for c in ["Топик"] if c in df.columns]
+
+    styler = df.style
+    if style_cols:
+        styler = styler.map(style_status, subset=style_cols)
+    if topic_cols:
+        styler = styler.map(style_topic, subset=topic_cols)
+    return styler
 
 
 def _display_processing_status():

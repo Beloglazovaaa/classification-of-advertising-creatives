@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83058768-c005-44a2-9ab2-76e4448c0266" name="Changes" comment="" />
+    <list default="true" id="83058768-c005-44a2-9ab2-76e4448c0266" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/classification-of-advertising_creatives.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/classification-of-advertising_creatives.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/status.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/status.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ml_models/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ml_models/classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ml_models/ocr_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ml_models/ocr_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ml_models/yolo_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ml_models/yolo_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/services/processing_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/services/processing_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/utils/color_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/color_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/page_details.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/page_details.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/page_upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/page_upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio_init/init-script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/minio_init/init-script.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,42 +39,65 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Beloglazovaaa"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Beloglazovaaa&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Beloglazovaaa/classification-of-advertising_creatives",
-    "accountId": "9dd05e87-0eaa-490b-8c84-63ec2d12f2ed"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Beloglazovaaa/classification-of-advertising-creatives.git&quot;,
+    &quot;accountId&quot;: &quot;9dd05e87-0eaa-490b-8c84-63ec2d12f2ed&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3C88bs2Jt4ZWwEHgt1505wv2cOm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.backend/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="backend/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="backend/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.backend/Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -74,6 +116,10 @@
       <option name="presentableId" value="Default" />
       <updated>1775755910543</updated>
       <workItem from="1775755911619" duration="807000" />
+      <workItem from="1775756724677" duration="1313000" />
+      <workItem from="1775758043784" duration="3524000" />
+      <workItem from="1775859127942" duration="3187000" />
+      <workItem from="1775897980721" duration="14869000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,868 @@
+image_path,ocr_text,yolo_classes,yolo_confs,topic
+dataset/raw/bag/bag_01.jpg,РЮКЗАК BAILIQI УНИСЕКС 20 ЛИТРОВ 16 УЧЕБА РАБОТА НОУТБУК РУЧНАЯ КЛАДЬ ЛЮБАЯ ПОГОДА ПУТЕШЕСТВИЯ СПОРТ ОТДЫХ УЧЁБА 2025 inша BAILIQI Е ГОТОВ,person;suitcase;handbag,0.8584;0.5883;0.4836,bags
+dataset/raw/bag/bag_02.jpg,ДЕТАЛИ ФУРНИТУРА ИЗ МЕТАЛЛА РОВНЫЕ швы ПРОЧНЫЕ ЛЯМКИ И РУЧКИ,suitcase,0.5845,bags
+dataset/raw/bag/bag_03.jpg,С!mи защита от влаги 3 способаб носки НАБЕДРЕННИАЯ,suitcase;suitcase;suitcase,0.8096;0.4671;0.3747,bags
+dataset/raw/bag/bag_04.jpg,РАЗМЕРЫ 18х9Х1Зсм в комплекте 1 плечевой ремень Juin aua пlеи,suitcase,0.7877,bags
+dataset/raw/bag/bag_05.jpg,"SUPRA L U G G А G Е УЛЬТРАПРОЧ АЫЙ ЧЕМОДАН МАЛЕНЬКИЙ s 4Ол 57ХЗ7Х2З CM 2,6 Кг",suitcase;suitcase;surfboard,0.8002;0.4283;0.4099,bags
+dataset/raw/bag/bag_06.jpg,УНИВЕРАЛЬНЫЙ РЮКЗАК для школьников и студентов смотреть вмещает А4 видео ноутбук 13' KG нагрузка до 10 кг идеально для тетрадей и книг МИШКА В ПОДАРОК,teddy bear,0.9173,bags
+dataset/raw/bag/bag_07.jpg,РЮКЗАК шu,laptop;keyboard;remote;cell phone;cell phone,0.9159;0.8049;0.7392;0.7313;0.6682,bags
+dataset/raw/bag/bag_08.jpg,РЮКЗАК школьный УНИВЕРСАЛЬНЫЙ АНАТОМИЧЕСКАЯ спинка 0 0 ЗАЩИТА от влаги USB порт ВМЕСТИМОСТЬ до 25 литров 5 отделений,suitcase;cell phone;person,0.9232;0.8854;0.7058,bags
+dataset/raw/bag/bag_09.png,ПРоЧНЫЙ И ДОЛГОВЕЧНЫЙ ЗАЩИТА ОТ влаги ДВОйНАЯ молния НАДЕЖНЫЕ швы КАЧЕСТВЕННАЯ фурнитура УСИЛЕННАЯ ручка,baseball glove;suitcase;suitcase;mouse,0.7892;0.7039;0.6379;0.4023,bags
+dataset/raw/bag/bag_10.png,ПАРАМЕТРЫ ВМЕЩАЕТ ДО 20 ЛИТРОВ 43 CM 29 СM 15 CM,suitcase;suitcase,0.7647;0.6262,bags
+dataset/raw/bag/bag_11.png,ИДЕАЛЕН ДЛЯ РУЧНОЙ КЛАДИ ПОДОЙДЕТ для: школы ТРЕНИРОВОК ПУТЕШЕСТВИЙ,person;suitcase;suitcase,0.9412;0.5358;0.4491,bags
+dataset/raw/bag/bag_12.png,Потайной карман сзади для документов Боковой карман для воды minomo 5 карманов,backpack,0.5597,bags
+dataset/raw/bag/bag_13.png,BRAUBERG Фронтальный карман Влагостойкий 350 г,backpack,0.5294,bags
+dataset/raw/bag/bag_14.png,котофеб ШКОЛЬНЫЙ РЮКЗАК Для ребенка ростом от 145 до 170 см Безопасный для детского позвоночника Лёгкий всего 700 г 011 0101 01 Вмещается ноутбук и планшет,,,bags
+dataset/raw/bag/bag_15.png,ЛЯМКИ РЕГУЛИРУЮТСЯ ПОД РОСТ РЕБЁНКА От 42 до 82 см ГРУДНАЯ СТЯЖКА снимает нагрузку c поясничного отдела,backpack,0.6618,bags
+dataset/raw/bag/bag_16.png,ВМЕСТИТЕЛЬНЫЙ И ЛЁГКИЙ 4 отделения + 2 боковых кармана (м!э СВЕТООТРАЖАЮЩИЕ ЭЛЕМЕНТЫ для безопасности в темное время суток,suitcase;handbag,0.7386;0.4039,bags
+dataset/raw/bag/bag_17.webp,deVCnTC РЮКЗАК А4 вмещает ФОРМАТ А4 8 g 1Iг}& o^ 29 см 15' Шvслтст uше 17 вмещает НОУТБУК ~енн,backpack;backpack,0.8445;0.7075,bags
+dataset/raw/bag/bag_18.webp,СПОРТИВНАЯ Отделение СУМКAА для мокрых вещей Отделение для обуви,person;handbag,0.8618;0.6087,bags
+dataset/raw/bag/bag_19.webp,ДОПОЛНИТЕЛЬНЫЙ КАРМАН HА МОЛНИИ ВМЕСТИТЕЛЬНОЕ ОСНОВНОЕ ОТДЕЛЕНИЕ ОТДЕЛЕНИЕ ДЛЯ МОКРЫХ ВЕЩЕЙ КАРМАН ДЛЯ ОБУВИ КАРМАН ДЛЯ ТЕЛЕФОНА,motorcycle;airplane,0.6442;0.3737,bags
+dataset/raw/bag/bag_20.webp,ПОДХОДИТ ДЛЯ РУЧНОЙ КЛАДИ большинства авиакомпаний 2бсм БОсм S7 Уральские Аэрофлот Utair Airlines авиалинии,handbag,0.7863,bags
+dataset/raw/bag/bag_21.webp,В КОМПЛЕКТЕ ЕСТЬ РЕГУЛИРУЕМЫЙ ПЛЕЧЕВОЙ РЕМЕНЬ КАЧЕСТВЕННАЯ ПРОСТРОЧКА ШВОВ Hoзcito,suitcase;suitcase;toaster;handbag,0.8873;0.6725;0.5236;0.5020,bags
+dataset/raw/bag/bag_22.webp,ДЕТСКИЙ ЧЕМОШАН И БЬЮТИ-КЕИС Кг колеса вращаются на 360 5 размер,,,bags
+dataset/raw/bag/bag_23.webp,НАДЕЖНЫЙ ВМЕСТИТЕЛЬНЫЙ ЛЕГКИЙ ВЫДЕРЖИВАЕТ НАГРУЗКУ 4Окг 3 BEС ВСЕГО 9 $ З2кг 3 9 4] см сM 15 б4см высота чемодана с колесами,stop sign;stop sign;suitcase,0.8887;0.8055;0.7063,bags
+dataset/raw/bag/bag_24.webp,ПОЛИУРЕТАНОВЫЕ КОЛЕСА износостойкие маневренные бесшумные ДВЕ РУЧКИ ДЛЯ ПЕРЕНОСА эргономичные удобные прочные DN КОДОВЫЙ ЗАМОК С СИСТЕМОЙ TSA: Обеспечивает защиту содержимого багажа: NeNcoм,suitcase;skateboard;remote,0.7712;0.4167;0.3550,bags
+dataset/raw/bag/bag_25.webp,"BСЕ, ЧТО НУЖНО В ОДНОМ ЧЕМОДАНЕ Удобный карман для пауэрбанка + USB-разъем для зарядки Смартфон больше не сядет в самый неудобный момент путешествия; теперь Вы всегда онлайн",person;cell phone;suitcase;toaster,0.9097;0.6392;0.5000;0.4372,bags
+dataset/raw/chair/chair_01.jpg,АгЕгтал оtпвалв,tv;wine glass,0.6830;0.5281,chairs
+dataset/raw/chair/chair_02.jpg,OFFICE CHAIR LET YOU ENJOY 8 WORKING TIME QUIETLY 1 8 3,chair;chair;chair;chair;chair,0.9488;0.9411;0.9401;0.9325;0.9285,chairs
+dataset/raw/chair/chair_03.jpg,Zelvira Cw Lmbrrli,book,0.5372,chairs
+dataset/raw/chair/chair_04.jpg,,chair;chair;chair;bird,0.7012;0.6183;0.5748;0.3795,chairs
+dataset/raw/chair/chair_05.jpg,,,,chairs
+dataset/raw/chair/chair_06.jpg,,chair;airplane,0.7215;0.4145,chairs
+dataset/raw/chair/chair_07.jpg,,chair;chair;chair;chair;chair,0.9412;0.9401;0.9390;0.9257;0.9095,chairs
+dataset/raw/chair/chair_08.jpg,,chair;potted plant;potted plant;chair;chair,0.7931;0.7896;0.7365;0.6392;0.4892,chairs
+dataset/raw/chair/chair_09.jpg,613,chair;potted plant;vase,0.9431;0.9029;0.4945,chairs
+dataset/raw/chair/chair_10.jpg,,chair,0.6586,chairs
+dataset/raw/chair/chair_11.jpg,,chair,0.9269,chairs
+dataset/raw/chair/chair_12.jpg,,chair;chair,0.8584;0.4043,chairs
+dataset/raw/chair/chair_13.jpg,АшL SFLKS ШIШШ III: 6 Ш4 IAК,chair,0.9393,chairs
+dataset/raw/chair/chair_14.jpg,,potted plant;chair;cup,0.9228;0.8634;0.5270,chairs
+dataset/raw/chair/chair_15.jpg,,chair,0.9572,chairs
+dataset/raw/chair/chair_16.jpg,,chair,0.8960,chairs
+dataset/raw/chair/chair_17.jpg,,airplane,0.5717,chairs
+dataset/raw/chair/chair_18.jpg,,chair,0.9539,chairs
+dataset/raw/chair/chair_19.jpg,,chair;cup;potted plant;vase;keyboard,0.9552;0.8988;0.8317;0.7090;0.3935,chairs
+dataset/raw/chair/chair_20.jpg,,chair;potted plant,0.8573;0.7974,chairs
+dataset/raw/chair/chair_21.jpg,,chair,0.9151,chairs
+dataset/raw/chair/chair_22.jpg,,chair,0.8054,chairs
+dataset/raw/chair/chair_23.jpg,,chair,0.8956,chairs
+dataset/raw/chair/chair_24.jpg,,chair,0.9568,chairs
+dataset/raw/chair/chair_25.jpg,,chair;book;book;boat;book,0.9008;0.7789;0.7533;0.6705;0.6275,chairs
+dataset/raw/chair/chair_26.jpg,,chair,0.9166,chairs
+dataset/raw/chair/chair_27.jpg,,chair,0.8960,chairs
+dataset/raw/chair/chair_28.jpg,,chair;chair,0.9617;0.8955,chairs
+dataset/raw/chair/chair_29.jpg,M E G A Uovo SALE! 50%1 о5 Furniture S H 0 ₽ N 0 W UP TO 50% M E G A OFF SALEI  H 0 ₽ N 0 W Furniture o)6,chair;chair;couch;vase;potted plant,0.9141;0.9042;0.8804;0.8721;0.8505,chairs
+dataset/raw/chair/chair_30.jpg,"Chair Larem ipsum dalor sit amet COmetlelu daipiscing  elil  Verum tпел тнашь gtandioribus cicas; ipsae verba rapiunt; Zenanis est; inquam; hac Staici- Dua шалЦпi inlenut Quis contfa In illa acate Бшаtы шалsan Ilam eltalst sua mihll Inteisit mom tamen diligat? Quam illa WIacentls dubre; ~LяlтH sull Cur CGitem? Bestfarum Uuic nullum tudicium puto: Banum Incalumls Hеtен misera caecltas: Nan est [gltur wa- ШВа$БВШШ Quad quicem tam fit etlam Rcademla Пэ , | shutterstock com 1104654062 Fege",,,chairs
+dataset/raw/chair/chair_31.jpg,EXCLUSIVE FURNITURE FURGINSNE папен мр папеяит Design by All-free-download com,chair;chair;chair;vase;potted plant,0.9137;0.9108;0.9057;0.5568;0.5500,chairs
+dataset/raw/chair/chair_32.jpg,[MI % BII Design by All frec-downloadcom,,,chairs
+dataset/raw/chair/chair_33.jpg,Styla Living in Stvle Style ]4яякожт 6066 FFURNITURE стоrаmul Dnrallumaliie Stlc Livnа in uuлg Uаg,,,chairs
+dataset/raw/chair/chair_34.jpg,NEW ARRIVAL GAMING CHAIR Чаил;ЕЧАWEБЗПЕЧАЫЕаu,chair,0.5264,chairs
+dataset/raw/chair/chair_35.jpg,,chair;chair;chair;dining table,0.8601;0.8383;0.8363;0.3843,chairs
+dataset/raw/chair/chair_36.jpg,"GALAX GALAX GFLFH БГ-D2 RGB GALAX БНПIПБ EHFIR ШhiLe Features: RGB EFFECT ADJUSTABLE SEAT ВАСК GALAX 4D ADJUSTABLE ARMREST Colors AT JUST 228,999.00 w W W . a х . С 0 m Key 1809 9 a |",chair,0.7419,chairs
+dataset/raw/chair/chair_37.jpg,[un l AIren cипbс ] com,chair;potted plant;vase;vase;kite,0.7930;0.7512;0.5978;0.5140;0.3909,chairs
+dataset/raw/chair/chair_38.jpg,OFFICE CHAIRS Шыu mo1  ILLUMINATION а mанtлн Шыu mо1  HOME LIBRARY airahu Leuim mor HOUSE EXTERIOR Lesi moi,,,chairs
+dataset/raw/chair/chair_39.jpg,Mчz,chair;refrigerator;refrigerator,0.7891;0.6393;0.4688,chairs
+dataset/raw/chair/chair_40.jpg,,chair,0.8416,chairs
+dataset/raw/chair/chair_41.jpg,""" """,chair,0.6189,chairs
+dataset/raw/chair/chair_42.jpg,shutterstock com 1572708484,chair;chair;person;potted plant;chair,0.9309;0.9272;0.7294;0.7250;0.6763,chairs
+dataset/raw/chair/chair_43.jpg,"JEънct:halе ~Ыеаышин ]Ппр шегlьA Mемш LJIПея Еатгi Lanaг ! Gwч ЧLuгя Frznт Ти"" Wh Чиъ (Егапч И Егчп г LJn ТаJ cn",,,chairs
+dataset/raw/chair/chair_44.jpg,; 7 < shutterstock_com 2433650177,chair;chair;chair;chair;chair,0.8611;0.8051;0.8001;0.8000;0.7960,chairs
+dataset/raw/chair/chair_45.jpg,,chair;chair,0.5521;0.4159,chairs
+dataset/raw/chair/chair_46.jpg,NHI,chair,0.9349,chairs
+dataset/raw/chair/chair_47.jpg,,chair,0.8420,chairs
+dataset/raw/clock/clock_01.webp,НАСТЕННЫЕ БАТАРЕЙКА В КОМПЛЕКТЕ ЧАСЫ 11 12 10 3 8 4 7 6 5 25 CM,clock;clock;potted plant,0.9568;0.5390;0.4114,clocks
+dataset/raw/clock/clock_02.webp,настройка люминес  времени центные колесиком стрелки ииндекс [ 3 ATM защита от воды 1 5 1 надежность прочное стекло и точноСТЬ устойчивое механизмов к царапинам 1< @ !gg аяглк g,clock;clock;clock;clock;clock,0.9326;0.8141;0.7848;0.6047;0.4186,clocks
+dataset/raw/clock/clock_03.webp,ЧАСЫ БЕСШУМНЫЕ 7 V У НАСТЕННЫЕ 53x3] см 12 1l 1 10 2 (Og 8 7 5 6 Плeиcg 3 Nосuмrg,cup;cup;clock;spoon;spoon,0.9231;0.9230;0.8401;0.7075;0.6978,clocks
+dataset/raw/clock/clock_04.jpg,РАЗМЕРЫ общая длина 250 мм толщина 15 мм FH {4 2H АЦM S ae Ifш] диаметр 49 мм,tv,0.3542,clocks
+dataset/raw/clock/clock_05.jpg,люксовое качество I2 10 2 3 8 4 кB д ГЦ плавный ход 7 тихая работа простая установка 6 5,clock;chair;tv;potted plant;keyboard,0.9562;0.9192;0.8815;0.8448;0.7796,clocks
+dataset/raw/clock/clock_06.jpg,чс НАРУчНЫЕ МРОБА ПОдАРОЧНАя AIYISHI 1821 QUARTZ,clock,0.8985,clocks
+dataset/raw/clock/clock_07.jpg,Часы СвЕNяся бесшумные 20-50 см 12 1 11 10  2 9 3 8 4 1 6 5,person;couch;cup;potted plant;clock,0.9493;0.8394;0.7048;0.7039;0.4245,clocks
+dataset/raw/clock/clock_08.jpg,"петские кварцевые чнсы 11 12 1 (""nьRuI 10 2 3 6 5 подарок ( MINGRUI MINGRUI 3",person;clock;clock,0.7584;0.7160;0.7094,clocks
+dataset/raw/clock/clock_09.jpg,Попхопит ппя запястья обхватом 15-22 сM 12 Cuncnui 10 2 3 ППЯ ПЕВОЧЕК 3 И МАпЬчиков 8 4 @ 7-14 ПЕТ 2 см (пыRuI упаковка [ е1 ъ,cup;clock,0.9500;0.8775,clocks
+dataset/raw/clock/clock_10.jpg,ЦИФЕРБЛАТ ДЛИНА 41 MM МИНЕРАЛЬНОЕ СТЕКЛО УСТОЙЧИВОЕ ШИРИНА К ЦАРАПИНАМ 36 MM ДИАГОНАЛЬ 44 MM n ELT ПM E L 8 2 ' 2,clock,0.4453,clocks
+dataset/raw/clock/clock_11.jpg,ПРОЧНЫЙ МАТЕРИАЛ I КАЧЕСТВЕННЫЙ СJ И ЛЕГКИЙ ПЛАСТИК ЛЕГКО УХАЖИВАТЬ УСТОЙЧИВО К ПОВРЕЖДЕНИЯМ И ЦАРАПИНАМ 6 1 6 5,clock,0.9616,clocks
+dataset/raw/clock/clock_12.png,ЧАСЫ ПРОСЛУЖАТ BАМ много лет 12 СРОК СЛУЖБЫ КВАРЦЕВОГО 2 МЕХАНИЗМА до 10 ЛЕТ 3 РАБОТАЮТ КВАРЦ 4 От БАТАРЕЙКИ AA*ДО | ГОДА 6 5 не входит в комплект 1 1 1 1 |,clock,0.8807,clocks
+dataset/raw/clock/clock_13.png,11 10 2 9 3 @IЧMI 87 6 54 29х34 см ЧАСЫ НАСТЕННЫЕ ИНТЕРЬЕРНЫЕ: 42 1,clock,0.4624,clocks
+dataset/raw/clock/clock_14.png,ВЫСОКОЕ КАЧЕСТВО 1112 1 10 9 3 4 РОССИЙСКОЕ ПРОИЗВОДСТВО КВАРЦЕВЫЙ МЕХАНИЗМ ДОЛГИЙ СРОК СЛУЖБЫ ГАРАНТИЯ 12 МЕСЯЦЕВ 8 7 6 5,bowl;bowl;bowl;bowl;bowl,0.8906;0.8355;0.8048;0.8010;0.7578,clocks
+dataset/raw/clock/clock_15.png,"Wsk Kids 0,00 веc 25 г 0 05 ,J диаметр корпуса RTZ 2 30 мм iRis] 3 ширина ремешка 16 мм 8 5 толщина корпуса 25 8 мм длина браслета 14-19 см",clock,0.8854,clocks
+dataset/raw/clock/clock_16.png,Часы наручные женские 12 AIT 9 2 8 3 5 5 WATcH QUARTZ,clock,0.9300,clocks
+dataset/raw/clock/clock_17.png,ЧАСЫ НАРУЧНЫЕ С АРАБСКИМИ ЦИФРАМИ КВАРЦЕВЫЙ МЕХАНИЗМ СКРЫТАЯ ЗАСТЕЖКА WR 30,clock,0.4020,clocks
+dataset/raw/clock/clock_18.png,ЗАЩИЩЕНЫ СТЕКЛОМ ПРОЧНЫЙ КОРПУС ЛЕГКОЧИТАЕМЫЙ ЦИФЕРБЛАТ 11 12 1 езьии 10 3,clock,0.8227,clocks
+dataset/raw/clock/clock_19.png,Б И НАР Н Ы Е НАРУЧНЫЕ ЧАСЫ стильный 01 02 ДИЗАЙН 03 10 04 20 05 30 06 40 07 50 08 09 10 03 11 04 # 12 05 AM 06 0T 07 08 0 09 5 АTM я1эowэ HR MIN 02 ХИЦАЕМОСть :,,,clocks
+dataset/raw/clock/clock_20.webp,ЗАЩИЩЕНЫ СТЕКЛОМ ПРОЧНЫЙ КОРПУС ЛЕГКОЧИТАЕМЫЙ ЦИФЕРБЛАТ 11 1 1 10 3 8 4 7 6 5,clock;clock;clock;clock,0.6769;0.5400;0.5118;0.4939,clocks
+dataset/raw/clock/clock_21.webp,ЧАСЫ ЖЕНСКИЕ ЭХЕГАНТНЫЙ КВАРЦЕВЫЕ АИЗАЙН poelиger,,,clocks
+dataset/raw/clock/clock_22.webp,ВОДОСТОЙКИЕ ЗАТМ СТИЛЬНЫЙ ДИЗАЙН КВАРЦЕВЫЙ МЕХАНИЗМ SK,clock,0.9530,clocks
+dataset/raw/clock/clock_23.webp,МУЖСКИЕ ЧАСЫ ТАКТИЧЕСКИЕ ВОДОНЕПРОНИЦАЕМЫЕ НАДЕЖНЫЕ УДАРОПРОЧНЫЙ КОРПУС ЗАЩИТА ОТ HIGH ВОДЫ ДО 30 M HЕ ВСТРОЕННЫЙ оw БУДИЛЬНИК НмEН WR ЗОМ Ci ЯРКАЯ LED- sNz ALM ПОДСТВЕТКА SIG NJ4 ГАРАНТИЯ ГОД 7дт=sf=s]7 ПОСТАВЛЯЮТСЯ В ПОДАРОЧНОЙ КОРОБКЕ ИДЕАЛЬНО ДЛЯ ПОДАРКА МУЖЧИНЕ sPORT WATCH 5 5,clock;clock,0.4942;0.3828,clocks
+dataset/raw/clock/clock_24.webp,в АБ В 2 [school GIRL,clock;clock,0.7256;0.5557,clocks
+dataset/raw/clock/clock_25.webp,ЧАСЫ НАРУЧНЫЕ ПАРА ЧАСОВ 155/ I60 <9 12 {05} 1о 155/ 160/ q { 12 {05 10 $ 7301 1251 БРАСЛЕТЫ B ПОДАРОК GENEVA 2 GENEVA пын 7151 |,clock,0.5346,clocks
+dataset/raw/cup/cup_01.webp,КРУЖКА 300 мл керамика объём Bctter coffec Ше надёжная упаковка Bcttar,cup;teddy bear;teddy bear;teddy bear;dining table,0.9691;0.8836;0.7709;0.7277;0.6334,cups
+dataset/raw/cup/cup_02.jpg,,cup;bed,0.9453;0.5402,cups
+dataset/raw/cup/cup_03.jpg,НЯБОР КРУЖЕК из ППАстикн 1 6 шт аnя хопоаных и ГОРячИХ нАПИТКОВ,cup;cup;cup;cup,0.9720;0.9406;0.9362;0.8580,cups
+dataset/raw/cup/cup_04.jpg,Невероятно красивые: Винтажный узор,cup;spoon;cup;dining table;potted plant,0.7785;0.7320;0.6185;0.6010;0.6003,cups
+dataset/raw/cup/cup_05.jpg,"11 , 0 КРУЖКА С ПРИНТОМ ROBLOX '2 ~ ' 2",,,cups
+dataset/raw/cup/cup_06.jpg,КРУЖКА ФЛАГ РоссИИ 340 мЛ,person;tie;vase;cup,0.9505;0.8725;0.7904;0.6429,cups
+dataset/raw/cup/cup_07.jpg,"КРУЖКА двойными стенками ДЛЯ ГОРЯЧИХ ТЕРМОСТОЙКОЕ И ХОЛОДНЫХ СТЕКЛО НАПИТКОВ В ПОДАРОК 300 МЛ BAС ТОЧНО СПРОСЯТ, ГДЕ КУПИЛИ",cup;apple;apple,0.9381;0.6114;0.5196,cups
+dataset/raw/cup/cup_08.jpg,КРУЖКЯ принт c двух сторон ОЧЕНЬ СИМЬНО БЕСИТЕ крутой 7од А p o*,cup;cup,0.9581;0.9390,cups
+dataset/raw/cup/cup_09.jpg,туристическая КРУЖКА нержавеющая сталь 300 ОБЪЕМ МШРHA МЛ,person;cell phone,0.8024;0.7720,cups
+dataset/raw/cup/cup_10.png,КРУЖКА МАТЕРИАЛ ОБЪЁМ КЕРАМИКА 180 мл,cup;fork,0.9768;0.5185,cups
+dataset/raw/cup/cup_11.png,РУЧКА НЕ НАГРЕВАЕТСЯ СОХРАНЯЕТ ТЕПЛО НАПИТКА,cup,0.9793,cups
+dataset/raw/cup/cup_12.png,УПРОЧНЕННЫЙ ФАРФОР ЭКОЛОГИЧЕН И БЕЗОПАСЕН ДЛЯ ПРОДУКТОВ ТОЛЩИНА 2-3 MM 2 ВИДА ГЛАЗУРИ: МАТОВАЯ И ГЛЯНЦЕВАЯ МАТОВАЯ ГЛАЗУРЬ ГЛЯНЦЕВАЯ ГЛАЗУРЬ ТАКТИЛЬНО ПРИЯТНАЯ HА ВНУТРЕННЕЙ СТОРОНЕ ВНЕШНЯЯ ПОВЕРХНОСТЬ HE ВПИТЫВАЕТ ЗАПАХИ SOFT-TOUCH И НЕ ПОГЛОЩАЕТ ЖИРЫ,cup,0.9905,cups
+dataset/raw/cup/cup_13.png,99о РАЗМЕРЫ И ОБЪЁМ: 9 8 330 мл MM MМ,,,cups
+dataset/raw/cup/cup_14.png,ТАK выГЛЯдИТ ХОЛОДНАЯ КРУЖКА В холодном состоянии кружка черная Холодная кружка ),,,cups
+dataset/raw/cup/cup_15.png,"Объем 330 мл Кол-во 1 шт: о 3 ЧТОБЫ УВИДЕТЬ МАГИЮ; достаточно просто залить в кружку горячий напиток Она сразу изменит свой цвет и на ней проявится рисунок Чем выше температура напитка; тем быстрее происходит этот процесс Когда кружка остывает она вновь становится черной; и рисунок исчезает: процесс 1 роэдупления 1 идёт #24b + хохЬ 6 З2*, Т=з ч 9",cup,0.6785,cups
+dataset/raw/cup/cup_16.png,II= КРУМКА ХАМЕЛЕВН,cup;cup;cup,0.9801;0.9768;0.5442,cups
+dataset/raw/cup/cup_17.png,КРУЖКА ОБЪЁМ керамшка 3606 м^ МАТЕРИАЛ,cup;dining table,0.9852;0.3675,cups
+dataset/raw/cup/cup_18.webp,SIMA MAGISTRO LAND КРУЖКА форфоробоя 200 wW,cup;bowl;apple;dining table;orange,0.9784;0.6072;0.5645;0.4969;0.4674,cups
+dataset/raw/cup/cup_19.webp,КРУЖКА 330 м^ с принтом ЯРКИЙ РИСУНОК СДВУХ СТОРОН BI BOSS 11 круужка,cup;cup,0.9836;0.9804,cups
+dataset/raw/cup/cup_20.webp,КРУЖКА ЭМАЛИРОВАННАЯ 470 ми FNJOY GANRFIE HaWore yquг sweet home For,cup,0.9721,cups
+dataset/raw/cup/cup_21.webp,Двойное стекло не обжигает руки = 2,cup,0.9623,cups
+dataset/raw/cup/cup_22.webp,МАТЕРИАЛ изготовлена из ЭКОЛОГИЧНЫХ материалов жаропрочное стекло безопасна для пищевых продуктов не впитывает запахи,cup,0.9456,cups
+dataset/raw/cup/cup_23.webp,ДЕТСКАЯ КРУЖКА MILK #i 280 MI,cup,0.9850,cups
+dataset/raw/cup/cup_24.webp,"КРУ""KA 330 MЛ ЗШЯtf #аtl НАДЁМНАЯ УПАКОВКА",cup;cup;cup;tie;person,0.9666;0.9350;0.8631;0.6836;0.6719,cups
+dataset/raw/cup/cup_25.webp,ПРЕИМУЩЕСТВА ЦВЕТ HE СМЫВАЕТСЯ И HE ТУСКНЕЕТ ДОЛГОВЕЧНА И УСТОЙЧИВА К СКОЛАМ ГЛАДКАЯ ПОВЕРХНОСТЬ,cup,0.9125,cups
+dataset/raw/cutlery/cutlery_01.webp,ОХОТНИЧИЙ НОЖ Нержавеющая сталь б5Х13 Чехол в комплекте 0 ₽ ' MAES Сочетание качества и комфорта 8 2,,,cutlery
+dataset/raw/cutlery/cutlery_02.webp,"APOLLO ПИЩЕВОЙ ПЛАСТИК PP НЕРЖАВЕЮЩАЯ СТАЛЬ АНТИПРИГАРНОЕ ПОКРЫТИЕ NON-STICK* НОЖ ДЛЯ ОВОЩЕЙ Штэтэ Fnes& Иголо НОЖ УНИВЕРСАЛЬНЫЙ рлкеа , APalо НОЖ КУХОННЫЙ Lnнтъчота AFOlо #АНТИПРИГАРНОЕ ПОКРЫТИЕ NON-STICK УМЕНЬШАЕТ КОНТАКТ ПРОДУКТОВ CO СТАЛЬЮ; ПРЕДОТВРАЩАЯ ПРОЦЕСС ОКИСЛЕНИЯ JAPOLIO Protectian Уувт @ Hygienic Е [Extra | Itы1 лаz",knife;scissors,0.4006;0.3614,cutlery
+dataset/raw/cutlery/cutlery_03.jpg,СТОЛОВЫХ ПРИБОРОВ НАБОР ПЕРСОН ПРЕМИУМ КАЧЕСТВО 24 ПРЕДМЕТОВ,spoon;spoon;orange;orange;fork,0.8981;0.7826;0.7436;0.7381;0.6573,cutlery
+dataset/raw/cutlery/cutlery_04.jpg,ИАЕААЬНО ГААДКИЕ КРАЯ,fork;spoon;knife;fork,0.9650;0.8167;0.5977;0.3632,cutlery
+dataset/raw/cutlery/cutlery_05.jpg,Вилка деревянная Избамбука Гладкая Легкая Компактная,,,cutlery
+dataset/raw/cutlery/cutlery_06.jpg,НАБОР СТОЛОВЫХ ПРИБОРОВ 30 2 пары палочек ШТ B поАарок ЗОХОТО Premium HA 6 ПЕРСОН,,,cutlery
+dataset/raw/cutlery/cutlery_07.jpg,ТОТ САМЫЙ набор СТОЛоВЫХ 16 приборов предметов в стиле Pinterest В подарочной коробке,knife;fork;spoon;spoon;fork,0.9629;0.9210;0.8992;0.7543;0.6565,cutlery
+dataset/raw/cutlery/cutlery_08.jpg,,spoon;fork;spoon;fork;dining table,0.9083;0.9045;0.8694;0.7817;0.6962,cutlery
+dataset/raw/cutlery/cutlery_09.jpg,гипоаллергенный MEIAMI титановое жаропрочный ПЮКРЫТИ MHTEPIAI,fork;knife;spoon;toothbrush,0.9280;0.6019;0.5097;0.4032,cutlery
+dataset/raw/cutlery/cutlery_10.jpg,PREMIUM РАЗМЕРЫ ПРИБОРОВ КАЧЕСТВО *1 43 т ЗЕРКАЛЬНАЯ ПОЛИРОВКА CM CM CM,fork;spoon;spoon;scissors,0.9330;0.7809;0.5222;0.4236,cutlery
+dataset/raw/cutlery/cutlery_11.png,БЕЗОПАСНЫЕ КРУГЛЫЕ ЗУБЬЯ ГЛАДКИЙ КРАЙ ЛАЗЕРНАЯ РЕЗКА ЖИВОТНЫХ,fork;fork;spoon;spoon,0.9485;0.9445;0.8850;0.7299,cutlery
+dataset/raw/cutlery/cutlery_12.png,ЗЕРКАЛЬНОЕ долгий БЕЗУПРЕЧНАЯ ПОКРЫТИЕ СРОК СЛУЖБЫ ПОЛИРОВКА ПРЕМИУМ КАЧЕСТВО,fork;spoon;knife;cup;fork,0.9783;0.9218;0.5288;0.4799;0.4023,cutlery
+dataset/raw/cutlery/cutlery_13.png,"РАЗМЕР З,7см 3 см 3 см Ё ; ; ; Правильный вес и балансировка обеспечивают комфорт при использовании для самых маленьких гурманов Помогают малышу быстрее научится пользоваться столовыми приборами",spoon;fork;spoon;knife;spoon,0.9394;0.9137;0.9065;0.6340;0.5379,cutlery
+dataset/raw/cutlery/cutlery_14.png,зеркальная полuровка лаконичный дuзайн,fork;mouse,0.8993;0.4070,cutlery
+dataset/raw/cutlery/cutlery_15.png,ВЫСОКОЕКАЧЕСТВО МОЖНО МЫТЬВ ПОСУДОМОЕЧНОЙМАШИНЕ ИДЕАЛЬНОЕ ПОКРЫТИЕ ЛЕГКО ОЧИЩАЮТСЯ ВРУЧНУЮ,cake;fork;spoon,0.9240;0.7002;0.5421,cutlery
+dataset/raw/cutlery/cutlery_16.png,10 ВАp [lL E(оицwое ЗЕРКАЛЬНАЯ ПОЛИРОВКА,mouse;spoon;mouse;spoon,0.9639;0.9258;0.6303;0.5632,cutlery
+dataset/raw/cutlery/cutlery_17.png,3xъ ЗЕРКАЛЬНАЯ ПОВЕРХНОСТЬ УДОБНО ДЕРЖАТЬ ВРУКАХ ОСТРЫЕЗУБЦЫ УНИКАЛЬНЫЙДИЗАЙН 9вэ;,knife;knife;scissors;knife;scissors,0.8871;0.8815;0.8502;0.6997;0.6431,cutlery
+dataset/raw/cutlery/cutlery_18.png,Cocmaв набора 6 cmonoBыlx пожек 6 чайных пожен 6 вuпок,dining table;spoon;wine glass;wine glass;fork,0.9355;0.8045;0.7471;0.7176;0.6892,cutlery
+dataset/raw/cutlery/cutlery_19.webp,ЛЕГКО ОЧИЩАЮТСЯ ВРУЧНУЮ МОЖНО МЫТЬ В ПОСУДОМОЕЧНОЙМАШИНЕ HUME ИЗНОСОСТОЙКИЙ МАТЕРИАЛ НЕРЖАВЕЮЩАЯ СТАЛЬ,fork;fork;spoon,0.8990;0.6147;0.5308,cutlery
+dataset/raw/cutlery/cutlery_20.webp,НЕРЖАВЕЮЩАЯ СТАЛЬ ВЫСОКОГО КАЧЕСТВА ПРОИЗВОДСТВО ПАВЛОВСКОГО ЗАВОДА Yen c ЛАЗЕРНАЯ ГРАВИРОВКА )eкuc HE СТИРАЕТСЯ МОЖНО МЫТЬ В П/М МАШИНЕ HE ПОДВЕРЖЕНЫ РЖАВЧИНЕ JeNис,spoon;spoon;fork;spoon,0.9465;0.9167;0.8749;0.8593,cutlery
+dataset/raw/cutlery/cutlery_21.webp,ВЫСОКОЕ КАЧЕСТВО ИЗГОТОВЛЕНИЯ Нержавеющая Нож с зубчатым сталь лезвием Обработанные Натуральное края дерево,mouse;scissors;spoon;mouse,0.9405;0.6520;0.6472;0.4447,cutlery
+dataset/raw/cutlery/cutlery_22.webp,ПРЕИМУЩЕСТВА He подвержен коррозии Ударопрочный Надёжное крепление Удобно носить € собой,suitcase;bird;knife;snowboard,0.7073;0.4594;0.4521;0.4382,cutlery
+dataset/raw/cutlery/cutlery_23.webp,Высококачественная нержавеющая сталь 1 [ ТEN,knife;scissors,0.8158;0.6883,cutlery
+dataset/raw/cutlery/cutlery_24.webp,Ае:ко очuщaemcя не рекоменgyеmcя Mыmь в посуgомоечной мaшuне,knife;orange;person;orange;sink,0.9552;0.8567;0.8277;0.7327;0.5902,cutlery
+dataset/raw/cutlery/cutlery_25.webp,ШОХРАЯ ЗАTOЧKA ЛЕзвИЯ изготовлвны из нержавеющей стали высокого качества ЗАЩИТА ОтКОРРОЗИИ на ножах специальное защищающее покрытие,,,cutlery
+dataset/raw/glasses/glasses_01.jpg,FURLA,person;scissors,0.9402;0.4364,glasses
+dataset/raw/glasses/glasses_02.jpg,НВВSЬПIU ПIИ' 415И46E ПИУН;IЫПЫ щиннн SIN AURORA REzL,person;person;tie,0.9045;0.5347;0.4709,glasses
+dataset/raw/glasses/glasses_03.jpg,,person,0.8482,glasses
+dataset/raw/glasses/glasses_04.jpg,Спal ELEGANCE IN EVERY GLARE GET 20% OFF 'rmmma| [ach Qair & Crufed suth Drcci Cndeuil liahlкнк CamtarЦorduiuiumuv-nrautzulan' #gaнewA1 иимиудтаъншысоч,person;person,0.8280;0.4624,glasses
+dataset/raw/glasses/glasses_05.jpg,"Я""ччх (У Чz Uv YOUR upto [ASIERLG SUNGLASSES [DVERTISEENT ON [SIAGRA Layar Fles",scissors,0.3604,glasses
+dataset/raw/glasses/glasses_06.jpg,NEW COLLECTION SUNGLASSES Classle Slyle aN Dl'ca Uht Medcrn style Гъгашыт чwнлт4нЕП1АТаНВсаш,person;person,0.5645;0.5092,glasses
+dataset/raw/glasses/glasses_07.jpg,,person;person,0.8744;0.7852,glasses
+dataset/raw/glasses/glasses_08.jpg,[ИNcr ког iitaо on Jwlow COLLECTION Shuade 'Voнт WUbild m Sljle а7э #ical яооз Вiw,,,glasses
+dataset/raw/glasses/glasses_09.jpg,Dior Etsigie,person,0.9469,glasses
+dataset/raw/glasses/glasses_10.jpg,'Rlaav StevwGwM (auaiivarhi Sauurv €,,,glasses
+dataset/raw/glasses/glasses_11.jpg,,person,0.9420,glasses
+dataset/raw/glasses/glasses_12.jpg,(Dлlifhlstoickk SUMMER BEACH TIME,scissors,0.5177,glasses
+dataset/raw/glasses/glasses_13.jpg,NEVER HIDENNFVER HIDE NEVER HDE wv NEVERHIDE NEVER HIDE,person;bicycle,0.6611;0.4424,glasses
+dataset/raw/glasses/glasses_14.jpg,STYLE YOU CAN AFFORD SAVE QUALITY YOU CAN SEE ОFГ EYEGLASSES AND SUNGLASSES USE COUPON CODE: BENE25 SHOP NOW 25%,,,glasses
+dataset/raw/glasses/glasses_15.jpg,Чsч Фu wou ; &idc iliлtdukdi` 8 Jotie,scissors;scissors,0.6361;0.3817,glasses
+dataset/raw/glasses/glasses_16.jpg,GIORGIO ARMAN [uHI,person,0.9048,glasses
+dataset/raw/glasses/glasses_17.jpg,,kite;kite,0.8893;0.8489,glasses
+dataset/raw/glasses/glasses_18.jpg,YШRDESMMFE,,,glasses
+dataset/raw/glasses/glasses_19.jpg,"Ieшia: БEFImlei Follcille 5lla: , FTFEEHFDHSIIG",tennis racket,0.6561,glasses
+dataset/raw/glasses/glasses_20.jpg,RIMEERIO @REALLYGREATSITE WEAR YOUR STORY MERYS '9xAigR  OFWHO gRQJ5SOFF 4123 456 7890,person,0.9611,glasses
+dataset/raw/glasses/glasses_21.jpg,Are voUr eyes overstimulaled?,,,glasses
+dataset/raw/glasses/glasses_22.jpg,NOOmERSUNGLASS HESШGлgHEdMBЮтнs: BAUSCH & LaMB,,,glasses
+dataset/raw/glasses/glasses_23.jpg,"POLAROID POLARIZING SUNGLASSES [2e xяdя""i4 Sм4 / Eр цJmк"" 'зи#;Нт Фю 1ъкLшШ 4 n",person;person;person;person;book,0.5797;0.4254;0.4031;0.3902;0.3825,glasses
+dataset/raw/glasses/glasses_24.jpg,THE POLARNID NEW ооk панпЕ 1лттыаэ Thаъс nouinolr Тмошинэд ыллагат,person,0.8377,glasses
+dataset/raw/glasses/glasses_25.jpg,[l68 bigstock com 478,person,0.9391,glasses
+dataset/raw/glasses/glasses_26.jpg,Loco EYEGLASSES 50%о= Spuing Sole SHOP NOW,person,0.3568,glasses
+dataset/raw/glasses/glasses_27.jpg,00 roU?_ca НП ПJI шi81 шh (wx ExPLORE DIFFERENT STYLES THERE I5 ONE PERFECT FOR YOU Discount 10% таа]г]ш1 All-тес downlcod ст {yuwew Duign,person,0.7864,glasses
+dataset/raw/glasses/glasses_28.jpg,00 Уыяцаег [lBWEIR SlORE Ч]}LАннчПЖПЧЕ Слnnne 30% оFF by All-теc downlcod cm Duign,person,0.8003,glasses
+dataset/raw/glasses/glasses_29.jpg,Eyeglasses 50% off Фтикл CuL;,,,glasses
+dataset/raw/glasses/glasses_30.jpg,&y2 8' GLASSES (LINIC MP RO VEXY O U R VIS I O N drcamrtimccom ID 148595112 Alla Leonova 5 rrtim Яw Urear Ureo Ore се,tennis racket,0.4688,glasses
+dataset/raw/glasses/glasses_31.jpg,"PREMIUM EYE GLASSES LMПED SIOCKS 1 1]1 adliuлq uI7 ы N11 11 dukнe ычш ORDERNOW Lоrem iEzum dalar sit агie , гаnstaui 9ъ-u лэ",person;laptop;clock,0.9392;0.8561;0.8331,glasses
+dataset/raw/glasses/glasses_32.jpg,EPECIALUFFER GLASSES: SLINIC 1м| OUR SIoN CONIACT SENSES PaOVE YaUR CONITACT LENSES OVE YOUR VIStON wлww bigstock com 302813794 OPTICAGS {SIORE,tennis racket;surfboard;sink,0.6507;0.4765;0.4329,glasses
+dataset/raw/glasses/glasses_33.jpg,Ulaiia 50% OFF BIG SALE shutterstock com 1121221841,tennis racket,0.7531,glasses
+dataset/raw/glasses/glasses_34.jpg,Eyeglasses 50 off THIS WEEKEND ONLY SHOP NOW shutterstock com 1985572976,,,glasses
+dataset/raw/glasses/glasses_35.jpg,Е EYEGLASSES ADJUSTMENT F ₽ T 0z Lorem ipsum dolor sit amet consectetur adipiscing elit; sed do eiusmna aliqua: LEARN MORE,,,glasses
+dataset/raw/glasses/glasses_36.jpg,SPECIAL OFFER SPRING SALE UP T0 50 % OFF] shutterstock com 2158423861,,,glasses
+dataset/raw/glasses/glasses_37.jpg,shutterstock com 1842517324,,,glasses
+dataset/raw/glasses/glasses_38.jpg,GLASSES' SSLINIC IMPROVE OUR shutterstock com 1408710764,tennis racket,0.5664,glasses
+dataset/raw/glasses/glasses_39.jpg,THINK BIGGER (810) 543-5432 #wu ehsetun,,,glasses
+dataset/raw/glasses/glasses_40.jpg,LOGO Eyeqlosses 50 off SHOP NOW Liied lorfer',potted plant,0.7274,glasses
+dataset/raw/glasses/glasses_41.jpg,shutterstock com 2184562189,,,glasses
+dataset/raw/glasses/glasses_42.jpg,shutterstock com 1584384727,,,glasses
+dataset/raw/hat/hat_01.jpg,shutterstock com 33981226,,,hats
+dataset/raw/hat/hat_02.jpg,06 SMART UПпk Promotional Cар made with High Quality Twill Fabric 9911212386 8,,,hats
+dataset/raw/hat/hat_03.jpg,САР MOCKUP TEADY-tC-Us: DhF|511Г1на] TPs D чос : Un,person,0.9532,hats
+dataset/raw/hat/hat_04.jpg,BRAND BRHID,mouse;mouse,0.9918;0.9866,hats
+dataset/raw/hat/hat_05.jpg,"MI OZAPVINIAGE WНООРBE CAPS нi, boys! Hi girls ! Theso Whoopee   Sailor аге fun wear and funny to read Snappy titles: Anything оп Tonite?, Pm Lonusome Pm  in the Mood; Let's Get Acqualnted Out for Good Time, etc: Weii made with large colored letters codoreczletteмmoopee   Gaps   12C [LIS Ш1 'Caps",,,hats
+dataset/raw/hat/hat_06.jpg,"{ura-AKAQ Жг им , (емужя",book;person;tie,0.7322;0.6715;0.4884,hats
+dataset/raw/hat/hat_07.jpg,TFIIIEDS 8} B0STON RED sOX 19 9 9 ALL STAR GAME BY NEW ERA СAР FOR ALL FOUR SEASONS,,,hats
+dataset/raw/hat/hat_08.jpg,,mouse;mouse,0.9841;0.9286,hats
+dataset/raw/hat/hat_09.jpg,wadaoi SUzUкl,person,0.5243,hats
+dataset/raw/hat/hat_10.jpg,vodafone vodafone,,,hats
+dataset/raw/hat/hat_11.jpg,Уour Design Here,,,hats
+dataset/raw/hat/hat_12.jpg,CoKnutuy € ынaHNг {ая 97347' (Жухихгу,book;person,0.6738;0.5327,hats
+dataset/raw/hat/hat_13.jpg,Embroidered Caps,person,0.9604,hats
+dataset/raw/hat/hat_14.jpg,0 dhilj] 4 alamy 2YESESY,mouse;mouse;mouse,0.9632;0.9559;0.9251,hats
+dataset/raw/hat/hat_15.jpg,shutterstock com 416670046,kite,0.4918,hats
+dataset/raw/hat/hat_16.jpg,(rlasIRINA,,,hats
+dataset/raw/hat/hat_17.jpg,KRAFT FOODSERVICE,person,0.8179,hats
+dataset/raw/hat/hat_18.jpg,,,,hats
+dataset/raw/hat/hat_19.jpg,KENGUNBYY,person,0.7530,hats
+dataset/raw/hat/hat_20.jpg,sr: usv Ror:,person,0.7583,hats
+dataset/raw/hat/hat_21.jpg,,,,hats
+dataset/raw/hat/hat_22.jpg,TaiJ=l C  c -.п ue Fosasba La-ol 1. KANGOLCAP camlai intaca,book;person,0.7391;0.6974,hats
+dataset/raw/hat/hat_23.jpg,,toilet,0.7045,hats
+dataset/raw/hat/hat_24.jpg,,mouse,0.9167,hats
+dataset/raw/hat/hat_25.jpg,,,,hats
+dataset/raw/hat/hat_26.jpg,MAY 21+19 5 5 6N CNI?? ЕNIEFЕР 'nnas Chipp оNтр cirp CJiry CHIPF CWIPP,book,0.7120,hats
+dataset/raw/hat/hat_27.jpg,"Fur Ca] , Huts; Bulalo Iobes; ctc: EDJUVD W HARRING , alauu-rr1 uniъы8 tИgиrah WILr CAI5 Gentlefman Czns =Youth and Children? Mыructo Jыан Imlics ш+] Misscs' Chinchilla Слрэ S, TьhnL Lzsgk #ailu шjuuriai ""итиг HaTS Ernk:s:f , auci Iui Шатяат _ # Lich Inкusr i,н eullcmen !нинэиш ""t (HHrrI Ти uъ GLuvr5 Gcnt [mEf; + Niink J Sable Fur Glотcs  Guutlzncu > Uuek skin ЦеJVEF du; м7На EnuuMlluts # Snnwcnl 5iзаid Giug- UnnIre URS AND THINAIING5 Au Ex[eFsгка"" fsG99 tn:LL Нми-га ~РтитЕУ; Чинчыг Cmry 'я"" Glutimp aEсс Silks Ractlitigg; Hintinga Buf-lo ]obet, bPilc bulc singl: #книфяыысэ чIl Шe шEм Juz пяда,uчш whulcJtlt rчlы] J4 2 Huле 'O1 aaklt; Wulra aiU иио; 'Glur, 'auuk;",vase;book,0.6234;0.5794,hats
+dataset/raw/hat/hat_28.jpg,For Boatmen; Fishermen; Golfers other VIP's mем 8695 Е+С#€ Comlmaiuer Cap Iuзt Illn 5kippcrcn GuB 6abia Gix Chm [Crrtl [rrolt fnitti acterssarle I IqunnesMih Division Cnlr МИN Cnri-Cram,,,hats
+dataset/raw/hat/hat_29.jpg,Fedoro Hot,,,hats
+dataset/raw/hat/hat_30.jpg,~ATIONAt НАТ DAY snutteislucktam 2410306581,,,hats
+dataset/raw/hat/hat_31.jpg,Fedoro Hot,,,hats
+dataset/raw/hat/hat_32.jpg,NATIONAL ии Hиш]У snutteislucktam 2410306571,cup,0.9205,hats
+dataset/raw/hat/hat_33.jpg,,,,hats
+dataset/raw/hat/hat_34.jpg,shutterstock com 231746764,,,hats
+dataset/raw/hat/hat_35.jpg,"""w.bugiparlgcom BUg'F party",,,hats
+dataset/raw/hat/hat_36.jpg,FEDORA'S,person,0.9539,hats
+dataset/raw/hat/hat_37.jpg,MOVEMBER PnOS7ATГ сдксгR AWAП IЧIs; мактн,,,hats
+dataset/raw/hat/hat_38.jpg,shutterstock com 230062117,toaster,0.3512,hats
+dataset/raw/hat/hat_39.jpg,,mouse,0.9284,hats
+dataset/raw/hat/hat_40.jpg,Partj ASurprise,umbrella;donut,0.5124;0.4263,hats
+dataset/raw/hat/hat_41.jpg,C;,person,0.9569,hats
+dataset/raw/hat/hat_42.jpg,,skateboard,0.4434,hats
+dataset/raw/hat/hat_43.jpg,,person,0.9315,hats
+dataset/raw/hat/hat_44.jpg,,,,hats
+dataset/raw/hat/hat_45.jpg,FEDORA,person,0.8765,hats
+dataset/raw/hat/hat_46.jpg,PRO TIPs Vedwte V(ete SELECTING THE BEST MATERIAL wWHY шт MATTERS?,,,hats
+dataset/raw/hat/hat_47.jpg,,person;person,0.9426;0.9389,hats
+dataset/raw/hat/hat_48.jpg,,person;person;person;person,0.9031;0.8835;0.5592;0.4896,hats
+dataset/raw/hat/hat_49.jpg,MORE STYLE MORE FASHION Perfect for lounging at the beach; during: hunting; hiking; clubbing; or casual outfit: Also great for 192Os style occasions:,person;person;person;tie,0.9661;0.9521;0.9493;0.8305,hats
+dataset/raw/hat/hat_50.jpg,9 Fut;) Swp e,mouse,0.4081,hats
+dataset/raw/hat/hat_51.jpg,,mouse,0.8613,hats
+dataset/raw/headphones/headphones_01.jpg,SONY JM # SE инаСюхыз Елmсгациа,car;car;car;person;person,0.8774;0.7342;0.7189;0.6314;0.5877,headphones
+dataset/raw/headphones/headphones_02.jpg,F 0 С U $ 9 N POWERFUL NOISE CANCELLING Melcemlon >,person;laptop;person,0.9559;0.5604;0.4574,headphones
+dataset/raw/headphones/headphones_03.jpg,IIЕ ElRILDII,,,headphones
+dataset/raw/headphones/headphones_04.jpg,ашнE The пеw Rcuolullion Sound,,,headphones
+dataset/raw/headphones/headphones_05.jpg,моolv 50% 5 OFF,person,0.9506,headphones
+dataset/raw/headphones/headphones_06.jpg,wireless headphone Шки ыt4t  чnнnatrr р  1m1| Сгапт шештинхеы  Lwtn тшаныч ъtынштгянъ 50' OFT,scissors,0.7873,headphones
+dataset/raw/headphones/headphones_07.jpg,1мдсвчет INCшаПп WATCH SUPPER HEMDРЮОNЕ [иштн шиоь FFODUCT FEATUTES EsTrmn zaHcurs ENC 7Б-707-2501 АииуеuаwmпtI GzaLow,book;bird,0.3752;0.3750,headphones
+dataset/raw/headphones/headphones_08.jpg,Thebest-sounding headphones are also the most comforlable =ЛЕППНЕЛЕН,scissors;person,0.6905;0.6810,headphones
+dataset/raw/headphones/headphones_09.jpg,BEAISIIIFЮ OIlER: beats by dr dre colours limited edition,person,0.9226,headphones
+dataset/raw/headphones/headphones_10.jpg,"8.11.1 { 1 = = [Л [{11 1 ПI"" 1I В =",,,headphones
+dataset/raw/headphones/headphones_11.jpg,HeadPhones shen Ile aLiis rorsl plux л тш* hеaарhошевз: uhn I nшusicclast !ашF cres: aLd Retанау [rom,mouse,0.3853,headphones
+dataset/raw/headphones/headphones_12.jpg,HEADPHONE' s 3D Praduct Advertisement BY AAKASH,mouse;mouse,0.6869;0.4070,headphones
+dataset/raw/headphones/headphones_13.jpg,HLL DAY PLAY BEATS STUDIO: WIRELESS IS YOUR PERFECT EVEPYDAY HEADPHONE 22 нашлд LISTENING TIME [ды HEELIECHMGLGGY 10 3,,,headphones
+dataset/raw/headphones/headphones_14.jpg,HEADPHONES BUILT FOR SOUND BUILT FOR MUSIC,,,headphones
+dataset/raw/headphones/headphones_15.jpg,,,,headphones
+dataset/raw/headphones/headphones_16.jpg,,tie,0.3638,headphones
+dataset/raw/headphones/headphones_17.jpg,SONY,toothbrush,0.7109,headphones
+dataset/raw/headphones/headphones_18.jpg,,person,0.7312,headphones
+dataset/raw/headphones/headphones_19.jpg,Skitbit RAZER 3D Commercial,traffic light,0.7973,headphones
+dataset/raw/headphones/headphones_20.jpg,коскегz SIPER [KTRA BASS Volce Command LoпnBHtteг Extra Bass Super,,,headphones
+dataset/raw/headphones/headphones_21.jpg,,person,0.9531,headphones
+dataset/raw/headphones/headphones_22.jpg,"LOGO HERE Tagline here NIs GEI UPIU GEC DESIGNS 40% OFF 1naъ Nu Arrue Is EC DASIIGNS | ASIIGNS ORDER NOW wwwyourwebsite com +000 1234 5678 "" .",,,headphones
+dataset/raw/headphones/headphones_23.jpg,66 ШЕ Ше,person,0.9580,headphones
+dataset/raw/headphones/headphones_24.jpg,59 шнном,,,headphones
+dataset/raw/headphones/headphones_25.jpg,Sound so Vou dалт wamt Япае 1 gupd Еn x,person,0.8302,headphones
+dataset/raw/headphones/headphones_26.jpg,BEAWIIUL SON J6mq|0мн) SERIES EINaиз МИмгаиamе au 1,cup,0.3656,headphones
+dataset/raw/headphones/headphones_27.jpg,Il(ISL: С(ШШВ ВЕSI( ШЕМIILI! (iITYIWIS I(M! BSEHIIII ШIIII  IШlNBLI SlI ШШЯШНШII Ш:ЕЦЫБ ШШШШЕШШШН ШПШШПШЖIЕ ЕПШНЧ [lШLNY UII HПР Illlllll аmse ШИЕ,mouse,0.5353,headphones
+dataset/raw/headphones/headphones_28.jpg,EXTRA BASS БХIRA BASS KИI MAMET45U BI 11]lm GD,frisbee,0.4249,headphones
+dataset/raw/headphones/headphones_29.jpg,#RB ооо [IRELESS ШЪШ EARBUDS Tвенчонов Feailie Mlh < 1эъ аJe ни 6ns 'гаыъ URDER МIl Шиев NOI ICIDED,,,headphones
+dataset/raw/headphones/headphones_30.jpg,WMwactltncam FLASH SALF GF Jоъоf ONLY 568 ORDER наw' О0t234[7800 IMAGE NOT INCLUDED [RДLSS ЕAВШDS,,,headphones
+dataset/raw/headphones/headphones_31.jpg,WRELESS [lRBIDS WEW TEёHMoLOov @PfCIF = 535.99 сEI 30% DISCOUNI иlь=1 BUY NOW 1aee1рср,cell phone,0.6426,headphones
+dataset/raw/headphones/headphones_32.jpg,"#ERB WIRELESS EARBUDS NEU тEcuhoLoc; Еяещиu 535.99 Анац пърыh45 1ar 1 T3ытр OfDEH МОН aат , IMACEROTIE IUEL",cell phone,0.6193,headphones
+dataset/raw/headphones/headphones_33.jpg,IMAGF ЖOТ JCLUCED 00 [Rg NEW RRIVAL WIRELESS EARBUDS $20 54ер-г4) анаE₽ нaj ~ицытаншев Ilmm,mouse,0.4044,headphones
+dataset/raw/headphones/headphones_34.jpg,1cмomlep 1me5 HERE Cmmuл YOUR BRAND Wki DOTJ,mouse,0.7338,headphones
+dataset/raw/headphones/headphones_35.jpg,~пиачтМчаэг QEew АFRIVA L WIRELESS 1naan ящасl ~~uED,,,headphones
+dataset/raw/headphones/headphones_36.jpg,'o BRAND НАНЕ New Buds3 Pro Еытяч 1 ehr ₽ ~ PRICE 399$ +    WaHis ПР57 щляданрг SHSP NU 1,scissors,0.5384,headphones
+dataset/raw/headphones/headphones_37.jpg,BUDS EARBIDS ~ARBUDS  {RBIDS EAIBШDS EARBШDS BlDS] EARBIDS,,,headphones
+dataset/raw/headphones/headphones_38.jpg,los0 MIRELESS EABШDS ШШ ШНШПL: [PRSBo- БПЕРаUТ 00 123 456 789 ;Yаwчаввtа cam IMAGE NOT INCLUDED,,,headphones
+dataset/raw/headphones/headphones_39.jpg,SPORTS WIRELESS EARPHONE IT IS LONG ESTABLISHED FACT THAT А READER WILL BED BY THE READABLE CONTENT OF A LOOKING AT ITS $.1590 SHOP NOW W WW We b s 1 t e,,,headphones
+dataset/raw/headphones/headphones_40.jpg,[RMBUDS Фъъхнъни Image not included,scissors,0.6262,headphones
+dataset/raw/headphones/headphones_41.jpg,NE W A R R I VA L WRELESS EARBUDS 5О% 4]5|ъ ~0оw1 <Чa WWWaoUaweostueсом,cup;scissors,0.5845;0.4423,headphones
+dataset/raw/headphones/headphones_42.jpg,[MАсЕШОU LcLUDED Logo here PROIESSIIIILSШIID WIRELESS EARBUDS FEELTHEMUSIC FRUMTHELRIESIMUUIRSOUL ITHEBhSSIIOURBOIES ~Оmzs;v3о Vтhтгарт,mouse,0.6793,headphones
+dataset/raw/headphones/headphones_43.jpg,"[XPERINCE QUALITY EARBUDS duite stylish: Ture wireless: BUTNOW VISITQUR SITE НОТЦNЕ ,",,,headphones
+dataset/raw/headphones/headphones_44.jpg,IBGESNETEШпЕП NEW ARRIVAL WIRELESS EARBUDS 524g9 51999 шuuuчт #ач=нEсIЕ мот  ноreM,bowl,0.7889,headphones
+dataset/raw/headphones/headphones_45.jpg,[IBIUS EABUDS [HBULS ~mBIDS,,,headphones
+dataset/raw/headphones/headphones_46.jpg,"#Rо [EDIFIER X2 ШеШ:тынез $220 Сычиам 5Лт , Nыe 1рт7л - шlетыгоне 0 + IMAGE NOT IINCLUDED",remote,0.6302,headphones
+dataset/raw/headphones/headphones_47.jpg,'иасв КOT INCLUDED Lago Непе [XPЫRIENCE QUALITY EARBUDS JLILеНЧНТ IпвWгее; а чал ~обa12ъuае ЕяоеwшTш,mouse,0.4121,headphones
+dataset/raw/headphones/headphones_48.jpg,CYЩЕR 5 ШШY Imied ШПgг 5ыt,,,headphones
+dataset/raw/headphones/headphones_49.jpg,IuасE #LNELDFE Lago Непеe EXPERIЕNE QUALITY EARBUDS Gulle s ullsn Тпе #ireless АТаалн ~aoolitstwg WэCUFWLLJTE,mouse,0.6795,headphones
+dataset/raw/headphones/headphones_50.jpg,Iuасl #o_NELDFE Lago Непе EXPERLNGE QUALITY EARBUDS JuIIеНЫЧТ IпвWгее; а1iчалы #OoOlitъtw5 вытотниш шиашал,cell phone,0.5343,headphones
+dataset/raw/headphones/headphones_51.jpg,"[MАсЕШОU LcLUDED 95 heno Personalizing Sound for An Immersive Listening Experience Аизbm ""606ig43е7воо рагатwiыi Logo",,,headphones
+dataset/raw/headphones/headphones_52.jpg,EARBUDS LoGO Discoll Piice 09 $0.OO shopnaw @earbuds,,,headphones
+dataset/raw/headphones/headphones_53.jpg,"ЖacJack U Е rb WIR ELE S$ F E д 1 U ₽ Е 0 ""иитн 8 ммх2 DYNAMIC DRIVERS FOR HD soUND ]Пll аф",,,headphones
+dataset/raw/jacket/jacket_01.jpg,LOGO оо чqaun НегЕ VмтиYаше-TасоH BESTШЕВ ФСЕТ FOR MEП SHOP NOW online Order 70% OFF CallUя; 123-334-4567 IMAGE NOT INCLUDED,person,0.9299,jackets
+dataset/raw/jacket/jacket_02.jpg,Logo WINTER JACKET BEST COLLECTION UP TO 50% OFF тломтачгмеал 88+5oma IMAGE NOT INCLUDED,person,0.8823,jackets
+dataset/raw/jacket/jacket_03.jpg,[0#& #decz pox Mt ctitet < [иджа (iоz,person;person;person;tie;person,0.7499;0.5330;0.5185;0.4860;0.3754,jackets
+dataset/raw/jacket/jacket_04.jpg,"RAINCOAT MONSOON Sale Raincoats & Rainjackets upto 5@% @ff VERSALIS Gtara #11, дstitva; Rai Parellel Raad; NehruInagаг Scshadripuram; Blr 560020 Next Yeshas дcademy Jel : 080-41225186/41119544/41119525 Store 2; #13, Versalis Duckback Sлоwraom; BVK Kbousэr Road, Оpp Pяsn IItr ahn гnшIn Bangalarc 080 41527016 wwwuversalis versalis karan @gmail com Ilay",person;person,0.9498;0.9272,jackets
+dataset/raw/jacket/jacket_05.jpg,Give Him the Besl пшаегатныъ s685,person;person;person;person;person,0.7868;0.7852;0.7330;0.5719;0.3644,jackets
+dataset/raw/jacket/jacket_06.jpg,Sf? tПэлп CInnamen > hreepi Adan Dalaluashp ~шлыт,bottle;backpack;backpack;backpack;person,0.7818;0.7553;0.7173;0.6805;0.5347,jackets
+dataset/raw/jacket/jacket_07.jpg,ARRO   CASUAL LOOK ARROW- 'ah en FINR,person;person;person,0.9274;0.9195;0.7011,jackets
+dataset/raw/jacket/jacket_08.jpg,SmARiuB,person,0.9136,jackets
+dataset/raw/jacket/jacket_09.jpg,Ihecomntyfecling [ed Lie itwhileyou u:,person;person;motorcycle,0.8733;0.8666;0.7341,jackets
+dataset/raw/jacket/jacket_10.jpg,nutluicl ПI;UтАн Gт,tie;person,0.5863;0.5070,jackets
+dataset/raw/jacket/jacket_11.jpg,"JUNI 19,1454 SГOAT JACNHS еА5нчш  waol 'ra # 9/2, (4ntкжм",book;person;book,0.7310;0.5092;0.3604,jackets
+dataset/raw/jacket/jacket_12.jpg,Wiangler Wiangler Ameritans getwhatth payfor Ihats yOurfШ and ol Iespunsibillty Tomоrаw s luuks [dagin Jacketsand ans,person;person,0.8186;0.6599,jackets
+dataset/raw/jacket/jacket_13.jpg,LOGO QUALITY ALL WOMEN BRANDS FASHION AVAILABLE BШm #tbtt_Eu &xo uxutxss IMAGE NOT INCLUDED (WTDOUmS [D.Ш,person,0.7881,jackets
+dataset/raw/jacket/jacket_14.jpg,Wicner,person;person;person,0.9003;0.8814;0.8735,jackets
+dataset/raw/jacket/jacket_15.jpg,TRUE RELIGINV,person,0.9534,jackets
+dataset/raw/jacket/jacket_16.jpg,7y,book,0.4414,jackets
+dataset/raw/jacket/jacket_17.jpg,5 4r4_  {7  oQJJRa ЛIПI,person,0.6978,jackets
+dataset/raw/jacket/jacket_18.jpg,'Кгяяи Я) 4яумжу,person,0.8600,jackets
+dataset/raw/jacket/jacket_19.jpg,,person,0.5989,jackets
+dataset/raw/jacket/jacket_20.jpg,шлн AтнEн_,person;person;person;motorcycle,0.9428;0.9424;0.9419;0.4839,jackets
+dataset/raw/jacket/jacket_21.jpg,,person,0.9090,jackets
+dataset/raw/jacket/jacket_22.jpg,wltecC Cootte Rotfe Tladlic CaxnEqiz 42 1ч Mh,,,jackets
+dataset/raw/jacket/jacket_23.jpg,,person;person;person;person;person,0.9207;0.9182;0.8753;0.8673;0.8460,jackets
+dataset/raw/jacket/jacket_24.jpg,"ed by Tlousands of doorsmen Best Zitp Ih and Wear Ever Кпонп"" TПъЛП € Тлпепел fir-t Iпг 6f Tгiг wclfare пгипягъ Farmcra plowing Teld: Jrnauurwu buildИg Frparie гиnaw Trutl = nlinir: атичач Comlart ArLuю&чншы Iэр (Rюмсч afd 417  Buy",person;person,0.8759;0.8293,jackets
+dataset/raw/jacket/jacket_25.jpg,З749иж &Сапаrнiна,book,0.4106,jackets
+dataset/raw/jacket/jacket_26.jpg,'оmx Тмauuumn wитп Em I ~m JАCKEI suuxL 8+516 2e киpCooaxmxto MIV HEADBANGERS ВАЦL DEPT HEDI MELVILEB; NR 17 6,,,jackets
+dataset/raw/jacket/jacket_27.jpg,,person,0.9403,jackets
+dataset/raw/jacket/jacket_28.jpg,10 ~o 'mn Page 1 Page 2,refrigerator,0.5431,jackets
+dataset/raw/jacket/jacket_29.jpg,,person,0.9254,jackets
+dataset/raw/jacket/jacket_30.jpg,PLAYBOY ИТш Чиеm шснапk 1ии,book;laptop;person,0.8552;0.8190;0.4381,jackets
+dataset/raw/jacket/jacket_31.jpg,[D,suitcase,0.3914,jackets
+dataset/raw/jacket/jacket_32.jpg,"LLacman Jackcts W< } (u""с ЛЛШАРШIШЕПЕRINII JIGKЕTIIННФDLЕМНЕR ARMS AND WOOL BODY",person,0.9558,jackets
+dataset/raw/jacket/jacket_33.jpg,WINTER STYLE Getyaliп:w wiileГ col:cion now FUNMIMERSILE [iWtuhiio ylurwililet sy2,,,jackets
+dataset/raw/jacket/jacket_34.jpg,WINTER Shtz цiulЧн шиn}i HEW WIMIER COLLECTION SALE 35% OFF нарка,cell phone;person,0.4180;0.3708,jackets
+dataset/raw/jacket/jacket_35.jpg,Winersule Winlcrshle,,,jackets
+dataset/raw/jacket/jacket_36.jpg,Coatsfw tve Cole shutterstock comn 2383214137,,,jackets
+dataset/raw/jacket/jacket_37.jpg,ШIЕШТER; SASSYWIWER BRIGHT STLES COLLECTION #K,handbag,0.6578,jackets
+dataset/raw/jacket/jacket_38.jpg,WINTER COATS FOR GIRLS BUNDLE HER UP IN CUTE COLD-WEATHER FINDS:,teddy bear,0.7942,jackets
+dataset/raw/jacket/jacket_39.jpg,COZY WINTER,,,jackets
+dataset/raw/jacket/jacket_40.jpg,Winten Coats and New Socks Drie Donation deadline: December 21 at 07.0Opm,,,jackets
+dataset/raw/jacket/jacket_41.jpg,WMLXJI CxDUE SCHCOL WJinlo COAT DRIVE - Sotmo|Dsceibocn Smh ~ъиn 20хыъz}н 0 11 чwra uf 5 uЧ curus Kl#сns Clot baahatneue DJcumbor iUsh lwk Dertnher #Guh: Тэлм  шоачz 15,book,0.4903,jackets
+dataset/raw/jacket/jacket_42.jpg,"WINTERBIBSALE gpecinb Oler _ 50%a мwжninluh?erlьн tеn WINTERBIGSALE gpecёдb Olен _ 50%6of ""мwY mintcrtashErl""ti[ET",,,jackets
+dataset/raw/jacket/jacket_43.jpg,Мiiaca WJinlou COAT DRIVE шше еехэ,person,0.8158,jackets
+dataset/raw/jacket/jacket_44.jpg,TO WARM gouaseltu DRESS UP- 'STYLE САн KEVER вE 50 WДRM [40%а DIsCQUNIL | CUCKHERЕ] 'AKD GET gUY NOW .,,,jackets
+dataset/raw/jacket/jacket_45.jpg,FESTIIE STYLES LSEПLЛLECF |-EltAB 'FEл hum -екiкевцьешоъ,handbag,0.6095,jackets
+dataset/raw/jacket/jacket_46.jpg,ALL ABUUT WTЁR HUGGE ШШЕВШЫЕ J WINITER HUGGE,,,jackets
+dataset/raw/jacket/jacket_47.jpg,Winter Winter Hugge Season Winter Hugge 'Пme ##lugge _,,,jackets
+dataset/raw/jacket/jacket_48.jpg,All About Winter Hugge Шьыае-ин  ! Its Winter Hugge sna hrliommьea Winter Hugge Season SutoiueampleШпъ₽,cup,0.7748,jackets
+dataset/raw/jacket/jacket_49.jpg,shutterstock com 1523764850,,,jackets
+dataset/raw/jacket/jacket_50.jpg,,,,jackets
+dataset/raw/jacket/jacket_51.jpg,shutterstock com 2223073777,bicycle;bicycle;person;dog;person,0.9383;0.8981;0.8963;0.8698;0.8351,jackets
+dataset/raw/jacket/jacket_52.jpg,,person;person,0.7419;0.7391,jackets
+dataset/raw/jacket/jacket_53.jpg,,person;person;person;tie,0.9503;0.9451;0.9425;0.4149,jackets
+dataset/raw/jacket/jacket_54.jpg,"WOUCHER aULUнПып БнтFд ЕпLLГETаM [NLYISsTORE нiыеЕтулттаига}uлгчгя Ели VOUCHER ДранЕптпаципн WLII FKDM 25T TD 3#7ADEMIER 'iертгиатине_tршЕ,",,,jackets
+dataset/raw/jacket/jacket_55.jpg,,person,0.8792,jackets
+dataset/raw/lipstick/lipstick_01.jpg,LIPSTICK NEW BRAND BEST QUALITY,toothbrush,0.5009,lipsticks
+dataset/raw/lipstick/lipstick_02.jpg,LIPSIICKu niv *4; 4UШWIG [0!DЕ В R A I D,,,lipsticks
+dataset/raw/lipstick/lipstick_03.jpg,HABILLEZ VOS LEVRES HOUGE PUR Li taulcit Iibcig ыIN cаmll г4аан WESSINILAURENT BOUGE PUR,person,0.5729,lipsticks
+dataset/raw/lipstick/lipstick_04.jpg,Christian Dior,person,0.7723,lipsticks
+dataset/raw/lipstick/lipstick_05.jpg,"LIPSTICK В LNF LIPSTICK СLЕЕМLa"" Calimls shutterstock com 515740084",toothbrush,0.4879,lipsticks
+dataset/raw/lipstick/lipstick_06.jpg,eri2ia IIPSTICK SUPERLATINE КEV,person,0.6582,lipsticks
+dataset/raw/lipstick/lipstick_07.jpg,"Уаке Эчe EЕНЕр ""Illutc Ilu lwhiick ; Uнu€a нык Fш1 Wmuuikub",person;book,0.9119;0.4173,lipsticks
+dataset/raw/lipstick/lipstick_08.jpg,"Drv Lins? ""Kiss 'Em Goodbyel"" Maktulestay Uaceulu REVLOON [OWI",person,0.9580,lipsticks
+dataset/raw/lipstick/lipstick_09.jpg,'ЧМ ROSALIA,,,lipsticks
+dataset/raw/lipstick/lipstick_10.jpg,"Мыты  ILЧНТ UEИTэ Nautcaux Tougcs d lutes qмi ;kwis ""clumcrplsant '((I(RВ ШIMI) 'wбw Ffrak: Iмur/ нnn ~пeram",person;book,0.7683;0.5666,lipsticks
+dataset/raw/lipstick/lipstick_11.jpg,DiorAddict СжtЯq &юoч5k skin,person;cell phone;cell phone,0.9203;0.5456;0.4130,lipsticks
+dataset/raw/lipstick/lipstick_12.jpg,Dior ROUGE DIOR щшшПЕПЕ Уumiat,person,0.4802,lipsticks
+dataset/raw/lipstick/lipstick_13.jpg,AVOw Лntraduces LIPSTICK DELUXE Avon cosmetics,person;book,0.6256;0.5221,lipsticks
+dataset/raw/lipstick/lipstick_14.jpg,COSICTIC РС49 с(сч shutterstock com 1756391171,,,lipsticks
+dataset/raw/lipstick/lipstick_15.jpg,Lorem ipsum Premiumn dulai siLamel Qualituy shutterstock com 699764149,,,lipsticks
+dataset/raw/lipstick/lipstick_16.jpg,{jк У,person;bottle,0.7646;0.5834,lipsticks
+dataset/raw/lipstick/lipstick_17.jpg,[liuh KU cashmere bouquet Redll,person,0.5840,lipsticks
+dataset/raw/lipstick/lipstick_18.jpg,[AZLING 1lk m WIHOUIS I1LAIHЧУ А [@ouiвaм LРSЛСК,person,0.9476,lipsticks
+dataset/raw/lipstick/lipstick_19.jpg,Lasting Allurc Formul: 907 Your Sigmature Look: for Етсr Oceasian: APPL Onte; NII Day: Lasting Narte Long Marie sa Long,person;person;toothbrush,0.9254;0.6781;0.6067,lipsticks
+dataset/raw/lipstick/lipstick_20.jpg,R NEMMRFVLSJ NEW| SUEDE 'EOLORSTIK ТматАчтмыгичнови-Арноу IAacEtGq,person;bottle,0.8871;0.4774,lipsticks
+dataset/raw/lipstick/lipstick_21.jpg,Toss-upl Its fun juEgle Jou₽' colors tuith +алт,person,0.9443,lipsticks
+dataset/raw/lipstick/lipstick_22.jpg,зплcLnm Dtur dix sфоцт Lips arid Christian Dior Jugcrttp *,person;book,0.8965;0.4885,lipsticks
+dataset/raw/lipstick/lipstick_23.jpg,BR Lipstick Ш и 1oURя LJcLs [eowy,person,0.6441,lipsticks
+dataset/raw/lipstick/lipstick_24.jpg,3 Cobr Ia} LAKME Wilis Bej @ie 'RUST VINTAGE ! NeN LAKME 1e,cup;laptop,0.5393;0.4593,lipsticks
+dataset/raw/lipstick/lipstick_25.jpg,Ж) {hilng  Gvcrg ELD Jothert [adesc,person;toothbrush,0.7948;0.4619,lipsticks
+dataset/raw/lipstick/lipstick_26.jpg,{lilЕlb ICGZ UP,,,lipsticks
+dataset/raw/lipstick/lipstick_27.jpg,pоыI FITME,person,0.7066,lipsticks
+dataset/raw/lipstick/lipstick_28.jpg,~ANNLL,tie,0.4533,lipsticks
+dataset/raw/lipstick/lipstick_29.jpg,"1 ""eies 78 g чaЗeн",person,0.8409,lipsticks
+dataset/raw/lipstick/lipstick_30.jpg,,,,lipsticks
+dataset/raw/lipstick/lipstick_31.jpg,COSMETIC shutterstock com 503188240,,,lipsticks
+dataset/raw/lipstick/lipstick_32.jpg,5 Cherrg # (ipotick NEW ' Iun = U₽hр 71₽vtomML g < ROUGE,toothbrush,0.6098,lipsticks
+dataset/raw/lipstick/lipstick_33.jpg,Almays new Hush Shades are to shout fomeabong,person,0.4130,lipsticks
+dataset/raw/lipstick/lipstick_34.jpg,LIPSTICK SHLE ~РГADIаа COSMsTIcS SHIF 50% UFF Выш нааЕ [FSIIKSAE aUЧ UfF ЕFЫПа,scissors;scissors,0.6076;0.4063,lipsticks
+dataset/raw/lipstick/lipstick_35.jpg,"Vour LOGO M(ipstck 1 NO,01 NO0? 1 M0,03 NO,04",toothbrush;remote;remote;toothbrush,0.6656;0.6185;0.5654;0.5228,lipsticks
+dataset/raw/lipstick/lipstick_36.jpg,"molke Up ""banne Tllobe Up 'Waier) mlolhe Up bamпг)",knife;knife,0.7387;0.6815,lipsticks
+dataset/raw/lipstick/lipstick_37.jpg,Vaur LOGO [(iprhck ig life every Company Contect color,,,lipsticks
+dataset/raw/lipstick/lipstick_38.jpg,BRAND COSNLEC a 8,toothbrush,0.3682,lipsticks
+dataset/raw/lipstick/lipstick_39.jpg,"Vour LOGO Matt CiPstick .:с;оъсъ 1, 0 ,1рра шa |:ъ 1 отааtou ~еnc Camramy Cаmett shutterstock com 2011274486 1m",book,0.7292,lipsticks
+dataset/raw/lipstick/lipstick_40.jpg,BRAND NAME @OSMEIIGO 8 pixtastock com 74490231,toothbrush,0.5046,lipsticks
+dataset/raw/lipstick/lipstick_41.jpg,TODAY ONLY LIPSTICK URTU 30% aFF { GEAD HORE shutterstack_cam - 665793205,knife,0.4401,lipsticks
+dataset/raw/lipstick/lipstick_42.jpg,"Sol ""50%с shutterstock com 1476835208",,,lipsticks
+dataset/raw/lipstick/lipstick_43.jpg,Ialca 1] Qoлmetic qew wintow NEW ARRIVALS PALETTES 74,,,lipsticks
+dataset/raw/lipstick/lipstick_44.jpg,{L'I 'ticFoHTfeUp; Cosmetics For shutterstock com 379168072,toothbrush;toothbrush;skis,0.5790;0.4352;0.4134,lipsticks
+dataset/raw/lipstick/lipstick_45.jpg,shutterstock com 1681539142,cup;toothbrush,0.8663;0.3661,lipsticks
+dataset/raw/lipstick/lipstick_46.jpg,EF аF COS MIETCs FOR UF5 [ииit shutterstock com 275646899,vase,0.6517,lipsticks
+dataset/raw/lipstick/lipstick_47.jpg,#u-U ( (hoк shutterstock com 1259540821,scissors;scissors,0.3961;0.3620,lipsticks
+dataset/raw/lipstick/lipstick_48.jpg,Cosmetics Cosmetics Jaт Lips Jar Lips shutterstock com 271324451,,,lipsticks
+dataset/raw/lipstick/lipstick_49.jpg,BEAUTY STORE makeup / cosmetics / style shutterstock com 1086930476,,,lipsticks
+dataset/raw/lipstick/lipstick_50.jpg,GUo CЗt cEAUTIFUL,,,lipsticks
+dataset/raw/lipstick/lipstick_51.jpg,IRRESISTIBLE GLAZED LIPS <уныгаевомэмэякь LINEIGE Taa |1 155,carrot,0.3540,lipsticks
+dataset/raw/lipstick/lipstick_52.jpg,ТИM In Xlx(u [фЯё ЮЛЕlа #iXlls,,,lipsticks
+dataset/raw/lipstick/lipstick_53.jpg,H KSRION #ruutyl иевдара щъпин atli%h shutterstock com 685683118,,,lipsticks
+dataset/raw/lipstick/lipstick_54.jpg,,bottle;bottle;cup,0.7303;0.5663;0.5189,lipsticks
+dataset/raw/lipstick/lipstick_55.jpg,(ly 10% '[cduck shutterstock com 278408900 oiйч(,,,lipsticks
+dataset/raw/lipstick/lipstick_56.jpg,Cosmetics for Lips shutterstock com 275602037,vase;vase;vase;vase;vase,0.9045;0.8323;0.6111;0.5756;0.4154,lipsticks
+dataset/raw/lipstick/lipstick_57.jpg,Otl; 400% oviginal [ucdutch shutterstock com 275657099,,,lipsticks
+dataset/raw/notebook/notebook_01.jpg,ОFЩLGр51я70а 25.000 EGP EuNo 1aе] + Ю77Р +л UсплымналатуовпрЫl aU:d сrmлъи: а;/_,laptop;laptop,0.9066;0.3510,notebooks
+dataset/raw/notebook/notebook_02.jpg,Flipl HONOR MagicBook 15 POWERFUL COMРАCТ India's 1st Laptop with 4 Breakthrough Innovation Flnt Ennemprint FщLчыашл шнеан Ыna,laptop;laptop,0.9509;0.5771,notebooks
+dataset/raw/notebook/notebook_03.jpg,clogo 50% ЕшIF кам Iинамот IWcLtPAn SALE] МЕGА,laptop,0.9290,notebooks
+dataset/raw/notebook/notebook_04.jpg,птвномжо_сп macrU; Saum__uuoloTuch ЕжLисолсссcт th Ctn шwOpctmoazcur 351гд PROCESSOR Juuiumшaна 'иен ALL INONE LAPTOP Dimensions and wcight #аh_аопаисе ШEdhнUmт (06 1):!ccn: 21 mn (яa] Ечастсклитатапэнпс паллтълатусашанном,laptop,0.6760,notebooks
+dataset/raw/notebook/notebook_05.jpg,[[ДЕл#,cup;spoon;book;knife;book,0.9068;0.8667;0.8163;0.6799;0.6239,notebooks
+dataset/raw/notebook/notebook_06.jpg,THE SKY S THE LMII,laptop,0.9329,notebooks
+dataset/raw/notebook/notebook_07.jpg,The MACDONALD NOTEBOOK Connect With The Movers & Shakers of Nova Scotia Business LEARN MORE Proudly Camadian Nova Scotia Owned Operated,,,notebooks
+dataset/raw/notebook/notebook_08.jpg,х25 INTEL COR Ilth Gen 15-113567 Processor DelV XPS 13 9305,laptop,0.9424,notebooks
+dataset/raw/notebook/notebook_09.jpg,ShMSUIG Samsung Motehook Pen $ Gore 17 N1g30she-К71ба SSD 256uh 13.3 Notaba daueus DuNwEakuela gа 9 Irem !yes 'амон J5лt an ! . Whgnшeuа d!; lUrna пIg h! nllыгаal diuutuunAleou ЕгougnLнeue Cllnlunr ныtыM ыгогча wtsoatunhlcъсuuult daoc Jutour aaas 4olejlggocduamgon Ileaulenъ,laptop,0.8820,notebooks
+dataset/raw/notebook/notebook_10.jpg,тERRAalTE HIGH GRAPHICS LAPTOP,laptop,0.9052,notebooks
+dataset/raw/notebook/notebook_11.jpg,EDUMATE Лэн,person;dining table;cake,0.9356;0.4602;0.3915,notebooks
+dataset/raw/notebook/notebook_12.jpg,OFFICE,book;book,0.7506;0.6644,notebooks
+dataset/raw/notebook/notebook_13.jpg,,refrigerator,0.3652,notebooks
+dataset/raw/notebook/notebook_14.jpg,,laptop;laptop;laptop;book,0.9137;0.5187;0.4490;0.3557,notebooks
+dataset/raw/notebook/notebook_15.jpg,Lenovo,laptop;kite;cat,0.9123;0.5143;0.3950,notebooks
+dataset/raw/notebook/notebook_16.jpg,,laptop,0.9530,notebooks
+dataset/raw/notebook/notebook_17.jpg,"Natebaak DSLLG15 &аваgaq 'alraia ""зылз",laptop;keyboard;cell phone;laptop,0.9019;0.8295;0.5035;0.4940,notebooks
+dataset/raw/notebook/notebook_18.jpg,shutterstock comn 2452667171,,,notebooks
+dataset/raw/notebook/notebook_19.jpg,treatinty ENLPE5 ADVERTISING 222)> СОГЪЛU R ratica 2} [aГqст marteunn tгd-mын,clock;clock,0.6753;0.3636,notebooks
+dataset/raw/notebook/notebook_20.jpg,,,,notebooks
+dataset/raw/notebook/notebook_21.jpg,,,,notebooks
+dataset/raw/notebook/notebook_22.jpg,"Giuua 5uJт Biggep' = Егя ген Faыт""i] Fаз Evc laplcp rurchasu 30% 7Ecrsnnrsaleh mousc, laptEp Бig; anu mninn OFF аula",laptop,0.9683,notebooks
+dataset/raw/notebook/notebook_23.jpg,"БГЕLIГЕНЕПN штаинн ПЕ!хрgIз 'ывтсс Пот197,о5о кннинншн WFFRKIIEЛIS 2555B Шамтв IIF AIG",laptop;laptop;laptop;laptop;tv,0.8676;0.8668;0.7934;0.5313;0.4516,notebooks
+dataset/raw/notebook/notebook_24.jpg,Maciiu suu МАСТООКARN мАсвоСRAnwM? 1 Faaajanl Fa2s Sgmt supe; uiduztw Cтdcr нawи н; - аы Ры 1= 9  Ши-CD et siju мисвоOК MACBOOКFRO n 1r| Cailosir: 521lee00 Super Q1dcr Haw Qidu How 1 Еы BUDAY OFFER GPEACIALC SUA GPEACIALOE,tv;laptop,0.7824;0.5557,notebooks
+dataset/raw/notebook/notebook_25.jpg,"шпъштIм= LREM IPSU LAPTOPS 60% КLЛТ ""GUY NCw 123 456-7890 Фтты_т еа ъ",laptop,0.9488,notebooks
+dataset/raw/notebook/notebook_26.jpg,Laptop Series ЧFTuг егЕеIЕШа 'ЕЛаТ1 PRaautt аишневв,laptop,0.9491,notebooks
+dataset/raw/notebook/notebook_27.jpg,Mi Natebaak танагевпЕ_tЕл | Шaн [ul BDT 55000 SOCIAL ШЕIDА BANNER SIZE НЛБЗ-VЧDSNNEE COLOR MODE [РЕE UFВ CDLDR FONT FAMILY ЧЕЕ}FНЕЕ FuII Еышшап аn2 =ет,laptop,0.9339,notebooks
+dataset/raw/notebook/notebook_28.jpg,"&N m W Notebook PberBanneR aDD ant CIIPalt anD fonlt to cleate a BanneQl Kll (rukulk {ichidtt Julctcu, Eu:о NIM",,,notebooks
+dataset/raw/notebook/notebook_29.jpg,FREE CLASSROOM BANNER EDTTADLE NOTBOOK PAPER BANNER W 0,,,notebooks
+dataset/raw/notebook/notebook_30.jpg,"[UNIINGMNNAIBANIR NOTEBOOK PAPER I] CRAYONS CRAYONS   ШШfMIШLII""",,,notebooks
+dataset/raw/notebook/notebook_31.jpg,(onnсяz } Ilet+ 1 5 2,,,notebooks
+dataset/raw/notebook/notebook_32.jpg,,,,notebooks
+dataset/raw/notebook/notebook_33.jpg,,,,notebooks
+dataset/raw/notebook/notebook_34.jpg,,,,notebooks
+dataset/raw/notebook/notebook_35.jpg,shutterstock com 411529975,,,notebooks
+dataset/raw/notebook/notebook_36.jpg,,,,notebooks
+dataset/raw/notebook/notebook_37.jpg,shutterstock com 412137073,,,notebooks
+dataset/raw/notebook/notebook_38.jpg,,,,notebooks
+dataset/raw/notebook/notebook_39.jpg,"#ouq] Create YoureanneR) Frda fant 5ie опал Ler ] ;uggar vmacrw (ons {гоm пubuna AhmItnэp саian cir Caro (arroi Wau саn {rd Ieir 'anli on ЕЯ@uДИУ eadlsri FU ванlsr; tGBlrl $pace Stelek &h G Space cawlo_Idig 10 tol, чЧаш!Eа |алоsр Тег Fешв Iа7 a tnY; tor аn ralm:t Ibm Glre/ Тантгу; сасr marozwant vaUTACut Tа сreale Аатагеза! 'Jw I паъ : ШЪБП 1U 5 Lа_ gаud lal {rit <iaatыэнаш <niса <ыlс Next C OOг woJr 71,ъгъаи 'СпСd ТаБr1 Il 9чa Hыterrledl  гацтга ] cl Isаus flk ДоariolalL_ NoJ uill m69d 10 Ud6) Niw WP (omt иъ4 <alr ""ra Nllaю скаn₽ 49 lap 5 'тЕсакаетагетл касг Wal #+",,,notebooks
+dataset/raw/notebook/notebook_40.jpg,shutterstock com 411343405,refrigerator,0.4345,notebooks
+dataset/raw/notebook/notebook_41.jpg,shutterstock com 400043656,,,notebooks
+dataset/raw/notebook/notebook_42.jpg,"+ qinet SCHSor ВА(Kъ [(iool [E*N& (OH щиныш BHul"")HOM onaжdby 1  . Suid +",,,notebooks
+dataset/raw/notebook/notebook_43.jpg,shutterstock com 400043662,oven,0.6982,notebooks
+dataset/raw/notebook/notebook_44.jpg,WELCOME ВAСК bulletix boaxd bamews UUCWWU [UUUW Ist 2 versions in 2 sizes,,,notebooks
+dataset/raw/notebook/notebook_45.jpg,shutterstock com 403993174,,,notebooks
+dataset/raw/perfume/perfume_01.jpg,Ccoco тнем CHANEL,,,perfumes
+dataset/raw/perfume/perfume_02.jpg,В L А С K 0 ₽ | U M Е А U D Е ₽ А R F U М 0 V Е ₽ R Е D BLACK OPIUM Пъулиъа т,,,perfumes
+dataset/raw/perfume/perfume_03.jpg,VICTORIAS SECRET VIrfagly: камBs61,,,perfumes
+dataset/raw/perfume/perfume_04.jpg,{бж Yъны CEl guitg (uuture Kov,vase,0.6919,perfumes
+dataset/raw/perfume/perfume_05.jpg,Modern Muse LE ROUGE Ва Dam Въannagiralla '9B5Eм LItЕа,person,0.9464,perfumes
+dataset/raw/perfume/perfume_06.jpg,"ES S E N C Е SACURA BLossOM Lorem ipsum Lorem ipsum dolor sit amet consectetuer S A С U R A adlpiscing elit; sed diam nonummy nibh CHERRY BLOSSOM euismod laoreet dolore magna aliquam Lorem ipsum Lorem psum dolor sit amet; consectetuer adipiscing elit sed diam nonummy nibh 111|566 Laareet 66161 magna aliquam 3 BRAND 5 4 PLF ТFXТ ё PARFUME 2 Lorem ipsum ""  8 "" "" "" "" 8 "" "" i 8} 6 a",,,perfumes
+dataset/raw/perfume/perfume_07.jpg,HLEU CHANEL L U X U R Y [ ₽ F 9 =,,,perfumes
+dataset/raw/perfume/perfume_08.jpg,Dicъ ns ы12ыакр,person,0.8668,perfumes
+dataset/raw/perfume/perfume_09.jpg,[ХРЕQЕП@E IlE INIESIY SAAIAL RONL 1 УиОL емы,vase,0.8027,perfumes
+dataset/raw/perfume/perfume_10.jpg,MUGLER,person,0.7148,perfumes
+dataset/raw/perfume/perfume_11.jpg,Zжж( Kсвe L &a&a С (исоо BRAND pnoiree Priree,,,perfumes
+dataset/raw/perfume/perfume_12.jpg,BRAN Феd,vase,0.9272,perfumes
+dataset/raw/perfume/perfume_13.jpg,"ЕкiнIg] BLUE пАЦS,АN",bottle,0.7031,perfumes
+dataset/raw/perfume/perfume_14.jpg,Night lotus Perfume I a Ln L,,,perfumes
+dataset/raw/perfume/perfume_15.jpg,~PERFU МЕТЖ PFRFU MF # % ill # Ni %# I1 #,,,perfumes
+dataset/raw/perfume/perfume_16.jpg,FA~HSN 7ЖШТЫШ РЕRFUME 1,,,perfumes
+dataset/raw/perfume/perfume_17.jpg,JШl GDlTDRF 9ч unau,person,0.8829,perfumes
+dataset/raw/perfume/perfume_18.jpg,В E A UTY # Ж % ili Wf ж 4l] 15141еА А 5ПgISCoLIN7,vase,0.8108,perfumes
+dataset/raw/perfume/perfume_19.jpg,(okyt 'rыта]туг Zaк хэс;# хопхызорб oIVE N C H,person,0.9378,perfumes
+dataset/raw/perfume/perfume_20.jpg,FIND YOUR PERFECT SCENT,bottle;bottle;bottle,0.7774;0.6425;0.3791,perfumes
+dataset/raw/perfume/perfume_21.jpg,PRADA PARADOXE :,person,0.9523,perfumes
+dataset/raw/perfume/perfume_22.jpg,YYONDERS TRUCK Utun n 7i; #S#,person;vase,0.7127;0.4587,perfumes
+dataset/raw/perfume/perfume_23.jpg,ЕногЕ,cell phone,0.8101,perfumes
+dataset/raw/perfume/perfume_24.jpg,GOOD FORTUNE Gaf € VIKTOR@ROLF,person,0.9234,perfumes
+dataset/raw/perfume/perfume_25.jpg,Not everything that glitters iS yсt,,,perfumes
+dataset/raw/perfume/perfume_26.jpg,,bottle,0.5525,perfumes
+dataset/raw/perfume/perfume_27.jpg,go OSdulee collection Иnad UrLнил Рua,bottle,0.3936,perfumes
+dataset/raw/perfume/perfume_28.jpg,JwrIиn FEЁ Knn] 51r[ Lnntlra 1l,bottle;person;tv,0.7752;0.7726;0.3966,perfumes
+dataset/raw/perfume/perfume_29.jpg,BOSS THE SCENT,person;person;bottle,0.9428;0.8775;0.6711,perfumes
+dataset/raw/perfume/perfume_30.jpg,PPOWERADSPY How to Make Your Perfume Ads Stand Out?,vase,0.6194,perfumes
+dataset/raw/perfume/perfume_31.jpg,ACOSTE [uulge - IGlanq NAcOsIE Ёлa,person;mouse,0.9525;0.4715,perfumes
+dataset/raw/perfume/perfume_32.jpg,Perfumes With Glow ЭexFm sloganshub org,,,perfumes
+dataset/raw/perfume/perfume_33.jpg,No 5 INEVITAgLE CHA NEL,person;cell phone,0.9451;0.7268,perfumes
+dataset/raw/perfume/perfume_34.jpg,BLACK OPIUM Кв{тхитхт,person;laptop,0.5927;0.5867,perfumes
+dataset/raw/perfume/perfume_35.jpg,"FRAGRANCE SALE UP TO 50% shop now 0t IMAGE ID: 2147941849 shutterstsck wwWu shutterstock com hlUe ""   Nujtter Biaslhol Mals [ 1",cell phone,0.6856,perfumes
+dataset/raw/perfume/perfume_36.jpg,ХХOMH  Fе BRAND FLO EILBLSSOM,vase,0.4106,perfumes
+dataset/raw/perfume/perfume_37.jpg,FRAGRANCE cuэw' 1 АУ?рЕ PERFUME Quяоca: Ut АЛ catr 11 ; RESD SFE Кыы caic Luт =,sports ball;sports ball;cell phone,0.8340;0.7623;0.4110,perfumes
+dataset/raw/perfume/perfume_38.jpg,BR AIN FAsHION STTLE,bottle,0.5109,perfumes
+dataset/raw/perfume/perfume_39.jpg,ШН ТРНБНДНС[ Жаr Fаgcоurto snutteistuck-tum 1313917178 Тwur,,,perfumes
+dataset/raw/perfume/perfume_40.jpg,ПАСЕопаиЕшВЕш Specicl ZwEasb Умorrat,vase,0.3920,perfumes
+dataset/raw/perfume/perfume_41.jpg,"~bое yocoeф ""1 HЕ MOST ROM AATIC Р E R F U M Е FRAGRANCEs ал AL L TIMЕ BR AND ₽Е R EULM E @i Idepositphotos Image ID: 313842786 WWW:depositphotos com @ Ssitphloto dep",,,perfumes
+dataset/raw/perfume/perfume_42.jpg,PERFUME 'Iuek кouttal dcutt Z3 Унжкtr NEW,,,perfumes
+dataset/raw/perfume/perfume_43.jpg,&ww de (Pexfune FRAGRANCE Trie Шar Чп пц,bottle;vase;bottle;vase;vase,0.7336;0.6698;0.5067;0.4475;0.3693,perfumes
+dataset/raw/perfume/perfume_44.jpg,ahm й alamy ZERJDKK,,,perfumes
+dataset/raw/perfume/perfume_45.jpg,Р Е R F U М Е,bottle,0.4625,perfumes
+dataset/raw/perfume/perfume_46.jpg,Ы5 PREMIUM PEREUME,vase,0.4947,perfumes
+dataset/raw/perfume/perfume_47.jpg,SALE oiwmer Cosmetics BRAND GAEPIAV BRAND (СНEFFY,book;apple,0.3872;0.3599,perfumes
+dataset/raw/perfume/perfume_48.jpg,БFND]E P ER FU ME shutterstock com 2157821023,,,perfumes
+dataset/raw/perfume/perfume_49.jpg,JIMMY CHOO PERFUME J~Па PRELIUM РЕRRLIE GENTIEMAN FRAGRANCE,bottle;bottle,0.6964;0.4685,perfumes
+dataset/raw/perfume/perfume_50.jpg,Perfume 1m Fragrance Еиа],sports ball,0.7291,perfumes
+dataset/raw/perfume/perfume_51.jpg,"CCSMETIC DESIGN Fboer (wriсe ""shutterstock com 1439689511",,,perfumes
+dataset/raw/perfume/perfume_52.jpg,СВКЕМ М KR;ND natuire Aroma Powine ОПНLЕGT7 | 15 1 pngiree pngtiee pngtiee 8,vase,0.6224,perfumes
+dataset/raw/perfume/perfume_53.jpg,",| DBSIGN PREIIU BRAN)",vase,0.6151,perfumes
+dataset/raw/perfume/perfume_54.jpg,аRАко 0Айe PLANT PERFUME номмв loLLuc пом тnoc,,,perfumes
+dataset/raw/perfume/perfume_55.jpg,Pertumes,sports ball;sports ball;sports ball;bottle;bottle,0.7496;0.7469;0.6747;0.5372;0.3635,perfumes
+dataset/raw/phone/phone_01.jpg,SIMSUNG Summer Surprise вза-sшa Ыartphorrera qerta claanceroun duazha nizes Wuwocr Prize Меgа Fпzг уив ~ъL,,,phones
+dataset/raw/phone/phone_02.jpg,vivo атавсв tec@ ЕxEеtтeпсе technulagy Y5О Ultra Speed; Ultra Stgle 5OOOmAh iView Displag NOW AVAILABLE AT 5 tec@ 8 CPU FHD + 8GB+128GB/ Qualcom 5000 mAh Batlery Super Wide angle Ultra Screen 6GB+12BGB Snapdragon 665 Quad Camcra wwww tecq in [tecqonline +91 9895 73 1111,cell phone;sports ball;remote,0.6509;0.4240;0.3718,phones
+dataset/raw/phone/phone_03.jpg,"еиzши СГОЕЩ,П ВT БFTE1? FFD отшод! очиШыг wыщ;а ""о;ц",refrigerator,0.3888,phones
+dataset/raw/phone/phone_04.jpg,Smasphone Adsttar Saical MMledH гсc пе оppc Tн дhJ:o Rulnca Pta,microwave;cell phone,0.7849;0.5961,phones
+dataset/raw/phone/phone_05.jpg,Transform the wayyou connect: dewee designed tor thв modem wrorld:,cell phone,0.5547,phones
+dataset/raw/phone/phone_06.jpg,REALME C67 REиECэ шт REUVE FEALME C5S RеA!~ = CsU,,,phones
+dataset/raw/phone/phone_07.jpg,ealme larzo pro DOKNGhOV iopping start now 3 2,,,phones
+dataset/raw/phone/phone_08.jpg,Rollup Banner SMART LAYER FINE ш FaNт аs= FRINT В=щ Смшk snutteislucK-tam 2365574795,,,phones
+dataset/raw/phone/phone_09.jpg,шLиEL MirrMln shutterstock com 2224261069,,,phones
+dataset/raw/phone/phone_10.jpg,realme 5 Рro Quad Camera Speedster,,,phones
+dataset/raw/phone/phone_11.jpg,(il REAINE REALME REAШME RЕNUME REAINE RFAINE,,,phones
+dataset/raw/phone/phone_12.jpg,realme 9i Batter OOmAh AL,cell phone,0.4715,phones
+dataset/raw/phone/phone_13.jpg,,person;cell phone;remote,0.8832;0.8558;0.7190,phones
+dataset/raw/phone/phone_14.jpg,DEVICE MOCKUP shutterstock com 2222440363,cell phone;cell phone,0.7318;0.4101,phones
+dataset/raw/phone/phone_15.jpg,,,,phones
+dataset/raw/phone/phone_16.jpg,Escapethe Ordinary: ASmartphone Bulit for the Extraordinary: SHOP NOW,,,phones
+dataset/raw/phone/phone_17.jpg,Redefine You 2 How Play:,cell phone;person,0.9355;0.7327,phones
+dataset/raw/phone/phone_18.jpg,Ier-law_m 1 DEVIGE MOGKUP shutterstock com 2223071691,,,phones
+dataset/raw/phone/phone_19.jpg,DEVICE MOCKUP L] Lт] shutterstock com 2222440351,keyboard;book,0.4029;0.3909,phones
+dataset/raw/phone/phone_20.jpg,TRANSFORM THE WAY YOU CONNECT: device designed fоr the modem warld: шннтонт,cell phone,0.8538,phones
+dataset/raw/phone/phone_21.jpg,,person;cell phone;remote,0.9383;0.5456;0.4188,phones
+dataset/raw/phone/phone_22.jpg,alamy - ZGPЧATE,cell phone,0.9292,phones
+dataset/raw/phone/phone_23.jpg,Drsign by All-trce-dawrha]cam,cell phone,0.4104,phones
+dataset/raw/phone/phone_24.jpg,"realme realme C250 713,980 мжлтье ео'н~атнат IURPLE снERл #Еш ~5B FoHERFU FFoCeSECR Бoo ~иннанавнтыр",person;book,0.6742;0.5126,phones
+dataset/raw/phone/phone_25.jpg,ВOOк shutteistack_com 2430762089,cell phone,0.8682,phones
+dataset/raw/phone/phone_26.jpg,Dare to Leap g reGlme,motorcycle,0.4633,phones
+dataset/raw/phone/phone_27.jpg,BRAA DNG,,,phones
+dataset/raw/phone/phone_28.jpg,EPt,,,phones
+dataset/raw/phone/phone_29.jpg,,person;person,0.8864;0.7999,phones
+dataset/raw/phone/phone_30.jpg,CNC,,,phones
+dataset/raw/phone/phone_31.jpg,DEVICE,cell phone;cell phone;cell phone;remote,0.6414;0.5454;0.4586;0.3965,phones
+dataset/raw/phone/phone_32.jpg,"""IsOUON Egungs",person;cell phone,0.8908;0.4531,phones
+dataset/raw/phone/phone_33.jpg,iphone 16 PRO MAX FaEtalс iphono 16 PRO MAX,,,phones
+dataset/raw/phone/phone_34.jpg,iPhone таLw,cell phone;cell phone,0.8222;0.7802,phones
+dataset/raw/phone/phone_35.jpg,iPHONE ПPHONE iPHONE Ртollax Ртоумы IPHONE [PHONE ЙРНONЕ Ртаlx Раlu,remote;remote;tv;book;remote,0.7005;0.6596;0.5742;0.5412;0.5355,phones
+dataset/raw/phone/phone_36.jpg,INTRODUCING THE ALL-NEW IPHONE! Inпovation аааъша  Ет Meels Perfection 5 шiшwui Fлeпапeeщт,,,phones
+dataset/raw/phone/phone_37.jpg,iPhont 15 SERIES APPLE IPHONE APаL E [PHCNЕ14 APPLEFHONEL [PHONE 15 PRO,cell phone,0.3508,phones
+dataset/raw/phone/phone_38.jpg,14 HANG ' ViPHONE PRC,,,phones
+dataset/raw/phone/phone_39.jpg,15 15 Ne jPhone  net iPhone 0e jPhone ` nrtk,cell phone;cell phone,0.6255;0.4243,phones
+dataset/raw/phone/phone_40.jpg,15 OFF ONE UNLEASHED TION 5Оо DAY ~SECOND THE,person,0.8392,phones
+dataset/raw/phone/phone_41.jpg,штматше шыmа  Телола  [Енпт птt шPIела 1р: о шuqc Етоламрон БлоL: шыmа Етотэн 5 шэ тын,,,phones
+dataset/raw/phone/phone_42.jpg,Expleie; Cieatu; Comktct OnlMithiDS} #HGКЕ ЮШи 16 Ironвы Шш_RIHI PpMиx,,,phones
+dataset/raw/phone/phone_43.jpg,вам н ПF IFINE 12 Fj ЗIЬUME 12 e& LIPAD РRO [ШНЕ22m] ОшШи,,,phones
+dataset/raw/phone/phone_44.jpg,15 Pro [Phone,remote,0.5407,phones
+dataset/raw/phone/phone_45.jpg,[Рhone iPhone 15 Enjoy your time with apple 15 QQfе азмэ WL8 ?миm (w) Жохэ-соrо 346 CJU Аюoм RmI  T Gnumlht,,,phones
+dataset/raw/phone/phone_46.jpg,"inhone]3 minl (56GB) R3.025,88 nlEachi dсskл",,,phones
+dataset/raw/phone/phone_47.jpg,ЕЕта  (daвш Gct In апд 7 butto {Рtолль !a lот9n 3349,,,phones
+dataset/raw/phone/phone_48.jpg,Capture See the Unseen estyle iPho Ieтш fdencc Реrtarm The Bold stuiining,remote;cell phone;person,0.6355;0.4437;0.4142,phones
+dataset/raw/phone/phone_49.jpg,Oveotwue Sociol 'Gpladin : leuigu АряIг Fhaaг аfo па Шлачп cclcr,cell phone,0.9520,phones
+dataset/raw/phone/phone_50.jpg,IPhone 16 Built for Apple Intelligence Jus: trom +79900o  62 2 month #pаle Infellgпсп сс :anina hnllcr Ihi; Yвar:,cell phone,0.8353,phones
+dataset/raw/phone/phone_51.jpg,'ING THE Perfection erience,,,phones
+dataset/raw/phone/phone_52.jpg,;Phone 15 Pro Academy Color Encoclng System Pro cameras Pro display ШьРhL ЫPiDEt Plcdlohntusl its  шшънатштыэнсглллаг Paesap #наагттткааптааатцеаырцъ таатынытататштттшшт LsaIn mатe,cell phone,0.6337,phones
+dataset/raw/phone/phone_53.jpg,Authorised Distributor Ayab Сопtcueri All Apple products are guaranteed by Arab Computers 2 2 Apple Authorized Distributor: SHOP NOW Warranty Months  Warranty : 2 9 Cотuтer 1 'oinqlisia `,remote;remote;cell phone;cell phone;remote,0.8579;0.7057;0.6702;0.5558;0.4916,phones
+dataset/raw/phone/phone_54.jpg,"iPhoneX [PHONEX APPLE CINZA ESPACIAL; 64GB DESBLOQWEADO - МQAС2 RS 224 95 ATEADXDERS 448,80 SEM JUROS",,,phones
+dataset/raw/phone/phone_55.jpg,"iPhone 11 Pro CAMERAS: PRO DISPLAY; PPla PERFORMANCE: БIнсн SUPER RETINA XDR OLED DISPLAY Startlng trom 99,9001",,,phones
+dataset/raw/shirt/shirt_01.jpg,'EU A SOCIAL РОSI EWFLATE NEW ARRIVAL т-ШШш UPTO 50% @FF репразоцван euunuc,person,0.9332,shirts
+dataset/raw/shirt/shirt_02.jpg,1 - [ШШШВ ШШШ QISII & IШ,person;snowboard,0.9473;0.4438,shirts
+dataset/raw/shirt/shirt_03.jpg,"Custom w Sъ # Ве51 , g [0ы",,,shirts
+dataset/raw/shirt/shirt_04.jpg,IMAGE NOT INCLUDED NEW T - s #RiVR т TEMPLAIE SOCIAL MEDIA нJSI ШРтл m 508 1]. ORGAWYEg шЕшоI 332 5 ад,,,shirts
+dataset/raw/shirt/shirt_05.jpg,"R Official T-shirt For Pentecost 9 o @ENTEC ST VUc e , Get a соpу for GHC 35.00 Ri For Purchase; contact Аbe(s (0203869015) 5 GHC MTN 35 CEDIs",person,0.5455,shirts
+dataset/raw/shirt/shirt_06.jpg,TRI COLORСОMBO PALL OFTHREI з799/- 1 ШИЯПЕ Eayuuna In,potted plant,0.6473,shirts
+dataset/raw/shirt/shirt_07.jpg,WE SPECIALZE CUsTEн SCHEFN FHINTED SCREEN #FPAFELANE FRINTED FКE GOODS T-SHIRTS (5309415-0299 тНе MaGreIRTs BEST CANaE FHINIED IKRCTSНQUT 199 T-SHIRT еи0 пчыn  FFRFFN #HILF FREE ADS? ESIITTESANL пЕс<аs silkshop Ж#Иmlю,,,shirts
+dataset/raw/shirt/shirt_08.jpg,ISHIIRL ВШ Л. EFN ВШШ !UЕIH ВШ !ШН IH@L SlURE FUNIRHISER SIURE FUNDRHISER {JП ШЯЖЛ 1l] 94Л-ZII ЕUm 'YURIЯSER NURE GImRE [SHIRI FUNDRHISER SiDRE 7u 51а7Ud,,,shirts
+dataset/raw/shirt/shirt_09.jpg,Tя-ШRт ШЕУЕЮ Wiil тенает T-CUНT,person,0.9143,shirts
+dataset/raw/shirt/shirt_10.jpg,"MIsL74 5D ЛНГДЕПНОЛАВЕ T-SHIRT [undisev s20 CencHni [""ШAm au%a тенрии7 GREAT GIFT [DEA' АП|4шт APRIL 15TH-MAY 9ТН sIIt5 AYAILABLE IN 7 SIZES: LnwiAll Jna; * аm тиншJaн шпфяг wk; Zuь catans ORPER ONLIКLL7 Н47 15UH хд HATCL SCHaoL catans FFJCHEUS HIL TUHLADS HEHCLLRIA CHLIRs еъtэЕанынт LUеЧ РЦAННЕНРАТРНПВТЛЫЦЕ ETSt-GuH",,,shirts
+dataset/raw/shirt/shirt_11.jpg,FINAL SALE BE QUICK IT I5 THE LAS CHANCE UEoOAR IMAGE 750 1006,,,shirts
+dataset/raw/shirt/shirt_12.jpg,"FunbxoURе Пм|, SITUATIoN CAN шъHle a-548-T0 45 7|4е-20  икиштштэ",book;book,0.7760;0.7278,shirts
+dataset/raw/shirt/shirt_13.jpg,,person;person;person;person;car,0.9411;0.8283;0.6594;0.6199;0.5461,shirts
+dataset/raw/shirt/shirt_14.jpg,Power House Health Club T-Shirt Ad,person,0.9611,shirts
+dataset/raw/shirt/shirt_15.jpg,Headline Sponsored . Pald fоr by Headline Shirts Rad! Its awkward gus Back-2-School tmпe Buy 2 Get Free ап ALL TEES AND SOCKS пом through miidnight Tuesdayl,,,shirts
+dataset/raw/shirt/shirt_16.jpg,Sarah James Martin BRIDGES AfSOiFEY SHERIFF?,person;person,0.9629;0.9579,shirts
+dataset/raw/shirt/shirt_17.jpg,,person;person,0.9142;0.8491,shirts
+dataset/raw/shirt/shirt_18.jpg,Plain-Iee,tv;suitcase,0.6125;0.5305,shirts
+dataset/raw/shirt/shirt_19.jpg,ЕМЦПТНЕК РAEI UНЦНЧН ZaDMEnS GEN-Z,,,shirts
+dataset/raw/shirt/shirt_20.jpg,#ADE COPYCAIS KILL MV VIBE MY {uwted Tune Ollcl USA- [51g95 - ё COPVCATS KILL VIBE,remote,0.3739,shirts
+dataset/raw/shirt/shirt_21.jpg,TShint Academy Create Virall videos loops,,,shirts
+dataset/raw/shirt/shirt_22.jpg,TShint Academy Yourwebsiteis yourcastlel,,,shirts
+dataset/raw/shirt/shirt_23.jpg,NEW T-SHIRT AVAILABLE,,,shirts
+dataset/raw/shirt/shirt_24.jpg,Learn how Merch Research is REALLY done: СLICK TO CETTHE PDF THHEUOJKFRIPOR,,,shirts
+dataset/raw/shirt/shirt_25.jpg,,laptop;person;person,0.7548;0.7430;0.6449,shirts
+dataset/raw/shirt/shirt_26.jpg,Got no time for proper Research? HIldo it foryou: And teach you more: CLICK & START FOR FREE T# nhLOnK Ifочт `,,,shirts
+dataset/raw/shirt/shirt_27.jpg,DAIL {sik STYLE SHOR NOW,person,0.9525,shirts
+dataset/raw/shirt/shirt_28.jpg,Z5e <h &a & Оrf Polo T-shint Bamner n rъanaaa YRT FAI HIION,,,shirts
+dataset/raw/shirt/shirt_29.jpg,"ткнх SUMMiER VIHES SABR mRIIRМП""",,,shirts
+dataset/raw/shirt/shirt_30.jpg,Neu Arrival T-SHIRT 50% ~ир,person;tv,0.9421;0.3977,shirts
+dataset/raw/shirt/shirt_31.jpg,NEW RANDING FASHION OVER 50% OFF ON ALL COLLECTION еlаnNm ouhhe paldro ф Enira HOP NOW тиъл trencs com Juvs,person;kite,0.9219;0.5011,shirts
+dataset/raw/shirt/shirt_32.jpg,IMAGE NOT INCLUDED Lucn NEW ARRIVAL T-SHIRT LIMITED COLLECTION UPw 50% 5174ш 'р таатанавтт шди,clock,0.4001,shirts
+dataset/raw/shirt/shirt_33.jpg,SUPER SALE 5 CET 1О  аFF : THE ZND ITEM SUPER SALE FETIDZLOFF THE 2ND ITEM Тгадын,book,0.6741,shirts
+dataset/raw/shirt/shirt_34.jpg,Look better Sll RTS FEFLIFEKD ВШШ Comfort cHOOSESS выг Look bctter Sfl,,,shirts
+dataset/raw/shirt/shirt_35.jpg,Шilum,person;person;person,0.6131;0.5399;0.4230,shirts
+dataset/raw/shirt/shirt_36.jpg,CETIU# OFF THE ZND IТEM акаунта SPECIALOFFER OFF 5 x е,,,shirts
+dataset/raw/shirt/shirt_37.jpg,CROCODILE MENS POLO T-SHIRT SIZE QMАЕF AL сопон 399,person,0.8845,shirts
+dataset/raw/shirt/shirt_38.jpg,"QaSllWlear"" LAST CHANCE SALE",,,shirts
+dataset/raw/shirt/shirt_39.jpg,FASHION STORE,person;person;person;handbag;person,0.7070;0.6586;0.6442;0.5940;0.5408,shirts
+dataset/raw/shirt/shirt_40.jpg,"TSHIRT ADS DESIGN EXPRESS YOURSFLF Еыеанъаыеев DDFI Шq Енu , 7ЕVLu",cell phone;person;person;person,0.8689;0.4457;0.3548;0.3536,shirts
+dataset/raw/shirt/shirt_41.jpg,"Ncw slyc COLLECTION Exc lu Ivw Fuslulan Wuл, Tнlwzutасыш",person;person,0.8927;0.4782,shirts
+dataset/raw/shirt/shirt_42.jpg,THANIGXOU SUSTAINClBting 4rew] FLANET BlliiR 100% 608,person;person;person;person;person,0.9288;0.8827;0.8814;0.8706;0.8532,shirts
+dataset/raw/shirt/shirt_43.jpg,А~'Он @fis DSIQAGiinl тыэм WEBGEBAIIR Iest or,person,0.8867,shirts
+dataset/raw/shirt/shirt_44.jpg,0,person,0.5278,shirts
+dataset/raw/shoes/shoes_01.jpg,WQRLпя #Ш₽II Ш $ H 0 ₽ # 0 W EXCLUS I  Е COLLECTION SNEAKERS BlGSПLE DISCOUNT 503 OFF Lamlar [lesauadtI]шdd: ndчu Jaewuana вшвынъ 00оо Шсqr 4lhe= durnaad cm,book,0.4338,shoes
+dataset/raw/shoes/shoes_02.jpg,NIKE JПTme,,,shoes
+dataset/raw/shoes/shoes_03.jpg,IS,,,shoes
+dataset/raw/shoes/shoes_04.jpg,"5Tl@IБ =1 обо 153 ""1D S1 ""nu[kg TE АКкатчь шъан ~шан IUr zэн IKESYUU I0HEXILEVEL 36о 725",person,0.4469,shoes
+dataset/raw/shoes/shoes_05.jpg,LOGO GET 2 +012 345 6789 WWWWEBSITECOM ARRIVAL NEW SIEHEIiS OFFER BEST TODAY'S 'UPTO 25% OFF,,,shoes
+dataset/raw/shoes/shoes_06.jpg,timeto change up @RING IN YUUR OLD SHDEs ANL GET CASH OFFUOUF NEШ PAF DF ADIDAS атbs,,,shoes
+dataset/raw/shoes/shoes_07.jpg,,person,0.6169,shoes
+dataset/raw/shoes/shoes_08.jpg,,,,shoes
+dataset/raw/shoes/shoes_09.jpg,AIR MAX { Е 57 NIKE AIR MAX 90 HV -GЗ 569 HV-G92 Nike Air,,,shoes
+dataset/raw/shoes/shoes_10.jpg,~ ~= # 1 итЛРХГ,traffic light,0.7702,shoes
+dataset/raw/shoes/shoes_11.jpg,SN ZRS NEAKERS (SNEAKERS SNEAKERS SNEAKERS  SNEAKERS SNEAKERS SNEAKERS SNEAKERS ENEAK SNEAKERS SNEAL,bottle,0.4744,shoes
+dataset/raw/shoes/shoes_12.jpg,AlR JORDAN 1zo9м COMFORT SE,,,shoes
+dataset/raw/shoes/shoes_13.jpg,,person,0.7306,shoes
+dataset/raw/shoes/shoes_14.jpg,mi aneakera FASHION SALE ROLL UP BANNER TEMPLATE wvьыъcъuutu,,,shoes
+dataset/raw/shoes/shoes_15.jpg,,,,shoes
+dataset/raw/shoes/shoes_16.jpg,"BRAND NAME SHOES Buu the COMFORT Jour FEET Deserv SAA UPTo 80% Dlcolju SHEP ""нам 3 123-456 7890 PRICE Еulэu- dzeln",,,shoes
+dataset/raw/shoes/shoes_17.jpg,БАNЦL^  Ilес SOCIAN MEDIA DESIGN вАгшш,,,shoes
+dataset/raw/shoes/shoes_18.jpg,IlIII JUST DO IT,scissors,0.7474,shoes
+dataset/raw/shoes/shoes_19.jpg,,person,0.9252,shoes
+dataset/raw/shoes/shoes_20.jpg,,boat;person;person,0.8401;0.5693;0.3834,shoes
+dataset/raw/shoes/shoes_21.jpg,"DESIGNEDANDCRAFIED BYSNANA STUD OS09028 NIKEXSACAIVAPORWAFFLEBABY BLUE sacai MKЕ SKYBLUEBABY_SKU 897228 IC€ SACAIXNIKEVAPORWAFFLE""BABYBLUE"" Nke Vaporwaffle has bean Iho suibject of world of Nike and Secai ca laborations far We have 20 seen lhem in green and yellowrindark tcnes in university colors and in greyatways duplicaling Ihe most 34 characterislic elements as a hallmaik of idenlity The Ihus",cake,0.3726,shoes
+dataset/raw/shoes/shoes_22.jpg,1а 15 Jим AMAZINGL FASH@N SALE SALE EoLtECTION ]ps  r. ЕыIlаVнЕ SPORT SHOES EEINLЧT AIR MAX BHIШNG,,,shoes
+dataset/raw/shoes/shoes_23.jpg,Jistamuun ~NEW ARRIVAL SNEAKERS @OLLEGIION Unns,cell phone;book,0.6308;0.4095,shoes
+dataset/raw/shoes/shoes_24.jpg,,person;snowboard,0.7072;0.3581,shoes
+dataset/raw/shoes/shoes_25.jpg,"NEIwWяш (""тЕ4Тд  SHOP NOW SHOco] Qaalos ONLY 25S m ~ Шааш Inlaen",tennis racket,0.4827,shoes
+dataset/raw/shoes/shoes_26.jpg,CAN тoucH тHIs! #siiia8 BЫmh BRIHISR KIHTS Ioot locker,,,shoes
+dataset/raw/shoes/shoes_27.jpg,,,,shoes
+dataset/raw/shoes/shoes_28.jpg,GLaSstAKTBOLCbS,,,shoes
+dataset/raw/shoes/shoes_29.jpg,FOOTWIARE KSWSS НЕАКЕН- SNEEKERS K-SWISS SNEAKERS SNLEALERS SNEAKERS,,,shoes
+dataset/raw/shoes/shoes_30.jpg,0 9 LOGO HE RE Exclusive Peals е]w! пdn иaуЕал,,,shoes
+dataset/raw/shoes/shoes_31.jpg,@ET STHRI SOGIml mSPIQ Auldas Stba [ESITES,cell phone,0.9489,shoes
+dataset/raw/shoes/shoes_32.jpg,snutteislucktam 2367877293,person,0.7955,shoes
+dataset/raw/shoes/shoes_33.jpg,HЖ?п ODAX7t >UHn ыСте? ?+асе7 LIVE,kite;person;person;person;kite,0.8313;0.8299;0.7934;0.6784;0.6712,shoes
+dataset/raw/shoes/shoes_34.jpg,(ЭЭ 1 REVNs 01 Т,book;person;person,0.6503;0.4824;0.4323,shoes
+dataset/raw/shoes/shoes_35.jpg,Lrted ЕThл [ШIШII[ ыn.,handbag,0.4572,shoes
+dataset/raw/shoes/shoes_36.jpg,NEW DFCICA 53 шишИоианепше OIRTY,,,shoes
+dataset/raw/shoes/shoes_37.jpg,"0 0 ()HER? ШЕШ ARRIVAL КШШШЬ SHDES ШSШП 5O%o LIMITED OFFER адвшиа 931 ncan 'ut дранчы;, 4 ;1105 ;р9ТЫ| IMAGE NOT INCLUDED",,,shoes
+dataset/raw/shoes/shoes_38.jpg,"@#а @ET 5,Л, 960 384 RNNINGB' Skбе  YoURS",,,shoes
+dataset/raw/shoes/shoes_39.jpg,RUNNING SHOES БО% 14e4 чатлл 0 шu WiewlSowы OHDER нaw SDGIAL MEDIА #wJzuibaчаl : SHIES QEJBЫNh-RTEWFLIE BANNER SIZE IOCO Y 2IС9 Pixls] #0d 12 4 ~Еяа,book,0.4449,shoes
+dataset/raw/shoes/shoes_40.jpg,RUN FlISIER ШО RUNNING,,,shoes
+dataset/raw/shoes/shoes_41.jpg,qаНЧЕР ТеМПLАТЕ READY FOR SPORT DYNAMIC,,,shoes
+dataset/raw/shoes/shoes_42.jpg,инъг Fns #NI1 ~arn HF5 coLLAEtaN SPORIS SHOES SALE FLAT 35% OFF ww cureld ra dвздп cал1,,,shoes
+dataset/raw/shoes/shoes_43.jpg,shutterstock com 2104078148,person;person;person,0.9568;0.8689;0.7925,shoes
+dataset/raw/shoes/shoes_44.jpg,RUNING SPORT Шuзшаош Gtoes,person,0.7636,shoes
+dataset/raw/shoes/shoes_45.jpg,shutterstock com 2110416239,,,shoes
+dataset/raw/shoes/shoes_46.jpg,"INIIE(UgJ 6 L=ст 6, shutterstock com 1105919801",person,0.5912,shoes
+dataset/raw/shoes/shoes_47.jpg,#шIUJJUPi,,,shoes
+dataset/raw/socks/socks_01.jpg,EverysoledeservesaMcGiegorsodk %4,tie;tie;tie;person;person,0.9510;0.8835;0.5616;0.5346;0.4295,socks
+dataset/raw/socks/socks_02.jpg,[hey slay by themseluesl ~nrtakinr Grip-tops 7l9 alamy JAYYFW Woley,,,socks
+dataset/raw/socks/socks_03.jpg,"SOCK sPecs пз "" 6j",person,0.7782,socks
+dataset/raw/socks/socks_04.jpg,ма авастаa тойет Влш иъ Lke Wolwy сяшue alamy - ZFZOMBM,,,socks
+dataset/raw/socks/socks_05.jpg,If Esquire Sucks over-tht-calf sfylesin basic black brow n orgrcy rn atnrtn dть;5 UHI UП; . inLgiпе what a little color wil] do; [qQUIRf Surxs,,,socks
+dataset/raw/socks/socks_06.jpg,~Imу =ыч5 911 ШП Inter,,,socks
+dataset/raw/socks/socks_07.jpg,MEN [IKE . goud liuks: яПd Ihe fine cunStmutiun 'ESQUIRE SOGKS! Eoul Smart Cnt,person;person;book,0.8917;0.6118;0.3980,socks
+dataset/raw/socks/socks_08.jpg,$н янр  14ua14э IATERWOLHN 8Зmtоir S KYcm,person;person;person,0.8995;0.7657;0.4522,socks
+dataset/raw/socks/socks_09.jpg,Soct тням= шну а+1 Еva a1agelu 91917tj щащэ Биаимыщэ ыан; 5нна штаолч w НАвэtаоскд eFu Цщр,tie,0.9634,socks
+dataset/raw/socks/socks_10.jpg,SOHS,person,0.8784,socks
+dataset/raw/socks/socks_11.jpg,SDBS ВИШПЕR #waiou,person,0.7109,socks
+dataset/raw/socks/socks_12.jpg,S0t N Il nшwu TOOTAL SOCKS,person,0.5687,socks
+dataset/raw/socks/socks_13.jpg,They just Wваг aud wean and wean tops alamy -JAYYPT [Wonam Grip-1,skateboard;skateboard;person,0.7477;0.5372;0.5288,socks
+dataset/raw/socks/socks_14.jpg,Lilc wasn'1 Fasy heIntenur Anustauc Flmnяsucks > wlu WыnAmt,person;book,0.9226;0.4643,socks
+dataset/raw/socks/socks_15.jpg,"С"" СЛiо Jif: Kъc ENDURANCE (ияf Saitrzs {hd4, Suli",horse;person;person,0.7735;0.5119;0.5050,socks
+dataset/raw/socks/socks_16.jpg,0 EvZL Czeizon THиLеы раеыач 6OLDTOE,person,0.8781,socks
+dataset/raw/socks/socks_17.jpg,"Warmiih , camfon amd luxuгу Freedum [rоm daring Ir hсг thuмиrla alamy J4YYFB 'imт Woulin Grip-iops шme",skateboard,0.5199,socks
+dataset/raw/socks/socks_18.jpg,LITTLER OF SEATTLE PRESFNTS VIYELLA SOCKS Ragular Ianath 51.75 Shart longth 51.50 WIYг/bвыk Erden I e2 GENTLEMENS AppARE L TWO STOREs таu4 JrvINTEEM UNION оцумиснотI SFATTI мА; Iнетан,person,0.6508,socks
+dataset/raw/socks/socks_19.jpg,БаШшазоциуgошЦdшёш Рептоmт whоlе Пmаge: IrsEd for 'GawimRmar; 2a maRmtn,person;person;person;baseball glove,0.9225;0.8101;0.7953;0.4194,socks
+dataset/raw/socks/socks_20.jpg,ViaE% 25 HILERRDDF,,,socks
+dataset/raw/socks/socks_21.jpg,,tv,0.7102,socks
+dataset/raw/socks/socks_22.jpg,Inter [wnven Surka HGHLsI Howокg ЕvЕкYWНЕкЕ,person;tie,0.7568;0.4966,socks
+dataset/raw/socks/socks_23.jpg,"Wlnnlng ururch mL, 31102 bhrьi5г3д a4t Т1нн 1",tv,0.5306,socks
+dataset/raw/socks/socks_24.jpg,Uгтиг 'лiи] m € uu Mnnm Сбu1,,,socks
+dataset/raw/socks/socks_25.jpg,косLз4; 00,person;chair,0.8999;0.5685,socks
+dataset/raw/socks/socks_26.jpg,SOGKS SLOGANS IDEAS Sloganshub org,,,socks
+dataset/raw/socks/socks_27.jpg,"BRIGHT SOCKS [arent ipslri dalor sil dnieц ЕЕыЛSиЪ ~dpsing Wiiank READ MORE FINE SOCKS [oreп IpsJa coersl amer consecEUI edLricia Vuaulks Tclis Аермо""е PAIR OF SOCKS Lnfтm ,пап RP consecteur  31p sriq 11шl11 15 READ MORE",toothbrush;toothbrush,0.4507;0.4420,socks
+dataset/raw/socks/socks_28.jpg,"EVERYDAY PAIR FINE SOCKS OF SOCKS SOCKS Lten tsumn Шшlнн [РЕLM ныпе 'ыnn Ipsum ame, cuigertelui :lipisc ПеL ШПЕe_eT ЯdlPiEL drnu [ Cunse tetur JdlaisL sliL vяплв rifelc Ing elt ""iamus ul tells: Inq eLiz ""wamnu; rnl telIs READ MORE READ MORE READ MORE",,,socks
+dataset/raw/socks/socks_29.jpg,CHRISTMAS SOCKS shutterstack_com - 2381889705,tie,0.4423,socks
+dataset/raw/socks/socks_30.jpg,Fmbrace your unic ueness,tie,0.3720,socks
+dataset/raw/socks/socks_31.jpg,"JО(КЯ ЮОР JD(Kf У(КУ ;i01 """" UlОР 5.ОР i40} ""C""",,,socks
+dataset/raw/socks/socks_32.jpg,gettyimages' Credit: myillo 165631237,,,socks
+dataset/raw/socks/socks_33.jpg,,tie;tie,0.3869;0.3568,socks
+dataset/raw/socks/socks_34.jpg,,,,socks
+dataset/raw/socks/socks_35.jpg,,,,socks
+dataset/raw/socks/socks_36.jpg,(hl alamy - ZPXZJER,,,socks
+dataset/raw/socks/socks_37.jpg,",5v шu",cell phone,0.4034,socks
+dataset/raw/socks/socks_38.jpg,shutterstock com 1037349148,tie;toothbrush;toothbrush,0.5232;0.4798;0.4316,socks
+dataset/raw/socks/socks_39.jpg,,,,socks
+dataset/raw/socks/socks_40.jpg,shutterstock com 1692560377,,,socks
+dataset/raw/socks/socks_41.jpg,WE U (ue,remote;snowboard,0.7280;0.4723,socks
+dataset/raw/socks/socks_42.jpg,FIXTA pixta jp 108030693,,,socks
+dataset/raw/socks/socks_43.jpg,IZzЪ [ДЪ7 shutterstock com 597342368,,,socks
+dataset/raw/socks/socks_44.jpg,{ft,,,socks
+dataset/raw/socks/socks_45.jpg,SALE 50 % Lorem ipsum dolor sit amet consectctur adipiscing shutterstock com 2162145171,,,socks
+dataset/raw/socks/socks_46.jpg,snutteislucK-tam 2342104725,kite,0.5538,socks
+dataset/raw/tie/tie_01.jpg,ГАА СТУК КААССИЧЕСКИЙ УНИСЕКС 48см ГОТОВЫЙ УЗЕА,tie,0.9408,ties
+dataset/raw/tie/tie_02.jpg,ГОТОВЫЙ УЗЕЛ РЕГУЛИРОВКА 3 ЗБснкнопе УИ ДЛЯ МАЛЬЧИКОВ ИДЕВОЧЕК,tie;tie;snowboard;person,0.9555;0.9016;0.5892;0.4076,ties
+dataset/raw/tie/tie_03.jpg,ГОШВЫЙ ЮЗЕЛ HE НУЖНО ЗАВЯЗЫВАТЬ РЕГЧЛИРЧЕВСЯ МОЛНИЕЙ ЛЕГКО НАДЕВАТЬ,tie;person;tie;person,0.9432;0.6102;0.4166;0.3543,ties
+dataset/raw/tie/tie_04.jpg,"ГАЛСТУК С РЕГУЛЯТОРОМ 0 ПРАКТИЧНЫЙ СОЧЕТАЕТСЯ С ЛЮБЫМ ВИДОМ И ЦВЕТОМ ОДЕЖДЫ ОУДОБНЫЙ HА ВЕРЕВОЧКЕ С РЕГУЛЯТОРОМ ДЛИНЫ- ЛЕГКО НАДЕВАТЬ ОКАЧЕСТВЕННЫЙ ИДЕАЛЬНО ПОШИТЫЕ ШВЫ, ТКАНЬ ПРЕМИУМ МАТЕРИАЛА 9 ""ИАьные Ё СФоРМИРОВАА УЖЕ",tie,0.9445,ties
+dataset/raw/tie/tie_05.jpg,"ГОТОВЫЙ УЗЕЛ УДОБНАЯ РЕГУЛИРОВКА ДЛИНА 42 сM о р6з 5 "" 'l stilmark @wuльный H&",tie;person,0.9692;0.7743,ties
+dataset/raw/tie/tie_06.jpg,Cmuльный узкчй еалсmyк; super slim мчкрофuбра ширина 5 см дАина 156 см,tie,0.7977,ties
+dataset/raw/tie/tie_07.jpg,Удобная фурнитура с кнОПКОЙ |  ` 1 191 1 1| 1ll Производитель аксессуаров и униформы Bruno Ilc,scissors,0.9456,ties
+dataset/raw/tie/tie_08.jpg,"Длина галстука 48 см 1 "" 1 1l "" Bn 1 1 Производитель аксессуаров и униформы Bruno Ilc",scissors;tie,0.7266;0.5787,ties
+dataset/raw/tie/tie_09.png,ГАЛСТУК для мальчика HA РЕЗИНКЕ для девочки БЕЛЫЙ Цвет не кипельно 34 +1 см белый; ближе к молочному. 'СДЕЛАНО В РОССИИ,tie;person,0.9787;0.8163,ties
+dataset/raw/tie/tie_10.png,3 (ФОРМИРОВАННЫЙ УЗЕЛ д#иМ 4 (Ы5Ш4 РЕГУЛИРОВКА НА 5 КНОПКЕ '0D% Ф/Nсом PRFMIINUM . auku,tie;book,0.8132;0.5209,ties
+dataset/raw/tie/tie_11.png,"Nans РАS? (отъы"" 8Сшюзыуал длина 32 см ширина п 7 см",tie;tie;person,0.9587;0.9215;0.8863,ties
+dataset/raw/tie/tie_12.png,ГАЛСТУК КТАССИЧЕСКИЙ УНИСЕКС RUS-SGiP ACCESSORIES,tie;tie;person;teddy bear,0.9456;0.9142;0.7511;0.7358,ties
+dataset/raw/tie/tie_13.png,#еснж HА РЕЗИНКЕ,person;person;tie;tie,0.9369;0.9339;0.9032;0.8297,ties
+dataset/raw/tie/tie_14.png,TREND 2023 КОМПАЕКТ ГААСТУКОВ Ro A1 РЕГУХИРОВКА АХИНЫ ЭХАСТИЧНАЯ РЕЗИНКА HЕ ВЫЦВЕТАЕТ В ОФИС ШКО^У УНИВЕРСИТЕТ HА ПРАЗАНИК ANG JNA ROSS [GELINA АПАН' ЕЛИНА ЛИНА POCC LINA ROSS . UNA ROSS ЧA Pa POCC ROSS ИП [ГЕЛИНА 5ээ POCC POCC,tie;tie;person;tie;tie,0.8711;0.7955;0.6657;0.6269;0.5792,ties
+dataset/raw/tie/tie_15.png,"a ГАДСЕУК длИШНЫЙ НЕОБЫЧНЫЙ ЦВЕТНОЙ ПРИНТ Qa ПОДАРОК HА ЛЮБОЙ ПРАЗДНИК 1 4 ДЛИНА 145 СМ 7 В ШКОЛУ ""m В ОФИС В УНИВЕР HA ВЕЧЕРИНКУ ROSS ANGEL ИПАН Hojds KNa АШ ИШ АЯел Ми [ELINA Ross Ws ЕЛИНА POCC' АНГЕЛИН POCC",tie,0.5726,ties
+dataset/raw/tie/tie_16.png,ГААСТУК OT 3 ДО 10 ЛЕТ ДЕРЖИТ ФОРМУ 6 2 готовый HА идеальный РЕЗИНКЕ узел,tie,0.9224,ties
+dataset/raw/tie/tie_17.webp,ГАЛСТУК ДЛЯ МАЛЬЧИКА на возраст 6-9 лет ДЛЯ ШКОЛЫ 5 см ДЛЯ СТИЛЬНОГО ОБРАЗА ДЛЯ ФОТОСЕССИЙ 2 6 CM,tie;tie;tie;tie;tie,0.9283;0.9095;0.8211;0.8064;0.6638,ties
+dataset/raw/tie/tie_18.webp,Как завязать талстук? Узел Виндзор Узел Принц Альберт 2 з Романтический Узел '& Простой узел,tie;scissors;scissors;scissors;scissors,0.9663;0.7374;0.6495;0.6422;0.6204,ties
+dataset/raw/tie/tie_19.webp,RE CARD 0 LA ZZ OTTI ГАЛСТУК КЛАССИЧЕСКИЙ и На 01 2 ОТЛИЧНО ДОПОЛНИТТВОЙ ОБРАЗ 3 37 < Ё@офиg 0 0V,tie,0.4175,ties
+dataset/raw/tie/tie_20.webp,ГАЛСТУК школьныи KADET на резинке 28 см готовый идеальный 6 см узел,tie,0.7382,ties
+dataset/raw/tie/tie_21.webp,,tie;person,0.9666;0.7783,ties
+dataset/raw/tie/tie_22.webp,ОТЛИЧНОЕ КАЕСТВО ДЕРЖИТ ФОРМУ ПРЕМИУМ ТКАНЬ ВЫСОКОЕ КАЧЕСТВО,tie,0.8911,ties
+dataset/raw/tie/tie_23.webp,wB Готовый узел Качественный дошив,scissors;knife,0.3722;0.3542,ties
+dataset/raw/tie/tie_24.webp,"ГАЛСТУК Атласный 160*5,5 Унисекс 100% микрофибра",scissors,0.3574,ties
+dataset/raw/tie/tie_25.webp,ГАЛСТУК КЛАССИЧЕСКИЙ отличн ый ПОДАРОК КРАСНЫЙ ПРАКТИЧНАЯ ТКАНЬ ДЛИНА 145 CM ШИРИНА 5 CM ПРЕМИУМ КАЧЕСТВО,handbag,0.8590,ties
+dataset/raw/umbrella/umbrella_01.jpg,нво @fin59 HELLO UMBRELLA GARDEN UMBRELL  CCih 1501 Hlaueger ОТТР Егл '1а н Lпnn = '2x17 FaLo [085 559,umbrella;umbrella,0.8221;0.5151,umbrellas
+dataset/raw/umbrella/umbrella_02.jpg,Lcco Rainy Day UMBRALA SALE шераи Cтаtтоutim IKJCE КOT IucLuata,umbrella;person,0.9238;0.8991,umbrellas
+dataset/raw/umbrella/umbrella_03.jpg,Мtякiюше betРawa павлэ,umbrella;umbrella,0.7787;0.3597,umbrellas
+dataset/raw/umbrella/umbrella_04.jpg,vianfmwaler vitaumnwaler wianiwwater,umbrella;umbrella;umbrella;umbrella;umbrella,0.9080;0.9065;0.8856;0.5777;0.4963,umbrellas
+dataset/raw/umbrella/umbrella_05.jpg,5зо зыдчаншс Huk Lat Vttr; # # Dan Q +J[Nu чubuin,umbrella;umbrella,0.9303;0.5186,umbrellas
+dataset/raw/umbrella/umbrella_06.jpg,,chair;chair;umbrella;potted plant;chair,0.8345;0.7830;0.7727;0.7634;0.7605,umbrellas
+dataset/raw/umbrella/umbrella_07.jpg,ехuеs 4 0 9 Spre,umbrella,0.9255,umbrellas
+dataset/raw/umbrella/umbrella_08.jpg,,surfboard,0.3705,umbrellas
+dataset/raw/umbrella/umbrella_09.jpg,@wGl @uuGfl,umbrella,0.7441,umbrellas
+dataset/raw/umbrella/umbrella_10.jpg,ЭуfОшthunga,umbrella;umbrella;person,0.6001;0.5339;0.4238,umbrellas
+dataset/raw/umbrella/umbrella_11.jpg,"2 2 Amul Mik Amul Amm1 ""Ik Iсоcaм]mm",umbrella,0.9610,umbrellas
+dataset/raw/umbrella/umbrella_12.jpg,care [ю  ер Бrycl . Toll Fcrvce Tree Ick '1800  '102. Рзэ,person;umbrella;bicycle;person;bicycle,0.8537;0.6792;0.6288;0.5744;0.3531,umbrellas
+dataset/raw/umbrella/umbrella_13.jpg,9 # GNIIT),umbrella;umbrella,0.9149;0.8540,umbrellas
+dataset/raw/umbrella/umbrella_14.jpg,3,umbrella;umbrella;person;umbrella;person,0.8746;0.6270;0.6175;0.5224;0.3621,umbrellas
+dataset/raw/umbrella/umbrella_15.jpg,(ael (Wl,umbrella;umbrella,0.7399;0.3953,umbrellas
+dataset/raw/umbrella/umbrella_16.jpg,Z2? рepsis pepsi ра5,umbrella;umbrella,0.8022;0.3720,umbrellas
+dataset/raw/umbrella/umbrella_17.jpg,,umbrella,0.7915,umbrellas
+dataset/raw/umbrella/umbrella_18.jpg,( 3 @ callabau {,umbrella,0.9170,umbrellas
+dataset/raw/umbrella/umbrella_19.jpg,IIl 'CITI,umbrella,0.8208,umbrellas
+dataset/raw/umbrella/umbrella_20.jpg,Самяяямст,umbrella,0.8610,umbrellas
+dataset/raw/umbrella/umbrella_21.jpg,g {Ltd: System es Pvt Jctur Struc Architectur Sheds {Piri $ Miri (,umbrella;bicycle;umbrella;umbrella;umbrella,0.7700;0.6043;0.5269;0.5215;0.5205,umbrellas
+dataset/raw/umbrella/umbrella_22.jpg,6 @jimо,umbrella,0.9640,umbrellas
+dataset/raw/umbrella/umbrella_23.jpg,rеs cm7,umbrella,0.8575,umbrellas
+dataset/raw/umbrella/umbrella_24.jpg,,umbrella;umbrella;umbrella;umbrella;umbrella,0.9497;0.9271;0.9192;0.8181;0.8180,umbrellas
+dataset/raw/umbrella/umbrella_25.jpg,,umbrella;umbrella;umbrella;umbrella,0.7064;0.6160;0.6064;0.5893,umbrellas
+dataset/raw/umbrella/umbrella_26.jpg,,umbrella;umbrella;umbrella;umbrella,0.7749;0.7259;0.6258;0.4560,umbrellas
+dataset/raw/umbrella/umbrella_27.jpg,@ALI JUP TО 50% oFF shutterstock com 1951333597,umbrella;umbrella,0.5340;0.3621,umbrellas
+dataset/raw/umbrella/umbrella_28.jpg,Enaanrab снcconсап,umbrella,0.6270,umbrellas
+dataset/raw/umbrella/umbrella_29.jpg,LеL ~LaL` @@GRAI g962540077 WWW _ gograph com,umbrella;umbrella;umbrella;umbrella;umbrella,0.7591;0.4672;0.4431;0.4237;0.4233,umbrellas
+dataset/raw/umbrella/umbrella_30.jpg,ainy D SHLE UP Т0 50% oFF shutterstock com 1947925090,umbrella;umbrella;umbrella;umbrella;umbrella,0.7860;0.6028;0.5162;0.5017;0.4915,umbrellas
+dataset/raw/umbrella/umbrella_31.jpg,,umbrella;umbrella,0.6193;0.4160,umbrellas
+dataset/raw/umbrella/umbrella_32.jpg,GREAT MONSOON Шle 50% alamy ZRI6J4J,umbrella;umbrella,0.7661;0.4901,umbrellas
+dataset/raw/umbrella/umbrella_33.jpg,"vrem Ipsum ыrтл#4тm com Aulumn Great sale # th Б, Drcounts] 7in 65, Wnотя] ea] ulumn ( e) 10 to 9O%IL WValcor shutterstock com 480735436 Dтсun",,,umbrellas
+dataset/raw/umbrella/umbrella_34.jpg,(loNSooN SEASON SALE UR TO 50Ъ OFF,umbrella;umbrella,0.6575;0.6064,umbrellas
+dataset/raw/umbrella/umbrella_35.jpg,shutterstock com 305655410,,,umbrellas
+dataset/raw/umbrella/umbrella_36.jpg,dhmJ_ alamy ZHABNC5,umbrella;umbrella;umbrella;umbrella;umbrella,0.8262;0.7858;0.7472;0.7259;0.3721,umbrellas
+dataset/raw/umbrella/umbrella_37.jpg,ПIXTA pixtastock com 81701380,umbrella;umbrella;umbrella;umbrella,0.7645;0.7272;0.7220;0.5996,umbrellas
+dataset/raw/umbrella/umbrella_38.jpg,(ul (wul,kite;kite;umbrella,0.6732;0.6504;0.4319,umbrellas
+dataset/raw/umbrella/umbrella_39.jpg,shutterstock com 1947925087,umbrella;umbrella;umbrella;umbrella;umbrella,0.7943;0.6578;0.5098;0.4263;0.4022,umbrellas
+dataset/raw/umbrella/umbrella_40.jpg,AUTUMN AUTUMN raikg оаg та4g Oag,umbrella;umbrella;person,0.8777;0.8689;0.5803,umbrellas
+dataset/raw/umbrella/umbrella_41.jpg,shutterstock com 273410264,umbrella;umbrella;umbrella;umbrella,0.8680;0.4702;0.4357;0.3533,umbrellas
+dataset/raw/umbrella/umbrella_42.jpg,,umbrella,0.6217,umbrellas
+dataset/raw/umbrella/umbrella_43.jpg,,umbrella;bottle;umbrella,0.7723;0.6007;0.5473,umbrellas
+dataset/raw/wallet/wallet_01.jpg,пO ~justfact PIIINCT GRDNEF ybiag,,,wallets
+dataset/raw/wallet/wallet_02.jpg,Su[iJ Aa МIZI biilulh {ёва ud: 04,book;book;book,0.6608;0.4612;0.3571,wallets
+dataset/raw/wallet/wallet_03.jpg,Theprescnt teveryday 'aig Ehellopene Самш,,,wallets
+dataset/raw/wallet/wallet_04.jpg,,book;book,0.7343;0.7303,wallets
+dataset/raw/wallet/wallet_05.jpg,Leather wallet Handmad@ by,person;remote,0.4813;0.3665,wallets
+dataset/raw/wallet/wallet_06.jpg,IT IS TO LAUNCH: ЦЕЕл :Uu ~тпЕгЕЛuн Juipaang eliL Susperdisse [dis: Hiuam [fieuui Аuztcп]нынгн ErojeacLet (800] 543-5432,cell phone;keyboard,0.8149;0.3909,wallets
+dataset/raw/wallet/wallet_07.jpg,,cell phone;cell phone;remote,0.5717;0.5371;0.4113,wallets
+dataset/raw/wallet/wallet_08.jpg,,,,wallets
+dataset/raw/wallet/wallet_09.jpg,6,suitcase,0.7148,wallets
+dataset/raw/wallet/wallet_10.jpg,,,,wallets
+dataset/raw/wallet/wallet_11.jpg,,book,0.6727,wallets
+dataset/raw/wallet/wallet_12.jpg,3,cell phone;cell phone,0.6722;0.4006,wallets
+dataset/raw/wallet/wallet_13.jpg,,,,wallets
+dataset/raw/wallet/wallet_14.jpg,,vase;bed,0.6901;0.4229,wallets
+dataset/raw/wallet/wallet_15.jpg,,dining table,0.3593,wallets
+dataset/raw/wallet/wallet_16.jpg,,,,wallets
+dataset/raw/wallet/wallet_17.jpg,,person,0.8454,wallets
+dataset/raw/wallet/wallet_18.jpg,,,,wallets
+dataset/raw/wallet/wallet_19.jpg,,laptop,0.6874,wallets
+dataset/raw/wallet/wallet_20.jpg,Denise Bennett,,,wallets
+dataset/raw/wallet/wallet_21.jpg,,,,wallets
+dataset/raw/wallet/wallet_22.jpg,,stop sign,0.7041,wallets
+dataset/raw/wallet/wallet_23.jpg,,knife,0.5690,wallets
+dataset/raw/wallet/wallet_24.jpg,,cup,0.7969,wallets
+dataset/raw/wallet/wallet_25.jpg,3: 1 I 8 8,book;book;book;book;book,0.5457;0.4745;0.4721;0.4613;0.4059,wallets
+dataset/raw/wallet/wallet_26.jpg,Cain,,,wallets
+dataset/raw/wallet/wallet_27.jpg,,,,wallets
+dataset/raw/wallet/wallet_28.jpg,,,,wallets
+dataset/raw/wallet/wallet_29.jpg,,suitcase,0.8631,wallets
+dataset/raw/wallet/wallet_30.jpg,,cell phone;person;person,0.6196;0.5342;0.4126,wallets
+dataset/raw/wallet/wallet_31.jpg,,scissors,0.5345,wallets
+dataset/raw/wallet/wallet_32.jpg,,,,wallets
+dataset/raw/wallet/wallet_33.jpg,TaRUNTQ MAPLE LEAFS,cup,0.3513,wallets
+dataset/raw/wallet/wallet_34.jpg,,suitcase,0.4982,wallets
+dataset/raw/wallet/wallet_35.jpg,MEN'S WALLETS,person;cell phone,0.8756;0.5707,wallets
+dataset/raw/wallet/wallet_36.jpg,MONEY SAVINGS,,,wallets
+dataset/raw/wallet/wallet_37.jpg,LIF BH ДЕНIНЕR ШМЦЕТ,cup;book;book,0.5992;0.4036;0.3846,wallets
+dataset/raw/wallet/wallet_38.jpg,$ REФЭNISI,suitcase;suitcase;suitcase;suitcase;suitcase,0.8933;0.7227;0.6039;0.5577;0.4307,wallets
+dataset/raw/wallet/wallet_39.jpg,,person,0.8697,wallets
+dataset/raw/wallet/wallet_40.jpg,,suitcase,0.7063,wallets
+dataset/raw/wallet/wallet_41.jpg,,,,wallets
+dataset/raw/wallet/wallet_42.jpg,Be Planet DEFOSN КШНЕАЛWТЫ MULTIPLE WALLEIS VISA 92,cell phone,0.4202,wallets
+dataset/raw/wallet/wallet_43.jpg,Appfe qirtage MEN WALLETS Card Holder F 1 a ЗОо M 1 ФЕАСк ME 1 FRIDAX M T5 SALE MN 7 RFID BLOCKING тамутыпъ=llEztoлъ внари SMART WALLETS,cell phone,0.9349,wallets
+dataset/raw/wallet/wallet_44.jpg,pixta Jp 120568422,,,wallets
+dataset/raw/wallet/wallet_45.jpg,,,,wallets
+dataset/raw/wallet/wallet_46.jpg,Ol ыlle IUST HHIE,tie,0.7119,wallets
+dataset/raw/wallet/wallet_47.jpg,NE W ARRIVALS Shop Nowl,person,0.9116,wallets
+dataset/raw/wallet/wallet_48.jpg,ICAE Jbr INZI ЦПЕП MEN FA s HLO N ow SALE alEcoUыi 1 25% SHOPNOW #Cа 23 +56 789 ПLаЧL,person,0.9354,wallets
+dataset/raw/wallet/wallet_49.jpg,Sewing Wallets: 3 different projects Sewing Wallets 1th |l} [ul REЯD MORE HERE Step Step,,,wallets
+dataset/raw/wallet/wallet_50.jpg,,person;baseball bat;baseball bat,0.9677;0.5476;0.3667,wallets
+dataset/raw/wallet/wallet_51.jpg,Аиео MEV EXCLUSIVE nшu FoLL ЕСлоН MEN COLLECTJON МEN MEN сошалам COLLECTIOL 04 Enjoy | 50% мLGоKEEGTION 04 04 04 Enjoy Enjoy [ыzume 04 5096 50% Mыу Enjay | оf оf COLLECTION,book,0.3523,wallets
+dataset/raw/wallet/wallet_52.jpg,shutterstock com 380043160,mouse,0.3794,wallets
+dataset/raw/watch/watch_01.jpg,DIGITA L SMART WAICH Ту;и ЕттаaAw,cell phone,0.8488,watches
+dataset/raw/watch/watch_02.jpg,@Smart Sw8OO Smart 1 2499,,,watches
+dataset/raw/watch/watch_03.jpg,DIGITAL SMART WATCH ЛЕПq тааи eIl Eттаялw,cell phone;cell phone,0.6074;0.4884,watches
+dataset/raw/watch/watch_04.jpg,шиulun Tаc Y0 98 10 олшн;тэ 'rJ Eшn,cell phone,0.3747,watches
+dataset/raw/watch/watch_05.jpg,"G]n Е"""" SPECIL SPECKL КАТCHСОШЕСПОN ШАтСHСОШЕспОН Ец Бнцh аич7лл EDIIAHLE UECTOP FILE shutterstack_com - 2258172969",,,watches
+dataset/raw/watch/watch_06.jpg,@речм wSwe sMARi wATCH Ешар) еглтыештэл Уаровалаеал IMAСЕ Пот IINCLUDED,,,watches
+dataset/raw/watch/watch_07.jpg,"в= - LUXURY LUXURY SMART WATCH SMART WATCH Ншмн ~шмв EDITABLE VECTOR FILE shutterstock com 2207167551 J""",,,watches
+dataset/raw/watch/watch_08.jpg,AUTUMN DRESS 1l09 SMART TUDAM KEYIREKER: IIndialarA,cell phone;cell phone;book,0.8298;0.7481;0.3794,watches
+dataset/raw/watch/watch_09.jpg,al ц ш SMART WAICH SMART WAICH сшt7 ~эшгмта EDITABLE VECTOR FILE shutterstock com 2207167235 ]ц_,,,watches
+dataset/raw/watch/watch_10.jpg,GearSЗ frontier CWс,clock;clock,0.8193;0.5866,watches
+dataset/raw/watch/watch_11.jpg,"Smart Watch Ver Il 1глн 828 гiтле ага _аза Гшя Гъаш+шЕUшhштыlсясю ; я1ланпшг:гтвшъг-эштэын ятъгяпыгааыаавлас Еатуа_atn}плылчпа  1mга Dьalo mwwuluw 'r 9 мтг zаэпъгттпттагпъ 5uс₽т ЕглИа = Е""_тээuEcatcaI ELENaa EIuacni eu 5 15waul au| Чaынi mu ЕаrUпa ПагслиаъпгЕГ Urcomrtimc com ID 151241715 Siarhei Dzemianishyn rcamrtime dreomrtime dreamrb dreamrtime Ureomrtime Ureamrtim",clock,0.8803,watches
+dataset/raw/watch/watch_12.jpg,Smart natch tесhnalogy la Smart watch technology shutterstock com 673001272,,,watches
+dataset/raw/watch/watch_13.jpg,несешз G UE S S CONNECT' POWERED 0 3 1 3 3,clock,0.7378,watches
+dataset/raw/watch/watch_14.jpg,TRL snutteislack-tam 2325511611 ntaa чаа 475 ннан Vа,cell phone;person,0.9340;0.5929,watches
+dataset/raw/watch/watch_15.jpg,ADS DESINM,person;laptop,0.9474;0.3770,watches
+dataset/raw/watch/watch_16.jpg,SMART WATCH Laca 50+ PSD Mockup Design Template Ed tahiu; RGB |Al Guпcratud,cell phone,0.4811,watches
+dataset/raw/watch/watch_17.jpg,АРНЕНАСн,,,watches
+dataset/raw/watch/watch_18.jpg,sleek од,clock,0.4455,watches
+dataset/raw/watch/watch_19.jpg,"laco Loco SМЯ7ЛЁтеМ GlASSi6 ИТGН d; а 1p, 5,жтзчъ alamy ZWD9ZCT",,,watches
+dataset/raw/watch/watch_20.jpg,,person,0.8945,watches
+dataset/raw/watch/watch_21.jpg,qlur ql' ~shutterstock com 2489590625 ~twat 'WATCH tua {WATCH 'SMART | 'SMART L,,,watches
+dataset/raw/watch/watch_22.jpg,PREZZO Б1 0 FITB 1l ЧЕ ASSURDO!,cell phone,0.5060,watches
+dataset/raw/watch/watch_23.jpg,ARRIVAL TITAN X SERIES 10.45 $299 НетtЯЕп [mrL nq lurYwUГ BWtuow utryuuy Lanuntaitu ~shutterstock com 2713185845,,,watches
+dataset/raw/watch/watch_24.jpg,,person,0.9021,watches
+dataset/raw/watch/watch_25.jpg,NOISE COLORFIT PRO 12 9VЗ 6 Design by All free download com,traffic light,0.3791,watches
+dataset/raw/watch/watch_26.jpg,CYBER MONDAY shutterstock com 500441356,,,watches
+dataset/raw/watch/watch_27.jpg,BANNER DESIGN #nslilu BASIGNR BASNN BASGR,,,watches
+dataset/raw/watch/watch_28.jpg,FIREIBULTT THUNDER- BLUeTOOTH CALLING SMARTWATCH 30 ОBiliE!,,,watches
+dataset/raw/watch/watch_29.jpg,1245 The Best FITNESS WATCHES For IeUB Women,cell phone,0.4311,watches
+dataset/raw/watch/watch_30.jpg,START TRAINIIG TODMY 30 DAYS YOGA FREE TRAIL YI DANGE SPA JOIN NOW TRAINIIG 30Ч DISCOUNT,person;tennis racket,0.9333;0.4381,watches
+dataset/raw/watch/watch_31.jpg,ШLаляшлеггл  GYM FITNESS КЕW ШЕЕСЗЕUЕH  SATUFEALLSIDA7 TFFENYL,person;person,0.7642;0.6111,watches
+dataset/raw/watch/watch_32.jpg,DAILY FIT 55 SIARI #hapgoaco SUBSCRIBE ЕПФЫШW [TIF 5 4 TRLCKS ]УЫШПЫп,person,0.8936,watches
+dataset/raw/watch/watch_33.jpg,2431 STEPS,stop sign;clock,0.6103;0.3753,watches
+dataset/raw/watch/watch_34.jpg,ШLSS ЕШЕ JWUlUSEtE ШШ BWF = 6noс,person;person;person;person,0.9161;0.8851;0.8688;0.8439,watches
+dataset/raw/watch/watch_35.jpg,';: ;:;,cell phone;cell phone,0.6143;0.4389,watches
+dataset/raw/watch/watch_36.jpg,,person,0.9369,watches
+dataset/raw/watch/watch_37.jpg,Fire-Boltt Niggla 85ЕFи Mtl FITNESS CALLS 21999 NINJA PRO Pro,person;clock,0.7894;0.3863,watches
+dataset/raw/watch/watch_38.jpg,Best fitness watches of 2024 1010= 46,person,0.8827,watches
+dataset/raw/watch/watch_39.jpg,"EnJD 26e 28424 I5 IUE "" 08.24 10.09 08 N]]d 16 shutterstock com 2390084899",cell phone;cell phone;cell phone,0.9359;0.9234;0.9152,watches
+dataset/raw/watch/watch_40.jpg,1019 70.09 тЕШ:ПТ ; 0.20,cell phone;cell phone,0.5121;0.4448,watches
+dataset/raw/watch/watch_41.jpg,05/06 MON 75%6 10 09 [57u5 я 751 Q 08 328 97 7645 30 67h2bm,cell phone;cell phone,0.8148;0.7894,watches
+dataset/raw/watch/watch_42.jpg,ШШ geIJke BANNER HA аsvаптаяаест [ошшштыт нак]eu d. ТввLiaнah (ELCALANIZED LAYERS FE}Uр [ IMAGENOT INCLUDED JErus ск€ш7БДТ,person;book,0.8801;0.4581,watches
+dataset/raw/watch/watch_43.jpg,шщ 20 09 06 WED,cell phone,0.5437,watches
+dataset/raw/watch/watch_44.jpg,"DIY watch face for youself 09 30 IJ '03 ""4ф 590 'алга WED 203 танпна",cell phone;person,0.8211;0.6393,watches
+dataset/raw/watch/watch_45.jpg,2 59,cell phone,0.7571,watches
+dataset/raw/watch/watch_46.jpg,Sll[[Иpu BUIY START YOUR TRAININGS WITH OUP PRO TRAINERS JOIN NOw шартынл Tnto: Шнnauntеh-тacaп,person,0.9229,watches
+dataset/raw/watch/watch_47.jpg,12.86,remote;toothbrush,0.8727;0.8502,watches
+dataset/raw/watch/watch_48.jpg,'1 шалли ТрПLн 80,,,watches
+dataset/raw/watch/watch_49.jpg,"1*27"" J 2",cell phone,0.9709,watches
+dataset/raw/watch/watch_50.jpg,FNESsE@M BUNDLE mлon:,refrigerator,0.4943,watches

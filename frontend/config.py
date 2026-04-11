@@ -25,11 +25,26 @@ MAX_COLUMNS = 10
 MIN_COLUMNS = 1
 
 TOPIC_TRANSLATIONS = {
-    "cutlery": "Ст. приборы",
-    "ties": "Галстуки",
-    "bags": "Сумки",
-    "cups": "Кружки",
-    "clocks": "Часы",
+    "bags":       "Сумки",
+    "chairs":     "Стулья",
+    "clocks":     "Часы (наст.)",
+    "cups":       "Кружки",
+    "cutlery":    "Ст. приборы",
+    "glasses":    "Очки",
+    "hats":       "Шляпы",
+    "headphones": "Наушники",
+    "jackets":    "Куртки",
+    "lipsticks":  "Помады",
+    "notebooks":  "Тетради",
+    "perfumes":   "Парфюм",
+    "phones":     "Телефоны",
+    "shirts":     "Рубашки",
+    "shoes":      "Обувь",
+    "socks":      "Носки",
+    "ties":       "Галстуки",
+    "umbrellas":  "Зонты",
+    "wallets":    "Кошельки",
+    "watches":    "Часы (нар.)",
 }
 
 COLOR_VISUAL_CLASSES = {

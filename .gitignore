@@ -1,0 +1,54 @@
+# ======= Python =======
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.Python
+pip-log.txt
+
+# ======= Environment =======
+.env
+.env.local
+.env.*.local
+
+# ======= IDE =======
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# ======= Models (too heavy for git) =======
+minio_init/models/*.pt
+minio_init/models/*.pth
+minio_init/models/easy_ocr/
+models/
+*.pt
+*.pth
+!backend/ml_models/*.py
+
+# ======= Docker volumes =======
+postgres_data/
+minio_data/
+redis_data/
+
+# ======= Logs =======
+*.log
+logs/
+
+# ======= Jupyter =======
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ======= Coverage / tests =======
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/

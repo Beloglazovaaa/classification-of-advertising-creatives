@@ -35,7 +35,8 @@ def process_creative(self, creative_id: str):
         creative, analysis = get_creative_and_analysis(db, creative_id)
 
         analysis.overall_status = "PROCESSING"
-        analysis.processing_start = datetime.now(timezone.utc)
+        processing_start_at = datetime.now(timezone.utc)
+        analysis.processing_start = processing_start_at
         db.commit()
 
         # Скачиваем изображение из MinIO
@@ -55,14 +56,15 @@ def process_creative(self, creative_id: str):
         # ML-пайплайн
         perform_ocr(creative, analysis, tmp_path, db)
         perform_detection(creative, analysis, tmp_path, db)
-        perform_classification(creative, analysis, db)
+        perform_classification(creative, analysis, db, image_path=tmp_path)
         perform_color_analysis(creative, analysis, tmp_path, db)
 
         # Завершение
         analysis.overall_status = "SUCCESS"
-        analysis.processing_end = datetime.now(timezone.utc)
+        processing_end_at = datetime.now(timezone.utc)
+        analysis.processing_end = processing_end_at
         analysis.total_duration = (
-            analysis.processing_end - analysis.processing_start
+            processing_end_at - processing_start_at
         ).total_seconds()
         db.commit()
 

@@ -57,7 +57,8 @@ def perform_ocr(creative: Creative, analysis: CreativeAnalysis, image_path: str,
     """Выполняет OCR на изображении."""
     logger.info("OCR для %s", creative.creative_id)
     analysis.ocr_status = "PROCESSING"
-    analysis.ocr_start = datetime.now(timezone.utc)
+    start_at = datetime.now(timezone.utc)
+    analysis.ocr_start = start_at
     db.commit()
 
     try:
@@ -69,8 +70,9 @@ def perform_ocr(creative: Creative, analysis: CreativeAnalysis, image_path: str,
         logger.exception("Ошибка OCR для %s", creative.creative_id)
         analysis.ocr_status = "ERROR"
 
-    analysis.ocr_end = datetime.now(timezone.utc)
-    analysis.ocr_duration = (analysis.ocr_end - analysis.ocr_start).total_seconds()
+    end_at = datetime.now(timezone.utc)
+    analysis.ocr_end = end_at
+    analysis.ocr_duration = (end_at - start_at).total_seconds()
     db.commit()
 
 
@@ -78,7 +80,8 @@ def perform_detection(creative: Creative, analysis: CreativeAnalysis, image_path
     """Выполняет детекцию объектов через YOLO."""
     logger.info("Детекция для %s", creative.creative_id)
     analysis.detection_status = "PROCESSING"
-    analysis.detection_start = datetime.now(timezone.utc)
+    start_at = datetime.now(timezone.utc)
+    analysis.detection_start = start_at
     db.commit()
 
     try:
@@ -89,22 +92,30 @@ def perform_detection(creative: Creative, analysis: CreativeAnalysis, image_path
         logger.exception("Ошибка детекции для %s", creative.creative_id)
         analysis.detection_status = "ERROR"
 
-    analysis.detection_end = datetime.now(timezone.utc)
-    analysis.detection_duration = (analysis.detection_end - analysis.detection_start).total_seconds()
+    end_at = datetime.now(timezone.utc)
+    analysis.detection_end = end_at
+    analysis.detection_duration = (end_at - start_at).total_seconds()
     db.commit()
 
 
-def perform_classification(creative: Creative, analysis: CreativeAnalysis, db):
-    """Классифицирует креатив по тематике на основе OCR и детекции."""
+def perform_classification(
+    creative: Creative,
+    analysis: CreativeAnalysis,
+    db,
+    image_path: str | None = None,
+):
+    """Классифицирует креатив по тематике на основе OCR, детекции и CLIP-фичей изображения."""
     logger.info("Классификация для %s", creative.creative_id)
     analysis.classification_status = "PROCESSING"
-    analysis.classification_start = datetime.now(timezone.utc)
+    start_at = datetime.now(timezone.utc)
+    analysis.classification_start = start_at
     db.commit()
 
     try:
         topic, confidence = classify_creative(
             ocr_text=analysis.ocr_text,
             detected_objects=analysis.detected_objects,
+            image_path=image_path,
         )
         analysis.main_topic = topic
         analysis.topic_confidence = confidence
@@ -113,10 +124,9 @@ def perform_classification(creative: Creative, analysis: CreativeAnalysis, db):
         logger.exception("Ошибка классификации для %s", creative.creative_id)
         analysis.classification_status = "ERROR"
 
-    analysis.classification_end = datetime.now(timezone.utc)
-    analysis.classification_duration = (
-        analysis.classification_end - analysis.classification_start
-    ).total_seconds()
+    end_at = datetime.now(timezone.utc)
+    analysis.classification_end = end_at
+    analysis.classification_duration = (end_at - start_at).total_seconds()
     db.commit()
 
 
@@ -124,7 +134,8 @@ def perform_color_analysis(creative: Creative, analysis: CreativeAnalysis, image
     """Анализирует цвета изображения."""
     logger.info("Анализ цветов для %s", creative.creative_id)
     analysis.color_status = "PROCESSING"
-    analysis.color_start = datetime.now(timezone.utc)
+    start_at = datetime.now(timezone.utc)
+    analysis.color_start = start_at
     db.commit()
 
     try:
@@ -145,6 +156,7 @@ def perform_color_analysis(creative: Creative, analysis: CreativeAnalysis, image
         logger.exception("Ошибка анализа цветов для %s", creative.creative_id)
         analysis.color_status = "ERROR"
 
-    analysis.color_end = datetime.now(timezone.utc)
-    analysis.color_duration = (analysis.color_end - analysis.color_start).total_seconds()
+    end_at = datetime.now(timezone.utc)
+    analysis.color_end = end_at
+    analysis.color_duration = (end_at - start_at).total_seconds()
     db.commit()

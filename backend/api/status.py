@@ -25,6 +25,9 @@ def format_status_with_time(status: str | None, start: datetime | None, duration
     if status == "SUCCESS" and duration is not None:
         return f"{duration:.1f}sec"
     if status == "PROCESSING" and start:
+        # Postgres может вернуть naive datetime — нормализуем к UTC перед вычитанием
+        if start.tzinfo is None:
+            start = start.replace(tzinfo=timezone.utc)
         elapsed = (datetime.now(timezone.utc) - start).total_seconds()
         return f"{elapsed:.1f}sec "
     return "—"

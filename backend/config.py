@@ -30,31 +30,55 @@ class Settings(BaseSettings):
 
 settings = Settings()
 
-# ── Категории товаров ──────────────────────────────────────────────────
+# ── Категории товаров (20 классов) ─────────────────────────────────────
 PRODUCT_TOPICS = {
-    "cutlery": {
-        "ru": "Столовые приборы",
-        "description": "Ножи, вилки, ложки и наборы столовых приборов",
-    },
-    "ties": {
-        "ru": "Галстуки",
-        "description": "Мужские галстуки, бабочки и аксессуары",
-    },
-    "bags": {
-        "ru": "Сумки",
-        "description": "Сумки, рюкзаки, клатчи и портфели",
-    },
-    "cups": {
-        "ru": "Кружки",
-        "description": "Кружки, чашки, термосы и стаканы",
-    },
-    "clocks": {
-        "ru": "Часы",
-        "description": "Настенные, наручные и настольные часы",
-    },
+    "bags":       {"ru": "Сумки",            "description": "Сумки, рюкзаки, клатчи"},
+    "chairs":     {"ru": "Стулья",           "description": "Стулья, кресла"},
+    "clocks":     {"ru": "Часы (настенные)", "description": "Настенные и настольные часы"},
+    "cups":       {"ru": "Кружки",           "description": "Кружки, чашки, термосы"},
+    "cutlery":    {"ru": "Столовые приборы", "description": "Ножи, вилки, ложки"},
+    "glasses":    {"ru": "Очки",             "description": "Очки солнцезащитные и оптические"},
+    "hats":       {"ru": "Шляпы",            "description": "Кепки, шляпы, головные уборы"},
+    "headphones": {"ru": "Наушники",         "description": "Проводные и беспроводные наушники"},
+    "jackets":    {"ru": "Куртки",           "description": "Куртки, пальто, бомберы"},
+    "lipsticks":  {"ru": "Помады",           "description": "Губные помады и блески"},
+    "notebooks":  {"ru": "Тетради",          "description": "Блокноты, тетради, ежедневники"},
+    "perfumes":   {"ru": "Парфюм",           "description": "Парфюмерия, духи, туалетная вода"},
+    "phones":     {"ru": "Телефоны",         "description": "Смартфоны и мобильные телефоны"},
+    "shirts":     {"ru": "Рубашки",          "description": "Рубашки, футболки, поло"},
+    "shoes":      {"ru": "Обувь",            "description": "Кроссовки, туфли, ботинки"},
+    "socks":      {"ru": "Носки",            "description": "Носки, гольфы"},
+    "ties":       {"ru": "Галстуки",         "description": "Галстуки, бабочки"},
+    "umbrellas":  {"ru": "Зонты",            "description": "Зонты-трости и складные"},
+    "wallets":    {"ru": "Кошельки",         "description": "Кошельки, портмоне, картхолдеры"},
+    "watches":    {"ru": "Часы (наручные)",  "description": "Наручные часы и смарт-часы"},
 }
 
 TOPIC_LABELS = list(PRODUCT_TOPICS.keys())
+
+# Маппинг имени папки датасета (singular) → topic-label из TOPIC_LABELS
+DATASET_FOLDER_TO_TOPIC = {
+    "bag": "bags",
+    "chair": "chairs",
+    "clock": "clocks",
+    "cup": "cups",
+    "cutlery": "cutlery",
+    "glasses": "glasses",
+    "hat": "hats",
+    "headphones": "headphones",
+    "jacket": "jackets",
+    "lipstick": "lipsticks",
+    "notebook": "notebooks",
+    "perfume": "perfumes",
+    "phone": "phones",
+    "shirt": "shirts",
+    "shoes": "shoes",
+    "socks": "socks",
+    "tie": "ties",
+    "umbrella": "umbrellas",
+    "wallet": "wallets",
+    "watch": "watches",
+}
 
 # ── COCO классы для YOLO ───────────────────────────────────────────────
 COCO_CLASSES = [
@@ -80,11 +104,23 @@ YOLO_CONFIDENCE_THRESHOLD = 0.35
 
 # ── Маппинг COCO-класс → топик продукта ───────────────────────────────
 _COCO_TOPIC_MAP = {
+    # cutlery
     "fork": "cutlery", "knife": "cutlery", "spoon": "cutlery",
+    # ties
     "tie": "ties",
+    # bags
     "backpack": "bags", "handbag": "bags", "suitcase": "bags",
+    # cups
     "cup": "cups", "bowl": "cups", "wine glass": "cups", "bottle": "cups",
+    # clocks
     "clock": "clocks",
+    # chairs
+    "chair": "chairs", "couch": "chairs", "bench": "chairs",
+    # umbrellas
+    "umbrella": "umbrellas",
+    # notebooks
+    "book": "notebooks",
+    # glasses, socks — нет прямого COCO-класса, fallback не сработает
 }
 
 

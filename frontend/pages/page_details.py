@@ -4,6 +4,7 @@ import pandas as pd
 import streamlit as st
 from components.color_block import color_block_horizontal
 from components.visualizer import draw_bounding_boxes
+from config import MINIO_BUCKET
 from config import MINIO_ENDPOINT
 from config import MINIO_PUBLIC_URL
 from config import TOPIC_TRANSLATIONS
@@ -38,14 +39,40 @@ def _display_creatives_list(creatives):
                 st.rerun()
 
 
-def _display_image_with_boxes(data):
-    minio_image_url = data["file_path"]
-    minio_endpoint_url = minio_image_url.replace(MINIO_PUBLIC_URL, f"http://{MINIO_ENDPOINT}")
+def _ensure_scheme(host_or_url: str) -> str:
+    """Гарантирует, что значение начинается с http:// или https://."""
+    if host_or_url.startswith(("http://", "https://")):
+        return host_or_url.rstrip("/")
+    return f"http://{host_or_url}".rstrip("/")
 
-    if is_image_available(minio_endpoint_url):
+
+def _build_minio_urls(file_path: str) -> tuple[str, str]:
+    """Собирает два URL: для контейнера (minio:9000) и для браузера (MINIO_PUBLIC_URL).
+
+    В БД хранится чистый object name (`grp_xxx/<id>.png`), без схемы/бакета.
+    """
+    internal_base = _ensure_scheme(MINIO_ENDPOINT)
+    public_base = _ensure_scheme(MINIO_PUBLIC_URL)
+
+    # Если почему-то в БД уже сохранён полный URL, используем как есть
+    if file_path.startswith(("http://", "https://")):
+        internal = file_path.replace(public_base, internal_base)
+        return internal, file_path
+
+    object_name = file_path.lstrip("/")
+    internal_url = f"{internal_base}/{MINIO_BUCKET}/{object_name}"
+    public_url = f"{public_base}/{MINIO_BUCKET}/{object_name}"
+    return internal_url, public_url
+
+
+def _display_image_with_boxes(data):
+    file_path = data.get("file_path") or ""
+    internal_url, public_url = _build_minio_urls(file_path)
+
+    if is_image_available(internal_url):
         try:
             image_with_boxes = draw_bounding_boxes(
-                image_path_or_url=minio_endpoint_url,
+                image_path_or_url=internal_url,
                 ocr_blocks=data.get("ocr_blocks", []),
                 detected_objects=data.get("detected_objects", []),
             )
@@ -53,9 +80,9 @@ def _display_image_with_boxes(data):
         except Exception as e:
             logger.exception("Ошибка при отрисовке")
             st.error(f"Ошибка при отрисовке: {e}")
-            st.image(minio_image_url, width=300, caption="Оригинал")
+            st.image(public_url, width=300, caption="Оригинал")
     else:
-        logger.warning("Изображение недоступно: %s", minio_image_url)
+        logger.warning("Изображение недоступно: %s (public=%s)", internal_url, public_url)
         st.warning("Изображение недоступно")
 
 
