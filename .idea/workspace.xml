@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83058768-c005-44a2-9ab2-76e4448c0266" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/classification-of-advertising_creatives.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/classification-of-advertising_creatives.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="83058768-c005-44a2-9ab2-76e4448c0266" name="Changes" comment="fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/status.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/status.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ml_models/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ml_models/classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ml_models/ocr_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ml_models/ocr_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ml_models/yolo_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ml_models/yolo_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/processing_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/services/processing_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils/color_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/color_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/page_details.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/page_details.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/page_upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/page_upload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio_init/init-script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/minio_init/init-script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,11 +103,24 @@
       <workItem from="1775756724677" duration="1313000" />
       <workItem from="1775758043784" duration="3524000" />
       <workItem from="1775859127942" duration="3187000" />
-      <workItem from="1775897980721" duration="14869000" />
+      <workItem from="1775897980721" duration="15478000" />
     </task>
+    <task id="LOCAL-00001" summary="fixes">
+      <option name="closed" value="true" />
+      <created>1775951969979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775951969980</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
 </project>
