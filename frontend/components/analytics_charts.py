@@ -45,8 +45,9 @@ def create_topic_color_stacked_bar(topic_color_data, title="Цвета по те
         yaxis={
             "categoryorder": "array",
             "categoryarray": topics_translated[::-1],
-            "tickfont": {"size": 12},
+            "tickfont": {"size": 13},
             "title": None,
+            "automargin": True,
         },
         xaxis={
             "title": "Доля цвета в тематике (%)",
@@ -54,9 +55,22 @@ def create_topic_color_stacked_bar(topic_color_data, title="Цвета по те
             "showgrid": True,
             "gridcolor": "lightgray",
         },
-        height=200 + num_topics * 40,
-        margin={"l": 150, "r": 50, "t": 80, "b": 50},
-        legend_title="Цвета",
+        # Высота: базовый отступ под заголовок/легенду + расчётная высота
+        # под количество топиков. Минимум 520 px, чтобы горизонтальная
+        # легенда снизу помещалась без прокрутки даже для одной тематики.
+        height=max(520, 320 + num_topics * 55),
+        margin={"l": 180, "r": 40, "t": 80, "b": 160},
+        legend={
+            "title": "Цвета",
+            "orientation": "h",
+            "yanchor": "top",
+            "y": -0.25,
+            "xanchor": "center",
+            "x": 0.5,
+            "font": {"size": 12},
+            "itemwidth": 40,
+            "traceorder": "normal",
+        },
         showlegend=True,
         font={"size": 12},
     )
