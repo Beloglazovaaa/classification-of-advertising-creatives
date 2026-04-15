@@ -55,9 +55,7 @@ def create_topic_color_stacked_bar(topic_color_data, title="Цвета по те
             "showgrid": True,
             "gridcolor": "lightgray",
         },
-        # Высота: базовый отступ под заголовок/легенду + расчётная высота
-        # под количество топиков. Минимум 520 px, чтобы горизонтальная
-        # легенда снизу помещалась без прокрутки даже для одной тематики.
+
         height=max(520, 320 + num_topics * 55),
         margin={"l": 180, "r": 40, "t": 80, "b": 160},
         legend={
@@ -103,13 +101,20 @@ def create_color_pie_chart(class_distribution, title="Распределение
         marker={"colors": colors},
         textinfo="label+percent",
         texttemplate="%{label}: %{percent:.1%}",
+        textposition="outside",
+        insidetextorientation="radial",
+        textfont={"size": 11},
+        domain={"x": [0.12, 1.0], "y": [0.0, 1.0]},
+        hole=0.30,
+        direction="clockwise",
+        sort=True,
         hovertemplate="<b>%{label}</b><br>Доля: %{percent:.1%}<extra></extra>",
     )])
 
     fig.update_layout(
-        title=title,
+        title={"text": title, "x": 0.5, "xanchor": "center", "font": {"size": 15}},
         showlegend=False,
-        margin={"t": 50, "b": 20, "l": 20, "r": 20},
+        margin={"t": 60, "b": 60, "l": 80, "r": 80},
         height=500,
     )
 
