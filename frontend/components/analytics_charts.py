@@ -25,13 +25,29 @@ def create_topic_color_stacked_bar(topic_color_data, title="Цвета по те
             percent = color_info["percent"]
             hex_color = color_info["hex"]
 
+            try:
+                r = int(hex_color.lstrip("#")[0:2], 16)
+                g = int(hex_color.lstrip("#")[2:4], 16)
+                b = int(hex_color.lstrip("#")[4:6], 16)
+                luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255
+                text_color = "white" if luminance < 0.55 else "#333333"
+            except Exception:
+                text_color = "white"
+
+            display_text = f"{percent:.1f}%" if percent >= 6 else ""
+
             fig.add_trace(go.Bar(
                 y=[topic_translated],
                 x=[percent],
                 orientation="h",
-                marker={"color": hex_color, "line": {"color": "#AAAAAA", "width": 0.1}},
-                text=f"{percent:.1f}%",
+                marker={
+                    "color": hex_color,
+                    "line": {"color": "rgba(255,255,255,0.4)", "width": 0.8},
+                },
+                text=display_text,
                 textposition="inside",
+                insidetextanchor="middle",
+                textfont={"size": 12, "color": text_color, "family": "sans-serif"},
                 name=class_name,
                 legendgroup=class_name,
                 showlegend=(class_name not in added_to_legend),
@@ -39,9 +55,12 @@ def create_topic_color_stacked_bar(topic_color_data, title="Цвета по те
             ))
             added_to_legend.add(class_name)
 
+    bar_height = max(52, min(72, 320 // max(num_topics, 1)))
+
     fig.update_layout(
-        title=title,
+        title={"text": title, "x": 0.5, "xanchor": "center", "font": {"size": 15}},
         barmode="stack",
+        bargap=0.35,
         yaxis={
             "categoryorder": "array",
             "categoryarray": topics_translated[::-1],
@@ -53,27 +72,34 @@ def create_topic_color_stacked_bar(topic_color_data, title="Цвета по те
             "title": "Доля цвета в тематике (%)",
             "range": [0, 100],
             "showgrid": True,
-            "gridcolor": "lightgray",
+            "gridcolor": "rgba(0,0,0,0.07)",
+            "zeroline": False,
         },
-        # Высота: базовый отступ под заголовок/легенду + расчётная высота
-        # под количество топиков. Минимум 520 px, чтобы горизонтальная
-        # легенда снизу помещалась без прокрутки даже для одной тематики.
-        height=max(520, 320 + num_topics * 55),
-        margin={"l": 180, "r": 40, "t": 80, "b": 160},
+        height=max(480, 200 + num_topics * bar_height + 160),
+        margin={"l": 120, "r": 30, "t": 60, "b": 110},
         legend={
-            "title": "Цвета",
+            "title": None,
             "orientation": "h",
             "yanchor": "top",
-            "y": -0.25,
+            "y": -0.18,
             "xanchor": "center",
             "x": 0.5,
-            "font": {"size": 12},
-            "itemwidth": 40,
+            "font": {"size": 11, "color": "#555"},
+            "itemwidth": 30,
+            "itemsizing": "constant",
             "traceorder": "normal",
+            "bgcolor": "rgba(0,0,0,0)",
+            "bordercolor": "rgba(0,0,0,0)",
         },
         showlegend=True,
-        font={"size": 12},
+        font={"size": 12, "family": "sans-serif"},
+        plot_bgcolor="rgba(0,0,0,0)",
+        paper_bgcolor="rgba(0,0,0,0)",
     )
+
+    fig.update_traces(marker_line_width=0)
+    for trace in fig.data:
+        trace.update(legendrank=1)
 
     return fig
 
@@ -103,13 +129,20 @@ def create_color_pie_chart(class_distribution, title="Распределение
         marker={"colors": colors},
         textinfo="label+percent",
         texttemplate="%{label}: %{percent:.1%}",
+        textposition="outside",
+        insidetextorientation="radial",
+        textfont={"size": 11},
+        domain={"x": [0.12, 1.0], "y": [0.0, 1.0]},
+        hole=0.30,
+        direction="clockwise",
+        sort=True,
         hovertemplate="<b>%{label}</b><br>Доля: %{percent:.1%}<extra></extra>",
     )])
 
     fig.update_layout(
-        title=title,
+        title={"text": title, "x": 0.5, "xanchor": "center", "font": {"size": 15}},
         showlegend=False,
-        margin={"t": 50, "b": 20, "l": 20, "r": 20},
+        margin={"t": 60, "b": 60, "l": 80, "r": 80},
         height=500,
     )
 
