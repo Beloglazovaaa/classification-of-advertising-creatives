@@ -51,7 +51,12 @@ def _display_topic_distribution(data_group, data_all):
                 {"topic": TOPIC_TRANSLATIONS.get(t["topic"], t["topic"]), "count": t["count"]}
                 for t in topics_group
             ])
-            st.bar_chart(df_topics.set_index("topic")["count"], height=300, horizontal=True)
+            st.bar_chart(
+                df_topics.set_index("topic")["count"],
+                height=300,
+                horizontal=True,
+                color="#A8D4F5",
+            )
         else:
             st.info("Нет данных о тематиках.")
 
@@ -64,7 +69,12 @@ def _display_topic_distribution(data_group, data_all):
                     {"topic": TOPIC_TRANSLATIONS.get(t["topic"], t["topic"]), "count": t["count"]}
                     for t in topics_all
                 ])
-                st.bar_chart(df_topics_all.set_index("topic")["count"], height=300, horizontal=True)
+                st.bar_chart(
+                    df_topics_all.set_index("topic")["count"],
+                    height=300,
+                    horizontal=True,
+                    color="#A8D4F5",
+                )
             else:
                 st.info("Нет данных о тематиках.")
         else:
@@ -123,18 +133,30 @@ def _display_topic_color_distribution(data_group, data_all):
             st.info("Нет данных о цветах по топикам.")
 
 
+def _time_badge(label: str, value: str) -> str:
+    return (
+        f"<div style='"
+        f"display:inline-flex; align-items:baseline; gap:8px; "
+        f"margin-bottom:8px;'>"
+        f"<span style='font-size:13px; color:#999; font-weight:400;'>{label}</span>"
+        f"<span style='font-size:15px; font-weight:600; color:#2eaa6e; "
+        f"font-variant-numeric:tabular-nums; letter-spacing:0.01em;'>{value}</span>"
+        f"</div>"
+    )
+
+
 def _display_analytics_tables(data_group, data_all):
     st.subheader("Аналитика по группе")
     if data_group.get("topics_table"):
         df_group = pd.DataFrame(data_group["topics_table"])
         st.dataframe(df_group, use_container_width=True)
 
-        st.markdown(
-            f"**Общее время обработки группы:** `{format_seconds(data_group['total_processing_time'])}`",
-        )
+        total_time = format_seconds(data_group["total_processing_time"])
+        st.markdown(_time_badge("Общее время обработки группы", total_time), unsafe_allow_html=True)
+
         if data_group["total_creatives_in_group"] > 0:
             avg = data_group["total_processing_time"] / data_group["total_creatives_in_group"]
-            st.markdown(f"**Среднее на один креатив:** `{format_seconds_short(avg)}`")
+            st.markdown(_time_badge("Среднее на один креатив", format_seconds_short(avg)), unsafe_allow_html=True)
     else:
         st.info("Нет данных для таблицы по группе.")
 
@@ -143,12 +165,12 @@ def _display_analytics_tables(data_group, data_all):
         df_all = pd.DataFrame(data_all["topics_table"])
         st.dataframe(df_all, use_container_width=True)
 
-        st.markdown(
-            f"**Общее время обработки:** `{format_seconds(data_all['total_processing_time'])}`",
-        )
+        total_time_all = format_seconds(data_all["total_processing_time"])
+        st.markdown(_time_badge("Общее время обработки", total_time_all), unsafe_allow_html=True)
+
         if data_all.get("total_creatives_in_group", 0) > 0:
             avg = data_all["total_processing_time"] / data_all["total_creatives_in_group"]
-            st.markdown(f"**Среднее на один креатив:** `{format_seconds_short(avg)}`")
+            st.markdown(_time_badge("Среднее на один креатив", format_seconds_short(avg)), unsafe_allow_html=True)
     else:
         st.info("Нет данных для общей таблицы.")
 

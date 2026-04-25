@@ -8,13 +8,13 @@ def color_block_horizontal(colors, title="Цвета", show_percent=True, show_r
     st.markdown(
         f"""
         <div style="
+            font-family: sans-serif;
             font-size: 13px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.06em;
-            color: #888;
-            margin-bottom: 10px;
-            margin-top: 4px;
+            font-weight: 600;
+            color: #999;
+            margin-bottom: 12px;
+            margin-top: 10px;
+            letter-spacing: 0.01em;
         ">{title}</div>
         """,
         unsafe_allow_html=True,
@@ -29,21 +29,21 @@ def color_block_horizontal(colors, title="Цвета", show_percent=True, show_r
             label_parts = []
             if "class_name" in c:
                 label_parts.append(
-                    f"<div style='font-size:12px; font-weight:600; color:#333; "
+                    f"<div style='font-family:sans-serif; font-size:12px; font-weight:600; color:#333; "
                     f"white-space:nowrap; overflow:hidden; text-overflow:ellipsis;'>"
                     f"{c['class_name']}</div>"
                 )
             label_parts.append(
-                f"<div style='font-size:11px; color:#666; font-family:monospace;'>"
+                f"<div style='font-family:monospace; font-size:11px; color:#666;'>"
                 f"{c['hex'].upper()}</div>"
             )
             if show_percent:
                 label_parts.append(
-                    f"<div style='font-size:11px; color:#999;'>{c['percent']:.1f}%</div>"
+                    f"<div style='font-family:sans-serif; font-size:11px; color:#999;'>{c['percent']:.1f}%</div>"
                 )
             if show_rgb and "rgb" in c:
                 label_parts.append(
-                    f"<div style='font-size:10px; color:#bbb;'>"
+                    f"<div style='font-family:sans-serif; font-size:10px; color:#bbb;'>"
                     f"RGB({c['rgb'][0]}, {c['rgb'][1]}, {c['rgb'][2]})</div>"
                 )
 
@@ -79,6 +79,7 @@ def color_block_horizontal(colors, title="Цвета", show_percent=True, show_r
             )
 
     st.markdown("<div style='margin-bottom: 18px;'></div>", unsafe_allow_html=True)
+
 
 def style_status(val):
     val_str = str(val)
