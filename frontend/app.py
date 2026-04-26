@@ -26,46 +26,67 @@ st.markdown(
         transform: translateY(-1px);
         box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
+
     [data-testid="stMetric"] {
         background: rgba(0,0,0,0.025);
         border-radius: 10px;
         padding: 10px 14px;
     }
+
     h1, h2, h3 { letter-spacing: -0.01em; }
+
+    [data-testid="stSidebarNav"] a {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.01em;
+        color: #555 !important;
+    }
+    [data-testid="stSidebarNav"] a:hover,
+    [data-testid="stSidebarNav"] a[aria-selected="true"] {
+        color: #111 !important;
+        font-weight: 600;
+    }
 
     .authors-block {
         position: fixed;
         bottom: 0;
         left: 0;
         width: 244px;
-        padding: 14px 18px 16px;
-        background: linear-gradient(to bottom, transparent, var(--background-color, #f0f2f6) 28%);
+        padding: 12px 18px 18px;
         box-sizing: border-box;
+        background: linear-gradient(
+            to bottom,
+            transparent 0%,
+            var(--background-color, #f0f2f6) 35%
+        );
+    }
+    .authors-block .authors-rule {
+        height: 1px;
+        background: linear-gradient(to right, transparent, #d0d0d0, transparent);
+        margin-bottom: 10px;
     }
     .authors-block .authors-label {
-        font-size: 10px;
+        font-size: 9px;
         font-weight: 700;
-        letter-spacing: 0.08em;
+        letter-spacing: 0.14em;
         text-transform: uppercase;
-        color: #aaa;
+        color: #c0c0c0;
         margin-bottom: 5px;
+        font-family: sans-serif;
     }
-    .authors-block .author-name {
+    .authors-block .authors-names {
         font-size: 12px;
-        color: #666;
-        line-height: 1.6;
-        font-weight: 500;
+        font-style: italic;
+        font-weight: 300;
+        color: #888;
+        line-height: 1.5;
+        font-family: Georgia, serif;
+        letter-spacing: 0.01em;
     }
-    .authors-block .author-name span {
-        display: inline-block;
-        width: 5px;
-        height: 5px;
-        border-radius: 50%;
-        background: #c0bfbf;
-        margin-right: 6px;
-        vertical-align: middle;
-        position: relative;
-        top: -1px;
+    .authors-block .authors-sep {
+        color: #ccc;
+        font-style: normal;
+        padding: 0 4px;
     }
     </style>
     """,
@@ -75,23 +96,29 @@ st.markdown(
 page = st.navigation(
     {
         "Меню": [
-            st.Page(page_upload, title="Загрузка", icon="📤"),
-            st.Page(page_analytics, title="Аналитика", icon="📊"),
-            st.Page(page_details, title="Детали креатива", icon="🔍"),
-            st.Page(page_settings, title="Настройки", icon="⚙️"),
+            st.Page(page_upload,    title="Загрузка"),
+            st.Page(page_analytics, title="Аналитика"),
+            st.Page(page_details,   title="Детали креатива"),
+            st.Page(page_settings,  title="Настройки"),
         ],
     },
 )
 page.run()
 
-st.sidebar.caption(f"Последнее действие: {datetime.now(timezone.utc).strftime('%H:%M:%S')} UTC")
+st.sidebar.caption(
+    f"Последнее действие: {datetime.now(timezone.utc).strftime('%H:%M:%S')} UTC",
+)
 
 st.sidebar.markdown(
     """
     <div class="authors-block">
+        <div class="authors-rule"></div>
         <div class="authors-label">Разработчики</div>
-        <div class="author-name"><span></span>Белоглазова Анастасия</div>
-        <div class="author-name"><span></span>Караваева Диана</div>
+        <div class="authors-names">
+            Белоглазова А.
+            <span class="authors-sep">·</span>
+            Караваева Д.
+        </div>
     </div>
     """,
     unsafe_allow_html=True,

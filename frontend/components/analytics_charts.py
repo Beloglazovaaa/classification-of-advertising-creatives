@@ -75,31 +75,15 @@ def create_topic_color_stacked_bar(topic_color_data, title="Цвета по те
             "gridcolor": "rgba(0,0,0,0.07)",
             "zeroline": False,
         },
-        height=max(480, 200 + num_topics * bar_height + 160),
-        margin={"l": 120, "r": 30, "t": 60, "b": 110},
-        legend={
-            "title": None,
-            "orientation": "h",
-            "yanchor": "top",
-            "y": -0.18,
-            "xanchor": "center",
-            "x": 0.5,
-            "font": {"size": 11, "color": "#555"},
-            "itemwidth": 30,
-            "itemsizing": "constant",
-            "traceorder": "normal",
-            "bgcolor": "rgba(0,0,0,0)",
-            "bordercolor": "rgba(0,0,0,0)",
-        },
-        showlegend=True,
+        showlegend=False,
+        height=max(420, 160 + num_topics * bar_height),
+        margin={"l": 120, "r": 30, "t": 60, "b": 60},
         font={"size": 12, "family": "sans-serif"},
         plot_bgcolor="rgba(0,0,0,0)",
         paper_bgcolor="rgba(0,0,0,0)",
     )
 
     fig.update_traces(marker_line_width=0)
-    for trace in fig.data:
-        trace.update(legendrank=1)
 
     return fig
 
@@ -126,24 +110,23 @@ def create_color_pie_chart(class_distribution, title="Распределение
     fig = go.Figure(data=[go.Pie(
         labels=labels,
         values=values,
-        marker={"colors": colors},
-        textinfo="label+percent",
-        texttemplate="%{label}: %{percent:.1%}",
-        textposition="outside",
-        insidetextorientation="radial",
-        textfont={"size": 11},
-        domain={"x": [0.12, 1.0], "y": [0.0, 1.0]},
+        marker={
+            "colors": colors,
+            "line": {"color": "white", "width": 1.5},
+        },
+        textinfo="none",
+        hovertemplate="<b>%{label}</b><br>Доля: %{percent:.1%}<extra></extra>",
         hole=0.30,
         direction="clockwise",
         sort=True,
-        hovertemplate="<b>%{label}</b><br>Доля: %{percent:.1%}<extra></extra>",
     )])
 
     fig.update_layout(
         title={"text": title, "x": 0.5, "xanchor": "center", "font": {"size": 15}},
         showlegend=False,
-        margin={"t": 60, "b": 60, "l": 80, "r": 80},
-        height=500,
+        height=460,
+        margin={"t": 60, "b": 30, "l": 30, "r": 30},
+        font={"family": "sans-serif"},
     )
 
     return fig
