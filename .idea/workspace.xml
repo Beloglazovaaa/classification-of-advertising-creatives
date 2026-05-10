@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83058768-c005-44a2-9ab2-76e4448c0266" name="Changes" comment="fixes">
+    <list default="true" id="83058768-c005-44a2-9ab2-76e4448c0266" name="Changes" comment="add parser for dataset">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils/color_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/color_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/analytics_charts.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/analytics_charts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -38,6 +35,9 @@
     &quot;accountId&quot;: &quot;9dd05e87-0eaa-490b-8c84-63ec2d12f2ed&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -106,7 +106,7 @@
       <workItem from="1775756724677" duration="1313000" />
       <workItem from="1775758043784" duration="3524000" />
       <workItem from="1775859127942" duration="3187000" />
-      <workItem from="1775897980721" duration="19839000" />
+      <workItem from="1775897980721" duration="66814000" />
     </task>
     <task id="LOCAL-00001" summary="fixes">
       <option name="closed" value="true" />
@@ -124,7 +124,55 @@
       <option name="project" value="LOCAL" />
       <updated>1775952361932</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixes colors">
+      <option name="closed" value="true" />
+      <created>1776179137253</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776179137254</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add readme">
+      <option name="closed" value="true" />
+      <created>1776179255456</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776179255456</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix">
+      <option name="closed" value="true" />
+      <created>1776633651670</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776633651670</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix">
+      <option name="closed" value="true" />
+      <created>1776634083993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776634083993</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix dataset">
+      <option name="closed" value="true" />
+      <created>1777238048911</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1777238048911</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add parser for dataset">
+      <option name="closed" value="true" />
+      <created>1777238185711</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1777238185711</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +180,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="fixes colors" />
+    <MESSAGE value="add readme" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="fix dataset" />
+    <MESSAGE value="add parser for dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="add parser for dataset" />
   </component>
 </project>

@@ -38,7 +38,7 @@ TOPIC_TRANSLATIONS = {
     "notebooks":  "Тетради",
     "perfumes":   "Парфюм",
     "phones":     "Телефоны",
-    "shirts":     "Рубашки",
+    "shirts":     "Футболки",
     "shoes":      "Обувь",
     "socks":      "Носки",
     "ties":       "Галстуки",

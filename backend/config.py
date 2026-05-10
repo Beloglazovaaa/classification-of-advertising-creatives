@@ -34,7 +34,7 @@ settings = Settings()
 PRODUCT_TOPICS = {
     "bags":       {"ru": "Сумки",            "description": "Сумки, рюкзаки, клатчи"},
     "chairs":     {"ru": "Стулья",           "description": "Стулья, кресла"},
-    "clocks":     {"ru": "Часы (настенные)", "description": "Настенные и настольные часы"},
+    "clocks":     {"ru": "Часы",             "description": "Настенные, настольные и наручные часы"},
     "cups":       {"ru": "Кружки",           "description": "Кружки, чашки, термосы"},
     "cutlery":    {"ru": "Столовые приборы", "description": "Ножи, вилки, ложки"},
     "glasses":    {"ru": "Очки",             "description": "Очки солнцезащитные и оптические"},
@@ -45,13 +45,13 @@ PRODUCT_TOPICS = {
     "notebooks":  {"ru": "Тетради",          "description": "Блокноты, тетради, ежедневники"},
     "perfumes":   {"ru": "Парфюм",           "description": "Парфюмерия, духи, туалетная вода"},
     "phones":     {"ru": "Телефоны",         "description": "Смартфоны и мобильные телефоны"},
-    "shirts":     {"ru": "Рубашки",          "description": "Рубашки, футболки, поло"},
+    "shirts":     {"ru": "Футболки",         "description": "Футболки, рубашки, поло"},
     "shoes":      {"ru": "Обувь",            "description": "Кроссовки, туфли, ботинки"},
     "socks":      {"ru": "Носки",            "description": "Носки, гольфы"},
     "ties":       {"ru": "Галстуки",         "description": "Галстуки, бабочки"},
     "umbrellas":  {"ru": "Зонты",            "description": "Зонты-трости и складные"},
     "wallets":    {"ru": "Кошельки",         "description": "Кошельки, портмоне, картхолдеры"},
-    "watches":    {"ru": "Часы (наручные)",  "description": "Наручные часы и смарт-часы"},
+    "watches":    {"ru": "Часы",             "description": "Наручные часы и смарт-часы"},
 }
 
 TOPIC_LABELS = list(PRODUCT_TOPICS.keys())
