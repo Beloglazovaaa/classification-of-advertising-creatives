@@ -6,11 +6,13 @@ from pages import page_analytics
 from pages import page_details
 from pages import page_settings
 from pages import page_upload
+from PIL import Image
 
+icon = Image.open("logo.jpg")
 
 st.set_page_config(
     page_title="Классификатор креативов",
-    page_icon="",
+    page_icon=icon,
     layout="wide",
 )
 
